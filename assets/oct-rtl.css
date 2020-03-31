@@ -1,0 +1,776 @@
+/* Octabook - RTL style front */
+
+#oct.octrtl{
+	direction: rtl !important;
+}
+#oct.octrtl .oct-booking-step ul li span.sep .icon-arrow-right:before,
+#oct.octrtl .calendar-wrapper .calendar-header a.next-date .icon-arrow-right:before{
+	content: "\e605" !important;
+}
+#oct.octrtl .calendar-wrapper .calendar-header a.previous-date .icon-arrow-left:before{
+	content: "\e606" !important;
+}
+#oct.octrtl .oct-button .oct-rtl-icon.icon-arrow-left {
+    display: inline !important;
+    padding-left: unset !important;
+    padding-right: 3px !important;
+}
+#oct.octrtl .icon-arrow-right.oct-ltr-icon{
+	display: none;
+}
+
+
+/* Float left to right */
+#oct.octrtl,
+#oct.octrtl .oct-main-wrapper,
+#oct.octrtl #oct-main,
+#oct.octrtl .oct-lg-1,
+#oct.octrtl .oct-lg-10,
+#oct.octrtl .oct-lg-11,
+#oct.octrtl .oct-lg-12,
+#oct.octrtl .oct-lg-2,
+#oct.octrtl .oct-lg-3,
+#oct.octrtl .oct-lg-4,
+#oct.octrtl .oct-lg-5,
+#oct.octrtl .oct-lg-6,
+#oct.octrtl .oct-lg-7,
+#oct.octrtl .oct-lg-8,
+#oct.octrtl .oct-lg-9,
+#oct.octrtl .oct-md-1,
+#oct.octrtl .oct-md-10,
+#oct.octrtl .oct-md-11,
+#oct.octrtl .oct-md-12,
+#oct.octrtl .oct-md-2,
+#oct.octrtl .oct-md-3,
+#oct.octrtl .oct-md-4,
+#oct.octrtl .oct-md-5,
+#oct.octrtl .oct-md-6,
+#oct.octrtl .oct-md-7,
+#oct.octrtl .oct-md-8,
+#oct.octrtl .oct-md-9,
+#oct.octrtl .oct-sm-1,
+#oct.octrtl .oct-sm-10,
+#oct.octrtl .oct-sm-11,
+#oct.octrtl .oct-sm-12,
+#oct.octrtl .oct-sm-2,
+#oct.octrtl .oct-sm-3,
+#oct.octrtl .oct-sm-4,
+#oct.octrtl .oct-sm-5,
+#oct.octrtl .oct-sm-6,
+#oct.octrtl .oct-sm-7,
+#oct.octrtl .oct-sm-8,
+#oct.octrtl .oct-sm-9,
+#oct.octrtl .oct-xs-1,
+#oct.octrtl .oct-xs-10,
+#oct.octrtl .oct-xs-11,
+#oct.octrtl .oct-xs-12,
+#oct.octrtl .oct-xs-2,
+#oct.octrtl .oct-xs-3,
+#oct.octrtl .oct-xs-4,
+#oct.octrtl .oct-xs-5,
+#oct.octrtl .oct-xs-6,
+#oct.octrtl .oct-xs-7,
+#oct.octrtl .oct-xs-8,
+#oct.octrtl .oct-xs-9,
+#oct.octrtl .fullwidth,
+#oct.octrtl .common-inner ,
+#oct.octrtl input[type="submit"],
+#oct.octrtl input[type="reset"],
+#oct.octrtl input[type="button"],
+#oct.octrtl button,
+#oct.octrtl .cus-select .common-selection-main,
+#oct.octrtl .cus-select-staff .common-selection-main,
+#oct.octrtl .cus-location .common-selection-main,
+#oct.octrtl .oct-custom-radio ul.oct-radio-list li,
+#oct.octrtl .oct-custom-radio ul.oct-radio-list li.oct-first-radio,
+#oct.octrtl .oct-custom-radio ul.oct-radio-list li.oct-second-radio,
+#oct.octrtl .oct-extra-services-list ul.addon-service-list li .addon-name,
+#oct.octrtl .oct-service-staff-list ul.staff-list li .staff-name,
+#oct.octrtl .oct-extra-services-list ul.addon-service-list li .oct-addon-ser .oct-addon-img,
+#oct.octrtl .oct-addon-count .oct-meth-unit-count .oct-inner-box,
+#oct.octrtl #oct-calendar-full,
+#oct.octrtl .calendar-wrapper,
+#oct.octrtl .dates,
+#oct.octrtl .calendar-body .oct-show-time,
+#oct.octrtl .calendar-body .oct-show-time .time-slot-container,
+#oct.octrtl .calendar-body .oct-show-time .time-slot-container ul.time-slot-ul,
+#oct.octrtl .calendar-body .oct-show-time .time-slot-container ul li.time-slot,
+#oct.octrtl .oct-stripe-wrapper,
+#oct.octrtl .oct-stripe-wrapper .stripe-header,
+#oct.octrtl .oct-stripe-wrapper .stripe-header .card-header,
+#oct.octrtl .oct-stripe-card,
+#oct.octrtl .oct-stripe-card .card-input-container,
+#oct.octrtl .oct-stripe-card .secure-img,
+#oct.octrtl .oct-cancel-policy,
+#oct.octrtl .oct-checkout-content,
+#oct.octrtl .oct-add-more-btn,
+#oct.octrtl aside#content-sidebar .content-summary,
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .provider-info .provider-title,
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style .oct-extra-services-main ul.extra-services-items li,
+#oct.octrtl aside#content-sidebar .sidebar-box .oct-discount-partial .discount-coupons,
+#oct.octrtl aside#content-sidebar .sidebar-box .oct-discount-partial .display-coupon-code,
+#oct.octrtl aside#content-sidebar .oct-discount-partial .display-coupon-code .coupon-value-main,
+#oct.octrtl aside#content-sidebar .oct-discount-partial .partial-amount-wrapper,
+#oct.octrtl aside#content-sidebar  .oct-discount-partial .partial-amount-wrapper .partial-amount-message,
+#oct.octrtl .oct-buttons-wrapper,
+#oct.octrtl #btn-more-bookings.pull-left,
+#oct.octrtl .pull-left,
+#oct.octrtl .oct-second-step .oct-xs-12.pull-left,
+#oct.octrtl .oct-third-step .oct-xs-12.pull-left,
+#oct.octrtl .oct-form-common.pull-left,
+#oct.octrtl .right-booking-details.pull-left,
+#oct.octrtl .service-details.oct-show .service-details-container h5.service-duration strong,
+#oct.octrtl .service-details.oct-show .service-details-container h5.service-price strong,
+#oct.octrtl .oct-addon-count .oct-btn-group .oct-btn-left,
+#oct.octrtl .oct-main-left.pull-left{
+    float: right !important;
+}
+
+#oct.octrtl .service-details.oct-show .service-details-container h5.service-duration .oct-service-duration,
+#oct.octrtl .service-details.oct-show .service-details-container h5.service-price .oct-actual-price{
+	padding-right: 5px;
+	float: right !important;
+}
+
+/* Float right to left */
+#oct.octrtl .f-right,
+#oct.octrtl .pull-right,
+#oct.octrtl .card-sample-img.pull-right,
+#oct.octrtl .card-cvc-clue.pull-right,
+#oct.octrtl .secure-img.pull-right,
+#oct.octrtl .icon-bag.pull-right,
+#oct.octrtl .oct-delete-booking.pull-right,
+#oct.octrtl .oct-main-right.pull-right,
+#oct.octrtl .calendar-body .oct-show-time .time-slot-container .oct-slot-legends,
+#oct.octrtl .oct-card-sample-img .float-right,
+#oct.octrtl .oct-cart-items-count,
+#oct.octrtl .oct-addon-count .oct-btn-group .oct-btn-right,
+#oct.octrtl .oct-booking-step ul li span.sep{
+	float: left !important;
+}
+
+
+
+/* Float position relative left to right */
+
+#oct.octrtl .today-date a.oct-button{
+	left: unset !important;
+	right: 6% !important;
+}
+#oct.octrtl #oct-payments .oct-paypal-image{
+	left: unset !important;
+	right: 8px !important;
+}
+#oct.octrtl .oct-extra-services-main ul.extra-services-items li i.icon-minus.icons{
+	left: unset !important;
+	right: 0 !important;
+}
+#oct.octrtl #complete-checkout .oct-booking-completed-message{
+	left: unset !important;
+	right: 13% !important;
+}
+/* Float position relative right to left */
+#oct.octrtl .oct-lg-pull-1 {
+    right: unset !important;
+    left: 8.33333333% !important;
+}
+
+
+
+/* Float position absolute left to right */
+#oct.octrtl  .block-title i.icons{
+	left: unset !important;
+	right: 2px !important;
+}
+#oct.octrtl .oct-loader .oct-first{
+	left: unset !important;
+	right: 18px !important;
+}
+#oct.octrtl .oct-loader .oct-second{
+	left: unset !important;
+	right: 8px !important;
+}
+
+#oct.octrtl .custom-checkbox.ccb-absolute input[type="checkbox"] + label .check-icon{
+	left: unset !important;
+	right: 0 !important;
+}
+#oct.octrtl label{
+	left: unset !important;
+	right: 5px !important;
+}
+#oct .oct-extra-services-list ul.addon-service-list li label.oct-addon-ser{
+	right: unset !important;
+}
+#oct.octrtl label.oct-phone-label{
+	left: unset !important;
+	right: 75px !important;
+}	
+#oct.octrtl label.oct-phone-label:focus,
+#oct.octrtl label.oct-phone-label.focus{
+	left: unset !important;
+	right: 5px !important;
+}	
+#oct.octrtl i.bottom-line{
+	left: unset !important;
+	right: 0 !important;
+}	
+#oct.octrtl label.oct-phone-label.focus ~ i.bottom-line:before,
+#oct.octrtl label.focus ~ i.bottom-line:before,
+#oct.octrtl input.custom-input.focus ~ i.bottom-line:before,
+#oct.octrtl .custom-input.focus ~ i.bottom-line:before,
+#oct.octrtl .oct-phone-input.focus + i.bottom-line:before,
+#oct.octrtl input.custom-input:focus ~ i.bottom-line:before,
+#oct.octrtl textarea.custom-input:focus ~ i.bottom-line:before,
+#oct.octrtl .cus-select.focus ~ i.bottom-line:before,
+#oct.octrtl .cus-location.focus ~ i.bottom-line:before,
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list a.oct-delete-booking-box,
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .delete span:before{
+	left: unset !important;
+	right: 0 !important;
+}	
+#oct.octrtl i.bottom-line:before {
+	left: unset !important;
+	right: 50% !important;
+}	
+#oct.octrtl i.icon-close-custom:before{
+	left: unset !important;
+	right: 0px !important;
+}
+#oct.octrtl i.icon-close-custom:after{
+	left: unset !important;
+	right: 0px !important;
+}
+#oct.octrtl .oct-extra-services-list ul.addon-service-list li .oct-addon-ser .addon-price,
+#oct.octrtl .calendar-wrapper .calendar-header a.previous-date{
+	left: unset !important; 
+	right: 0 !important;
+}
+#oct.octrtl .oct-stripe-card i.icon-credit-card{
+	left: unset !important; 
+	right: 5px !important;
+}
+#oct.octrtl .oct-stripe-card i.icon-user{
+	left: unset !important;
+	right: 13px !important;
+}
+#oct.octrtl .oct-stripe-card i.icon-calendar{
+	left: 5px !important;
+	right: 5px !important;
+}
+#oct.octrtl .oct-stripe-card i.icon-lock{
+	left: unset !important;
+	right: 7px !important;
+}
+
+
+	
+/* Float position absolute right to left */
+/* custom select */
+#oct.octrtl .cus-select .common-selection-main .selected-is:after,
+#oct.octrtl .cus-select-staff .common-selection-main .selected-is:after,
+#oct.octrtl .cus-location .common-selection-main .selected-is:after,
+#oct.octrtl .calendar-wrapper .calendar-header a.next-date,
+#oct.octrtl .calendar-body .dates .oct-week span.oct-available-slots,
+#oct.octrtl .oct-stripe-card .card-cvc-clue,
+#oct.octrtl .show-more-toggler:after,
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .delete{
+	right: unset !important;
+	left: 0 !important;
+}
+#oct.octrtl i.bottom-line:after {
+	right: unset !important;
+	left: 50% !important;
+}
+#oct.octrtl i.icon-close-custom,
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .delete span:after{
+	right: unset !important;
+	left: 5px !important;
+}
+#oct.octrtl .oct-service-staff-list ul.staff-list li .oct-staff span{
+	right: unset !important;
+	left: 5px !important;
+}
+#oct.octrtl .oct-extra-services-list ul.addon-service-list li input[type="checkbox"]:checked + label span:before,
+#oct.octrtl .oct-service-staff-list ul.staff-list li input[type="radio"]:checked + label span:before{
+	right: unset !important;
+	left: 11px !important;
+}
+#oct.octrtl .oct-service-staff-list ul.staff-list li input[type="radio"]:checked + label span:before{
+	right: unset !important;
+	left: 8px !important;
+}
+#oct.octrtl .oct-stripe-card .card-cvc-clue:before{
+	right: unset !important;
+	left: 21px !important;
+}	
+#oct.octrtl .oct-stripe-card .card-cvc-clue:after,
+#oct.octrtl .oct-stripe-card .card-type{
+	right: unset !important;
+	left: 20px !important;
+}
+#oct.octrtl .oct-stripe-card .card-cvc-clue img.cvc-image-hint{
+	right: unset !important;
+	left: 2px !important;
+}
+#oct.octrtl .oct-stripe-card .card-cvc-clue{
+	padding: 10px 10px 10px 70px !important;
+}
+#oct.octrtl aside#content-sidebar .oct-discount-partial .display-coupon-code .coupon-value-main i.icon-close{
+	right: unset !important;
+	left: -9px !important;
+}	
+
+/* text align left to right */
+#oct.octrtl span.oct-error,
+#oct.octrtl label.oct-error,
+#oct.octrtl label.error,
+#oct.octrtl span.oct-success,
+#oct.octrtl .oct-stripe-card input.expiry-year,
+#oct.octrtl aside#content-sidebar  .oct-discount-partial .partial-amount-wrapper .partial-amount-message{
+	text-align: right !important;
+}
+
+
+
+
+/* text align right to left */
+#oct.octrtl .text-right,
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style .oct-right-text.text-right,
+#oct.octrtl .oct-button-container.text-right{
+	text-align:left !important;
+}
+
+
+
+/* Padding left to right */
+#oct.octrtl .npl{
+	padding-left: inherit !important;
+	padding-right: 0 !important;
+}
+#oct.octrtl .pl-20{
+	padding-left: inherit !important;
+	padding-right: 20px !important;
+}
+#oct.octrtl .pl-5{
+	padding-left: inherit !important;
+	padding-right: 5px !important;
+}
+.intl-tel-input input,
+.intl-tel-input input[type="text"],
+.intl-tel-input input[type="tel"]{
+	padding-left: inherit !important;
+	padding-right: 45px !important;
+}
+#oct.octrtl .cus-select .common-selection-main li.service-category,
+#oct.octrtl .cus-select-staff .common-selection-main li.service-category,
+#oct.octrtl .cus-location .common-selection-main li.service-category{
+	padding-left: inherit !important;
+	padding-right: 15px !important;
+}	
+#oct.octrtl .cus-select .common-selection-main .data-list{
+	padding-left: inherit !important;
+	padding-right: 30px !important;
+}		
+#oct.octrtl .custom-checkbox-list .custom-checkbox label{
+	padding-left: inherit !important;
+	padding-right: 22px !important;
+}	
+#oct.octrtl .service-details.oct-show .service-details-container .oct-service-desc .oct-service-desc-p{
+	padding-left: unset !important;
+	padding-right: 10px !important;
+	direction: rtl !important;
+}
+#oct.octrtl .today-date .oct-selected-date-view .custom-check{
+	padding-left: inherit !important;
+	padding-right: 20px !important;
+}
+#oct.octrtl .oct-stripe-card .card-input-container label.custom{
+	padding-left: inherit !important;
+	padding-right: 30px !important;
+}	
+#oct.octrtl .oct-stripe-card .expiry-month-year{
+	padding-left: inherit !important;
+	padding-right: 10px !important;
+}
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .price{
+	padding-left:inherit !important;
+	padding-right:7px !important;
+}
+#oct.octrtl aside#content-sidebar .oct-total-amount .common-amount-price.discount-price{
+	padding-left: inherit !important;
+	padding-right: 3px !important;
+}
+
+/* Padding right to left */
+#oct.octrtl .npr{
+	padding-right: inherit !important;
+	padding-left: 0 !important;
+}
+#oct.octrtl .pr-5{
+	padding-right: inherit !important;
+	padding-left: 5px !important;
+}
+#oct.octrtl .oct-button i.icon-arrow-left{
+	padding-right: inherit !important;
+	padding-left: 3px !important;
+}
+#oct.octrtl .today-date .oct-selected-date-view span.oct-date-selected{
+	padding-right: unset !important;
+	padding-left: 15px !important;
+}
+#oct.octrtl .today-date .oct-selected-date-view span.oct-date-selected:before,
+#oct.octrtl .today-date .oct-selected-date-view span.oct-time-selected:before{
+	padding-right: inherit !important;
+	padding-left: 5px !important;
+}
+#oct.octrtl .show-more-toggler{
+	padding-right: inherit !important;
+	padding-left: 23px !important;
+}
+#oct.octrtl .oct-extra-services-main ul.extra-services-items li.oct-es.delete-toggle{
+	-webkit-transform: translate3d(60px, 0, 0) !important;
+	-moz-transform: translate3d(60px, 0, 0) !important;
+	-o-transform: translate3d(60px, 0, 0) !important;
+	-ms-transform: translate3d(60px, 0, 0) !important;
+	transform: translate3d(60px, 0, 0) !important;
+	padding-right: inherit !important;
+	padding-left: 15px !important;
+}
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .price span.currency-symbol{
+	padding-right: inherit !important;
+	padding-left: 1px !important;
+}
+
+
+
+
+/* Margin left to right */
+#oct.octrtl .nml{
+	margin-left: inherit !important;
+	margin-right: 0 !important;
+}
+#oct.octrtl .oct-list-inline > li {
+	margin-left: inherit;
+	margin-right: 0 !important;
+}
+#oct.octrtl .custom-checkbox-list .custom-checkbox{
+	margin-left: inherit !important;
+	margin-right: 0 !important;
+}
+
+
+
+
+/* Margin right to left */
+#oct.octrtl .nmr{
+	margin-right: inherit !important;
+	margin-left: 0 !important;
+}
+#oct.octrtl .custom-checkbox input[type="checkbox"] + label .check-icon{
+	margin-right: inherit !important;
+	margin-left: 10px !important;
+}
+#oct.octrtl .calendar-body .oct-show-time .time-slot-container .oct-slot-legends .oct-slot-legends-box,
+#oct.octrtl .oct-custom-radio ul.oct-radio-list label span{
+	margin-right: inherit !important;
+	margin-left: 3px !important;
+}
+
+
+/* Extra */
+
+#oct.octrtl  .block-title{
+	padding-left: inherit !important;
+	padding-right: 23px !important;
+}
+#oct.octrtl .oct-custom-radio  ul.oct-radio-list{
+	float: right !important;
+	padding: 5px 5px 0px 0px !important;
+}	
+
+#oct.octrtl aside#content-sidebar:before,
+#oct.octrtl section.oct-main-left:after{
+	border-left: unset !important;
+	border-right: 1px solid #e4ebf2;
+	left: unset !important;
+	right: -1px !important;
+}
+#oct.octrtl section.oct-main-left:after{
+	right: unset !important;
+	left: 0 !important;
+}
+#oct.octrtl .oct-main-left.active-left-xs12 .today-date .oct-selected-date-view,
+#oct.octrtl .oct-main-left.active-left-res75.oct-asr .today-date .oct-selected-date-view{
+	right: unset !important;
+	left: 0 !important;
+}
+#oct.octrtl label.oct-relative{
+	left: inherit !important;
+	right: unset !important;
+	float: right !important;
+}	
+
+#oct.octrtl .service-details.oct-show .service-details-container .oct-desc-header,
+#oct.octrtl.octrtl .service-details.oct-show .service-details-container .oct-service-desc{
+	padding: 5px 13px 5px 20px !important;
+	direction: ltr !important;
+}	
+#oct.octrtl .service-details.oct-show .service-details-container .oct-service-desc .oct-service-image-main{
+	padding: 0 0 4px 8px !important;
+	float: right !important;
+}	
+#oct.octrtl .calendar-body .oct-day,
+#oct.octrtl .calendar-body .oct-week {
+	float: right !important;	
+	border-right: unset !important;
+	border-left: thin solid #e5e5e5 !important;
+}
+#oct.octrtl .calendar-body .oct-day.oct-last-day,
+#oct.octrtl .calendar-body .oct-week:nth-child(7){
+	border-right: unset !important;
+	border-left: 0px !important;
+}
+#oct.octrtl .today-date {		
+	text-align: right !important;
+	float: right !important;
+}
+#oct.octrtl .calendar-body .oct-show-time .time-slot-container .oct-slot-legends ul.oct-legends-ul li {
+	float: right !important;
+	margin: 0px 0px 0px 15px !important;
+}	
+#oct.octrtl .today-date .oct-selected-date-view{
+	float: left !important;
+	margin: 15px 0px 0px 10px !important;
+}	
+#oct.octrtl .today-date .oct-selected-date-view .custom-check:before{
+	left: 0px unset !important;
+	right: 0px !important;
+}	
+#oct.octrtl .oct-stripe-card input.input-card{
+	padding: 5px 30px 5px 40px !important;
+}
+#oct.octrtl .oct-stripe-card input.name-on-card{
+	padding: 5px 40px 5px 10px !important;
+}
+#oct.octrtl .oct-stripe-card input.expiry-month{
+	padding: 10px 30px 10px 10px !important;
+	text-align: right !important;
+}
+#oct.octrtl .oct-stripe-card .expiry-month-year.expiry_year{
+	margin-left: inherit !important;
+	margin-right: 20px !important;
+	float: left !important;
+}
+#oct.octrtl .oct-stripe-card .expiry-month-year em.card-mon-year-separator {
+	margin: 0 15px 0 10px !important;
+}
+#oct.octrtl .oct-stripe-card .expiry-month-year em.card-mon-year-separator:after{
+	margin: 0 5px 0 0 !important;
+}
+#oct.octrtl .oct-stripe-card input.cvc-code{
+	padding: 10px 30px 10px 10px !important;
+	text-align: right !important;
+}
+#oct.octrtl .oct-cancel-policy p {
+	float: right !important;
+	margin-right: inherit !important;
+	margin-left: 5px !important;
+}
+#oct.octrtl ul.bullet-more {
+	padding-left: 0.9375em !important;
+	padding-right: 0 !important;
+	margin: 0px 0.3125em 0px 0px !important;
+}	
+#oct.octrtl .oct-cart-items-count i span.oct_badge{
+	right: unset !important;
+	left: -10px !important;
+	float: left !important;	
+}
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list.delete-list .delete span:before {
+	border-right: inherit !important;
+	border-left: unset !important;
+}
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list{
+	padding: 20px 5px 10px 10px !important;
+}	
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style{
+	padding: 0 25px 5px 0 !important;
+}
+#oct.octrtl .oct-extra-services-main ul.extra-services-items li a.oct-delete-confirm{
+	float: left !important;
+	right: unset !important;
+	left: -70px !important;
+}
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style.last-item{
+	padding: 0 10px 0 0 !important;
+}
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style i.icons {
+	padding: 2px 0px 3px 5px !important;
+	left: unset !important;
+	right: 5px !important;
+}
+#oct.octrtl aside#content-sidebar .sidebar-box .booking-list .right-booking-details .common-style i.icons.icon-minus{
+	left: unset !important;
+	right: -20px !important;
+}
+#oct.octrtl aside#content-sidebar .sidebar-box .oct-total-amount{
+	padding-left: inherit !important;
+	padding-right: 10px !important;
+	float: right !important;
+}	
+#oct.octrtl aside#content-sidebar .sidebar-box .oct-total-amount .common-amount-text,
+#oct.octrtl aside#content-sidebar .oct-discount-partial .common-amount-text{
+	float: right !important;
+	text-align: right !important;
+	padding-right: inherit !important;
+	padding-left: 5px !important;
+}
+#oct.octrtl aside#content-sidebar .oct-total-amount .common-amount-price,
+#oct.octrtl aside#content-sidebar  .oct-discount-partial .common-amount-price{
+	float: left !important;
+	padding-left: inherit !important;
+	padding-right: 8px !important;
+	text-align: left !important;
+}
+#oct.octrtl aside#content-sidebar .oct-discount-partial .discount-coupons a.apply-coupon{
+	float: left !important;
+	right: unset !important;	
+	left: 0 !important;	
+}
+#oct.octrtl aside#content-sidebar .oct-discount-partial .discount-coupons .coupon-input input{
+	padding: 10px 5px 10px 70px !important;
+}
+.intl-tel-input .selected-flag{
+	padding: 0 8px 0 0 0 ;
+}
+.intl-tel-input .selected-flag .iti-arrow {
+	right: unset !important;	
+	left: 4px !important;
+}	
+#oct.octrtl .oct-custom-radio ul.oct-radio-list li label i,.icon-credit-card.icons{
+	position: absolute;
+	top: 8px;
+	margin-right: 5px;
+}
+#oct.octrtl #btn-more-bookings .icon-arrow-left.icons{
+	float: right !important;
+	-webkit-transform: rotate(180deg) !important;
+	-moz-transform: rotate(180deg) !important;
+	-ms-transform: rotate(180deg) !important;
+	transform: rotate(180deg) !important;
+	top: 5px;
+	position: relative;
+}
+#oct.octrtl .oct-button{
+	margin: 10px 0px 10px 10px !important;
+}
+#oct.octrtl.oct-client .client_logout {
+	float: left !important;
+}
+#oct .calendar-body .oct-show-time .time-slot-container ul.time-slot-ul{
+	direction: ltr;
+}
+#oct .calendar-body .oct-show-time .time-slot-container ul li.time-slot{
+	direction: rtl;
+}
+
+
+/* Front RTL Responsive */
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/**********
+iPad 3
+**********/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 767px) {
+#oct.octrtl .today-date .oct-selected-date-view {
+	float: none !important;
+}
+#oct.octrtl .oct-lg-pull-1,
+#oct.octrtl .today-date a.oct-button {
+    right: unset !important;
+    left: unset !important;
+}
+
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 767px) and (orientation: landscape){
+
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px){ 
+  
+  }
+  
+  
+ /* Portrait */
+@media only screen 
+	and (min-device-width: 375px) 
+	and (max-device-width: 667px)
+	and (orientation: portrait) { 
+
+
+
+	}
+
+/* Landscape */
+@media only screen 
+	and (min-device-width: 375px) 
+	and (max-device-width: 667px)
+	and (orientation: landscape) {
+
+
+	}  
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+
+}
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    /* insert styles here */
+}
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    /* insert styles here */
+}
+
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and (max-width: 319px) {
+
+}
+
+
+
+
+
+

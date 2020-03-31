@@ -1,0 +1,54 @@
+[10-Dec-2019 09:11:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT
+						0,1' at line 7 for query SELECT
+						*
+					FROM
+						wp_oct_services 
+					WHERE
+						id = 
+					LIMIT
+						0,1 made by octabook_service->readOne
+[10-Dec-2019 09:14:20 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT
+						0,1' at line 7 for query SELECT
+						*
+					FROM
+						wp_oct_services 
+					WHERE
+						id = 
+					LIMIT
+						0,1 made by octabook_service->readOne
+[10-Dec-2019 09:16:17 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT
+						0,1' at line 7 for query SELECT
+						*
+					FROM
+						wp_oct_services 
+					WHERE
+						id = 
+					LIMIT
+						0,1 made by octabook_service->readOne
+[10-Dec-2019 09:18:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT
+						0,1' at line 7 for query SELECT
+						*
+					FROM
+						wp_oct_services 
+					WHERE
+						id = 
+					LIMIT
+						0,1 made by octabook_service->readOne
+[10-Dec-2019 09:20:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT
+						0,1' at line 7 for query SELECT
+						*
+					FROM
+						wp_oct_services 
+					WHERE
+						id = 
+					LIMIT
+						0,1 made by octabook_service->readOne
+[10-Dec-2019 09:21:07 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT
+						0,1' at line 7 for query SELECT
+						*
+					FROM
+						wp_oct_services 
+					WHERE
+						id = 
+					LIMIT
+						0,1 made by octabook_service->readOne

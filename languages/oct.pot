@@ -1,0 +1,4181 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OctaBook\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 10:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/export.php:249
+msgid " Hours"
+msgstr ""
+
+#: admin/calendar.php:143 admin/dashboard.php:154 admin/dashboard.php:212
+#: admin/dashboard.php:287 admin/services.php:185
+#: assets/lib/admin_general_ajax.php:627 assets/lib/admin_general_ajax.php:785
+#: assets/lib/admin_general_ajax.php:3057
+#: assets/lib/admin_general_ajax.php:3176
+#: assets/lib/admin_general_ajax.php:3447 assets/lib/service_ajax.php:264
+#: assets/lib/staff_ajax.php:827
+msgid " Hrs"
+msgstr ""
+
+#: admin/calendar.php:144 admin/dashboard.php:155 admin/dashboard.php:213
+#: admin/dashboard.php:288 admin/services.php:185
+#: assets/lib/admin_general_ajax.php:628 assets/lib/admin_general_ajax.php:786
+#: assets/lib/admin_general_ajax.php:3058
+#: assets/lib/admin_general_ajax.php:3177
+#: assets/lib/admin_general_ajax.php:3448 assets/lib/oct_front_ajax.php:116
+#: assets/lib/service_ajax.php:264 assets/lib/staff_ajax.php:827
+msgid " Mins"
+msgstr ""
+
+#: admin/export.php:249
+msgid " Mintues"
+msgstr ""
+
+#: admin/general_settings.php:746
+msgid " minute"
+msgstr ""
+
+#: admin/general_settings.php:746
+msgid " minutes"
+msgstr ""
+
+#: admin/staff.php:749 assets/lib/staff_ajax.php:1127
+msgid " of"
+msgstr ""
+
+#: admin/general_settings.php:744
+msgid " second"
+msgstr ""
+
+#: admin/general_settings.php:744
+msgid " seconds"
+msgstr ""
+
+#: admin/staff.php:489 admin/staff.php:634 assets/lib/staff_ajax.php:866
+#: assets/lib/staff_ajax.php:1011
+msgid " time scheduling of"
+msgstr ""
+
+#: admin/clients.php:112 admin/clients.php:196 admin/export.php:112
+#: admin/export.php:182 admin/export.php:231 admin/export.php:280
+#: admin/export.php:317 admin/reviews.php:36 admin/reviews.php:143
+#: admin/reviews.php:252 assets/lib/admin_general_ajax.php:3888
+#: assets/lib/admin_general_ajax.php:3984
+msgid "#"
+msgstr ""
+
+#: admin/staff.php:553 assets/lib/staff_ajax.php:326
+#: assets/lib/staff_ajax.php:930
+msgid "$10"
+msgstr ""
+
+#: admin/general_settings.php:738
+msgid "'Thankyou Page' redirection time"
+msgstr ""
+
+#: admin/general_settings.php:729 admin/general_settings.php:732
+msgid "'Thankyou Page' Url"
+msgstr ""
+
+#: admin/general_settings.php:642
+msgid "(e.g. 1,000.00)"
+msgstr ""
+
+#: admin/general_settings.php:641
+msgid "(e.g. 1000.00)"
+msgstr ""
+
+#: admin/general_settings.php:451
+msgid "-- Select Currency --"
+msgstr ""
+
+#: admin/calendar.php:238
+msgid "-- Select customer --"
+msgstr ""
+
+#: admin/general_settings.php:627
+msgid "0 (e.g.$100)"
+msgstr ""
+
+#: admin/general_settings.php:327 admin/general_settings.php:329
+#: admin/general_settings.php:344 admin/general_settings.php:353
+#: admin/general_settings.php:370 admin/general_settings.php:381
+#: admin/general_settings.php:410 admin/general_settings.php:431
+#: admin/general_settings.php:766
+msgid "1"
+msgstr ""
+
+#: admin/general_settings.php:628
+msgid "1 (e.g.$100.0)"
+msgstr ""
+
+#: admin/general_settings.php:1663
+msgid "1 Day"
+msgstr ""
+
+#: admin/general_settings.php:1655
+msgid "1 Hrs"
+msgstr ""
+
+#: admin/general_settings.php:328
+msgid "1.5"
+msgstr ""
+
+#: admin/general_settings.php:322 admin/general_settings.php:341
+#: admin/general_settings.php:379 admin/general_settings.php:394
+#: admin/general_settings.php:775
+msgid "10"
+msgstr ""
+
+#: admin/general_settings.php:380
+msgid "11"
+msgstr ""
+
+#: admin/general_settings.php:352 admin/general_settings.php:418
+#: admin/general_settings.php:439
+msgid "12"
+msgstr ""
+
+#: admin/general_settings.php:323
+msgid "15"
+msgstr ""
+
+#: admin/general_settings.php:329 admin/general_settings.php:345
+#: admin/general_settings.php:354 admin/general_settings.php:371
+#: admin/general_settings.php:382 admin/general_settings.php:411
+#: admin/general_settings.php:432 admin/general_settings.php:767
+msgid "2"
+msgstr ""
+
+#: admin/general_settings.php:629
+msgid "2 (e.g.$100.00)"
+msgstr ""
+
+#: admin/general_settings.php:1656
+msgid "2 Hrs"
+msgstr ""
+
+#: admin/general_settings.php:324 admin/general_settings.php:342
+#: admin/general_settings.php:395
+msgid "20"
+msgstr ""
+
+#: admin/general_settings.php:419 admin/general_settings.php:440
+msgid "24"
+msgstr ""
+
+#: admin/payments.php:90
+msgid "2checkout"
+msgstr ""
+
+#: admin/general_settings.php:329 admin/general_settings.php:346
+#: admin/general_settings.php:355 admin/general_settings.php:372
+#: admin/general_settings.php:383 admin/general_settings.php:412
+#: admin/general_settings.php:433 admin/general_settings.php:768
+msgid "3"
+msgstr ""
+
+#: admin/general_settings.php:630
+msgid "3 (e.g.$100.000)"
+msgstr ""
+
+#: admin/general_settings.php:1657
+msgid "3 Hrs"
+msgstr ""
+
+#: admin/general_settings.php:325 admin/general_settings.php:343
+#: admin/general_settings.php:396
+msgid "30"
+msgstr ""
+
+#: admin/general_settings.php:329 admin/general_settings.php:347
+#: admin/general_settings.php:356 admin/general_settings.php:373
+#: admin/general_settings.php:413 admin/general_settings.php:434
+#: admin/general_settings.php:769
+msgid "4"
+msgstr ""
+
+#: admin/general_settings.php:631
+msgid "4 (e.g.$100.0000)"
+msgstr ""
+
+#: admin/general_settings.php:1658
+msgid "4 Hrs"
+msgstr ""
+
+#: admin/general_settings.php:326 admin/general_settings.php:397
+msgid "45"
+msgstr ""
+
+#: admin/general_settings.php:321 admin/general_settings.php:329
+#: admin/general_settings.php:348 admin/general_settings.php:357
+#: admin/general_settings.php:374 admin/general_settings.php:414
+#: admin/general_settings.php:435 admin/general_settings.php:770
+msgid "5"
+msgstr ""
+
+#: admin/general_settings.php:1659
+msgid "5 Hrs"
+msgstr ""
+
+#: admin/general_settings.php:349 admin/general_settings.php:358
+#: admin/general_settings.php:375 admin/general_settings.php:415
+#: admin/general_settings.php:436 admin/general_settings.php:771
+msgid "6"
+msgstr ""
+
+#: admin/general_settings.php:1660
+msgid "6 Hrs"
+msgstr ""
+
+#: admin/general_settings.php:398
+msgid "60"
+msgstr ""
+
+#: admin/general_settings.php:350 admin/general_settings.php:359
+#: admin/general_settings.php:376 admin/general_settings.php:416
+#: admin/general_settings.php:437 admin/general_settings.php:772
+msgid "7"
+msgstr ""
+
+#: admin/general_settings.php:1661
+msgid "7 Hrs"
+msgstr ""
+
+#: admin/general_settings.php:351 admin/general_settings.php:377
+#: admin/general_settings.php:417 admin/general_settings.php:438
+#: admin/general_settings.php:773
+msgid "8"
+msgstr ""
+
+#: admin/general_settings.php:1662
+msgid "8 Hrs"
+msgstr ""
+
+#: admin/general_settings.php:378 admin/general_settings.php:774
+msgid "9"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3140
+msgid "@"
+msgstr ""
+
+#: admin/general_settings.php:2310
+msgid "Account API Key"
+msgstr ""
+
+#: admin/general_settings.php:1981 admin/general_settings.php:2092
+msgid "Account SID"
+msgstr ""
+
+#: admin/client_dashboard.php:91 admin/client_dashboard_front.php:86
+#: admin/staff.php:865 assets/lib/staff_ajax.php:1243
+#: assets/lib/staff_ajax.php:1405
+msgid "Action"
+msgstr ""
+
+#: admin/client_dashboard.php:44 admin/general_settings.php:2725
+#: admin/reviews.php:43 admin/reviews.php:150 admin/reviews.php:259
+msgid "Actions"
+msgstr ""
+
+#: admin/dashboard.php:229 admin/dashboard.php:329 admin/export.php:148
+#: assets/lib/admin_general_ajax.php:182 assets/lib/admin_general_ajax.php:348
+#: assets/lib/admin_general_ajax.php:507 assets/lib/admin_general_ajax.php:3125
+#: assets/lib/admin_general_ajax.php:3183
+msgid "Active"
+msgstr ""
+
+#: admin/staff.php:47
+msgid "Add"
+msgstr ""
+
+#: admin/general_settings.php:2925
+msgid "Add Appointments To Google Calendar"
+msgstr ""
+
+#: admin/staff.php:761 admin/staff.php:852 assets/lib/staff_ajax.php:1139
+#: assets/lib/staff_ajax.php:1230
+msgid "Add Break"
+msgstr ""
+
+#: admin/staff.php:194 assets/lib/staff_ajax.php:569
+msgid "Add Breaks"
+msgstr ""
+
+#: frontend/oct_firstep.php:1435 assets/lib/oct_front_ajax.php:1041
+msgid "Add more"
+msgstr ""
+
+#: admin/service_addons.php:326 assets/lib/service_ajax.php:834
+msgid "Add New"
+msgstr ""
+
+#: admin/service_addons.php:343
+msgid "Add New Addon Service"
+msgstr ""
+
+#: admin/services.php:63 assets/lib/category_ajax.php:66
+msgid "Add New Category"
+msgstr ""
+
+#: admin/locations.php:290 admin/locations.php:523
+#: assets/lib/location_ajax.php:397
+msgid "Add New Location"
+msgstr ""
+
+#: admin/staff.php:845 assets/lib/staff_ajax.php:1223
+msgid "Add new off time"
+msgstr ""
+
+#: admin/general_settings.php:2707 admin/general_settings.php:2768
+msgid "Add New Promocode"
+msgstr ""
+
+#: admin/services.php:452 assets/lib/service_ajax.php:518
+msgid "Add New Service"
+msgstr ""
+
+#: admin/staff.php:47
+msgid "Add New Staff Member"
+msgstr ""
+
+#: admin/staff.php:503 assets/lib/staff_ajax.php:880
+msgid "Add price"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3258
+msgid "Add Review"
+msgstr ""
+
+#: admin/services.php:132
+msgid "Add Service"
+msgstr ""
+
+#: admin/general_settings.php:309
+msgid ""
+"Add zip codes by comma separator value to provide booking in specific zip "
+"code areas."
+msgstr ""
+
+#: admin/service_addons.php:144
+msgid "Addon Image"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:922 assets/lib/admin_general_ajax.php:1659
+#: assets/lib/admin_general_ajax.php:2473
+#: assets/lib/notification_reminder.php:122
+#: assets/lib/oct_front_booking_complete.php:383
+msgid "Addon Price(s)"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:922 assets/lib/admin_general_ajax.php:1659
+#: assets/lib/admin_general_ajax.php:2473
+#: assets/lib/notification_reminder.php:122
+#: assets/lib/oct_front_booking_complete.php:383
+msgid "Addon Quantity(s)"
+msgstr ""
+
+#: admin/service_addons.php:139 admin/service_addons.php:362
+msgid "Addon Title"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:922 assets/lib/admin_general_ajax.php:1659
+#: assets/lib/admin_general_ajax.php:2473
+#: assets/lib/notification_reminder.php:122
+#: assets/lib/oct_front_booking_complete.php:383
+msgid "Addon Tittle(s)"
+msgstr ""
+
+#: admin/services.php:201 admin/service_addons.php:58
+#: assets/lib/service_ajax.php:279
+msgid "Addons"
+msgstr ""
+
+#: admin/calendar.php:278 admin/export.php:322 admin/locations.php:464
+#: admin/locations.php:643 assets/lib/admin_general_ajax.php:216
+#: assets/lib/admin_general_ajax.php:1019
+#: assets/lib/admin_general_ajax.php:1020
+#: assets/lib/admin_general_ajax.php:1758
+#: assets/lib/admin_general_ajax.php:1759
+#: assets/lib/admin_general_ajax.php:2578 assets/lib/location_ajax.php:336
+#: assets/lib/location_ajax.php:520 assets/lib/notification_reminder.php:205
+#: assets/lib/oct_front_booking_complete.php:503
+#: assets/lib/oct_front_booking_complete.php:504
+msgid "Address"
+msgstr ""
+
+#: admin/general_settings.php:984
+msgid "Admin Area Color Scheme"
+msgstr ""
+
+#: admin/general_settings.php:1592
+msgid "Admin Email Notifications"
+msgstr ""
+
+#: admin/general_settings.php:2052 admin/general_settings.php:2161
+#: admin/general_settings.php:2370
+msgid "Admin Phone Number"
+msgstr ""
+
+#: admin/general_settings.php:987
+msgid "Admin Primary Color"
+msgstr ""
+
+#: admin/general_settings.php:991
+msgid "Admin Secondary color"
+msgstr ""
+
+#: admin/general_settings.php:995
+msgid "Admin Text color"
+msgstr ""
+
+#: admin/general_settings.php:999
+msgid "Admin Text color on Bg"
+msgstr ""
+
+#: admin/general_settings.php:1696
+msgid "Admin/Manager Email Template"
+msgstr ""
+
+#: admin/general_settings.php:1856
+msgid "Admin/Manager Provider Email Template"
+msgstr ""
+
+#: admin/general_settings.php:2549
+msgid "Admin/Manager Provider SMS Template"
+msgstr ""
+
+#: admin/general_settings.php:2410
+msgid "Admin/Manager SMS Template"
+msgstr ""
+
+#: admin/general_settings.php:617
+msgid "After"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:234 assets/lib/admin_general_ajax.php:2575
+#: assets/lib/notification_reminder.php:199
+msgid "Age"
+msgstr ""
+
+#: admin/services.php:62 assets/lib/category_ajax.php:65
+#: assets/lib/service_ajax.php:163
+msgid "All Categories"
+msgstr ""
+
+#: admin/export.php:269
+msgid "All Categories members"
+msgstr ""
+
+#: admin/clients.php:36
+msgid "All Locations Customers"
+msgstr ""
+
+#: admin/export.php:52
+msgid "All Locations Export"
+msgstr ""
+
+#: admin/export.php:306
+msgid "All Locations members"
+msgstr ""
+
+#: admin/payments.php:42
+msgid "All Locations Payments"
+msgstr ""
+
+#: admin/general_settings.php:1193
+msgid "All Payment Gateways"
+msgstr ""
+
+#: admin/calendar.php:82
+msgid "All Service Provider"
+msgstr ""
+
+#: admin/calendar.php:63 admin/export.php:82 admin/services.php:91
+#: admin/staff.php:429 assets/lib/category_ajax.php:93
+#: assets/lib/service_ajax.php:192 assets/lib/staff_ajax.php:807
+msgid "All Services"
+msgstr ""
+
+#: admin/export.php:213
+msgid "All services"
+msgstr ""
+
+#: admin/services.php:399 admin/services.php:617
+#: assets/lib/service_ajax.php:471 assets/lib/service_ajax.php:682
+msgid "All Staff Members"
+msgstr ""
+
+#: admin/export.php:98 admin/export.php:171
+msgid "All staff members"
+msgstr ""
+
+#: admin/locations.php:256 assets/lib/location_ajax.php:76
+#: assets/lib/location_ajax.php:122
+msgid "All States/City"
+msgstr ""
+
+#: admin/general_settings.php:796
+msgid "Allow day closing time overlap booking"
+msgstr ""
+
+#: admin/general_settings.php:760
+msgid ""
+"Allow multiple appointment booking at same time slot, will allow you to show "
+"availability time slot even you have booking already for that time."
+msgstr ""
+
+#: admin/general_settings.php:754
+msgid "Allow multiple booking for same timeslot"
+msgstr ""
+
+#: frontend/oct_firstep.php:758
+msgid "and"
+msgstr ""
+
+#: admin/general_settings.php:1254
+msgid "API Password"
+msgstr ""
+
+#: admin/general_settings.php:1245
+msgid "API Username"
+msgstr ""
+
+#: admin/export.php:115
+msgid "App. Date"
+msgstr ""
+
+#: admin/export.php:117
+msgid "App. Price"
+msgstr ""
+
+#: admin/export.php:116
+msgid "App. Time"
+msgstr ""
+
+#: admin/general_settings.php:41 admin/sidebar.php:3
+msgid "Appearance "
+msgstr ""
+
+#: admin/general_settings.php:957
+msgid "Appearance Settings"
+msgstr ""
+
+#: frontend/oct_firstep.php:1496 assets/lib/oct_front_ajax.php:1077
+msgid "Applied Promocode"
+msgstr ""
+
+#: admin/header.php:201 frontend/oct_firstep.php:1484
+#: assets/lib/oct_front_ajax.php:1064
+msgid "Apply"
+msgstr ""
+
+#: admin/general_settings.php:2629 admin/general_settings.php:2648
+msgid "Appointkart Frontend First Step Labels"
+msgstr ""
+
+#: admin/general_settings.php:785
+msgid "Appointment auto confirm"
+msgstr ""
+
+#: admin/client_dashboard_front.php:154 admin/header.php:906
+#: assets/lib/admin_general_ajax.php:3243
+msgid "Appointment Cancel Reason"
+msgstr ""
+
+#: admin/calendar.php:42 admin/header.php:299
+msgid "Appointment Completed"
+msgstr ""
+
+#: admin/header.php:866
+msgid "Appointment Confirm Note"
+msgstr ""
+
+#: admin/calendar.php:108 admin/client_dashboard_front.php:74
+#: admin/header.php:948 admin/header.php:952
+msgid "Appointment Details"
+msgstr ""
+
+#: admin/header.php:886
+msgid "Appointment Reject Reason"
+msgstr ""
+
+#: admin/general_settings.php:1650
+msgid "Appointment Reminder Buffer"
+msgstr ""
+
+#: admin/header.php:674 admin/header.php:680 admin/header.php:722
+#: admin/header.php:730
+msgid "Appointments"
+msgstr ""
+
+#: admin/reviews.php:213 admin/reviews.php:300
+msgid "Approve & Publish"
+msgstr ""
+
+#: admin/clients.php:116 admin/clients.php:200
+#: assets/lib/admin_general_ajax.php:3892
+#: assets/lib/admin_general_ajax.php:3988
+msgid "Appt. Date"
+msgstr ""
+
+#: admin/clients.php:117 admin/clients.php:201
+#: assets/lib/admin_general_ajax.php:3893
+#: assets/lib/admin_general_ajax.php:3989
+msgid "Appt. Time"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "April"
+msgstr ""
+
+#: admin/header.php:781
+msgid ""
+"Are you sure you want to delete Sample data, It will remove all data related "
+"to sample data?"
+msgstr ""
+
+#: admin/staff.php:556 admin/staff.php:801 assets/lib/staff_ajax.php:329
+#: assets/lib/staff_ajax.php:463 assets/lib/staff_ajax.php:1179
+msgid "Are You Sure?"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:949 assets/lib/admin_general_ajax.php:962
+#: assets/lib/admin_general_ajax.php:1688
+#: assets/lib/admin_general_ajax.php:1701
+#: assets/lib/admin_general_ajax.php:2550
+#: assets/lib/notification_reminder.php:179
+#: assets/lib/oct_front_booking_complete.php:428
+#: assets/lib/oct_front_booking_complete.php:442
+msgid "At"
+msgstr ""
+
+#: admin/dashboard.php:251 admin/dashboard.php:353
+msgid "at"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "August"
+msgstr ""
+
+#: admin/general_settings.php:1990 admin/general_settings.php:2101
+msgid "Auth Token"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:200 assets/lib/admin_general_ajax.php:366
+#: assets/lib/admin_general_ajax.php:702 assets/lib/admin_general_ajax.php:3360
+msgid "Authorize .Net"
+msgstr ""
+
+#: admin/payments.php:87 assets/lib/admin_general_ajax.php:113
+msgid "Authorize.Net"
+msgstr ""
+
+#: admin/general_settings.php:1120
+msgid "Auto Confirm Reviews"
+msgstr ""
+
+#: admin/staff.php:193 assets/lib/staff_ajax.php:568
+msgid "Availabilty"
+msgstr ""
+
+#: frontend/oct_firstep.php:1208 frontend/oct_firstep.php:1238
+#: assets/lib/oct_front_ajax.php:546 assets/lib/oct_front_ajax.php:576
+msgid "Available"
+msgstr ""
+
+#: admin/general_settings.php:2206 admin/general_settings.php:2216
+msgid "Available from within your Nexmo Account."
+msgstr ""
+
+#: admin/general_settings.php:2097 admin/general_settings.php:2107
+msgid "Available from within your Plivo Account."
+msgstr ""
+
+#: admin/general_settings.php:2315 admin/general_settings.php:2325
+msgid "Available from within your Textlocal Account."
+msgstr ""
+
+#: admin/general_settings.php:1986 admin/general_settings.php:1996
+msgid "Available from within your Twilio Account."
+msgstr ""
+
+#: admin/reviews.php:69 admin/reviews.php:176 admin/reviews.php:285
+#: assets/lib/admin_general_ajax.php:3266
+msgid "Awesome - 5 stars"
+msgstr ""
+
+#: admin/service_addons.php:61
+msgid "Back To Services"
+msgstr ""
+
+#: admin/general_settings.php:616
+msgid "Before"
+msgstr ""
+
+#: admin/calendar.php:314
+msgid "Book Appointment"
+msgstr ""
+
+#: admin/calendar.php:104
+msgid "Book Manual Appointment"
+msgstr ""
+
+#: admin/client_dashboard.php:88
+msgid "Booking Date & Time"
+msgstr ""
+
+#: admin/header.php:799
+msgid "Booking Details"
+msgstr ""
+
+#: admin/export.php:39 admin/export.php:62
+msgid "Booking Information"
+msgstr ""
+
+#: admin/header.php:627
+msgid "Booking notifications"
+msgstr ""
+
+#: admin/general_settings.php:389
+msgid "Booking Padding Time"
+msgstr ""
+
+#: admin/general_settings.php:401
+msgid ""
+"Booking Padding time is, time span that you need after each appointment to "
+"get prepare or to take rest."
+msgstr ""
+
+#: admin/header.php:808
+msgid "Booking Status"
+msgstr ""
+
+#: frontend/oct_firstep.php:1281 frontend/oct_firstep.php:1594
+#: assets/lib/oct_front_ajax.php:880
+msgid "Booking Summary"
+msgstr ""
+
+#: admin/clients.php:52 admin/clients.php:78 admin/clients.php:144
+#: admin/clients.php:160 admin/dashboard.php:39 admin/dashboard.php:58
+#: admin/dashboard.php:79 assets/lib/admin_general_ajax.php:3828
+#: assets/lib/admin_general_ajax.php:3854
+#: assets/lib/admin_general_ajax.php:3932
+#: assets/lib/admin_general_ajax.php:3948
+msgid "Bookings"
+msgstr ""
+
+#: admin/clients.php:88 admin/clients.php:171
+#: admin/client_dashboard_front.php:147 admin/client_dashboard_front.php:160
+#: admin/dashboard.php:313 admin/general_settings.php:160
+#: admin/general_settings.php:175 admin/general_settings.php:238
+#: admin/general_settings.php:2752 admin/header.php:202 admin/header.php:871
+#: admin/header.php:891 admin/header.php:899 admin/header.php:911
+#: admin/header.php:929 admin/locations.php:334 admin/locations.php:400
+#: admin/locations.php:414 admin/locations.php:579 admin/locations.php:593
+#: admin/reviews.php:116 admin/reviews.php:225 admin/reviews.php:313
+#: admin/services.php:78 admin/services.php:148 admin/services.php:219
+#: admin/services.php:278 admin/services.php:292 admin/services.php:502
+#: admin/services.php:516 admin/service_addons.php:116
+#: admin/service_addons.php:167 admin/service_addons.php:181
+#: admin/service_addons.php:385 admin/service_addons.php:399
+#: admin/staff.php:112 admin/staff.php:180 admin/staff.php:226
+#: admin/staff.php:237 admin/staff.php:564 admin/staff.php:809
+#: assets/lib/admin_general_ajax.php:944 assets/lib/admin_general_ajax.php:1681
+#: assets/lib/admin_general_ajax.php:2610
+#: assets/lib/admin_general_ajax.php:3248
+#: assets/lib/admin_general_ajax.php:3290
+#: assets/lib/admin_general_ajax.php:3864
+#: assets/lib/admin_general_ajax.php:3959 assets/lib/booking_crc_email.php:47
+#: assets/lib/booking_crc_email.php:62 assets/lib/booking_crc_email.php:76
+#: assets/lib/category_ajax.php:80 assets/lib/location_ajax.php:199
+#: assets/lib/location_ajax.php:263 assets/lib/location_ajax.php:277
+#: assets/lib/location_ajax.php:455 assets/lib/location_ajax.php:469
+#: assets/lib/oct_front_booking_complete.php:409
+#: assets/lib/service_ajax.php:178 assets/lib/service_ajax.php:294
+#: assets/lib/service_ajax.php:353 assets/lib/service_ajax.php:367
+#: assets/lib/service_ajax.php:569 assets/lib/service_ajax.php:583
+#: assets/lib/setting_ajax.php:124 assets/lib/staff_ajax.php:236
+#: assets/lib/staff_ajax.php:337 assets/lib/staff_ajax.php:471
+#: assets/lib/staff_ajax.php:556 assets/lib/staff_ajax.php:600
+#: assets/lib/staff_ajax.php:612 assets/lib/staff_ajax.php:941
+#: assets/lib/staff_ajax.php:1187
+msgid "Cancel"
+msgstr ""
+
+#: admin/dashboard.php:237 admin/dashboard.php:337
+#: assets/lib/admin_general_ajax.php:3133
+#: assets/lib/admin_general_ajax.php:3195
+msgid "Cancel By Client"
+msgstr ""
+
+#: admin/dashboard.php:239 admin/dashboard.php:339
+#: assets/lib/admin_general_ajax.php:3135
+#: assets/lib/admin_general_ajax.php:3198
+msgid "Cancel By Service Provider"
+msgstr ""
+
+#: admin/client_dashboard_front.php:147 admin/header.php:899
+#: assets/lib/admin_general_ajax.php:3236
+msgid "Cancel reason?"
+msgstr ""
+
+#: admin/general_settings.php:422
+msgid ""
+"Cancellation buffer helps service providers to avoid last minute "
+"cancellation by their clients. "
+msgstr ""
+
+#: admin/general_settings.php:405
+msgid "Cancellation Buffer Time"
+msgstr ""
+
+#: admin/general_settings.php:865 frontend/oct_firstep.php:737
+msgid "Cancellation Policy"
+msgstr ""
+
+#: admin/general_settings.php:875
+msgid "Cancellation Policy Header"
+msgstr ""
+
+#: admin/general_settings.php:880
+msgid "Cancellation Policy Textarea"
+msgstr ""
+
+#: admin/calendar.php:40 admin/header.php:297
+msgid "Cancelled By Client"
+msgstr ""
+
+#: admin/export.php:147 assets/lib/admin_general_ajax.php:180
+#: assets/lib/admin_general_ajax.php:347 assets/lib/admin_general_ajax.php:506
+msgid "Cancelled by client"
+msgstr ""
+
+#: admin/header.php:298
+msgid "Cancelled by Service Provider"
+msgstr ""
+
+#: admin/export.php:149 assets/lib/admin_general_ajax.php:183
+#: assets/lib/admin_general_ajax.php:349 assets/lib/admin_general_ajax.php:508
+msgid "Cancelled by service provider"
+msgstr ""
+
+#: frontend/oct_firstep.php:684
+msgid "Card Details"
+msgstr ""
+
+#: frontend/oct_firstep.php:690
+msgid "Card number"
+msgstr ""
+
+#: frontend/oct_firstep.php:687
+msgid "Card number is invalid"
+msgstr ""
+
+#: admin/services.php:63
+msgid "Category"
+msgstr ""
+
+#: admin/export.php:42
+msgid "Category Information"
+msgstr ""
+
+#: admin/export.php:281
+msgid "Category Title"
+msgstr ""
+
+#: frontend/oct_firstep.php:1539 assets/lib/oct_front_ajax.php:1101
+msgid "Checkout"
+msgstr ""
+
+#: admin/general_settings.php:2637 admin/general_settings.php:2644
+msgid "Choose Date,Time and Provider"
+msgstr ""
+
+#: frontend/oct_firstep.php:832
+msgid "Choose Location"
+msgstr ""
+
+#: admin/general_settings.php:2635 admin/general_settings.php:2642
+msgid "Choose Service"
+msgstr ""
+
+#: frontend/oct_firstep.php:953 frontend/oct_firstep.php:955
+#: frontend/oct_firstep.php:1613 assets/lib/oct_front_ajax.php:221
+#: assets/lib/oct_front_ajax.php:223
+msgid "Choose service provider"
+msgstr ""
+
+#: frontend/oct_firstep.php:867
+msgid "Choose Your Selection"
+msgstr ""
+
+#: admin/calendar.php:287 admin/export.php:323 admin/general_settings.php:117
+#: admin/general_settings.php:654 admin/locations.php:473
+#: admin/locations.php:652 admin/locations.php:653
+#: assets/lib/admin_general_ajax.php:251 assets/lib/admin_general_ajax.php:1023
+#: assets/lib/admin_general_ajax.php:1024
+#: assets/lib/admin_general_ajax.php:1762
+#: assets/lib/admin_general_ajax.php:1763
+#: assets/lib/admin_general_ajax.php:2581 assets/lib/location_ajax.php:345
+#: assets/lib/location_ajax.php:346 assets/lib/location_ajax.php:529
+#: assets/lib/location_ajax.php:530 assets/lib/notification_reminder.php:208
+#: assets/lib/oct_front_booking_complete.php:507
+#: assets/lib/oct_front_booking_complete.php:508
+msgid "City"
+msgstr ""
+
+#: admin/header.php:627
+msgid "Clear All"
+msgstr ""
+
+#: admin/payments.php:55
+msgid "Client"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:1001
+#: assets/lib/admin_general_ajax.php:1002
+#: assets/lib/admin_general_ajax.php:1740
+#: assets/lib/admin_general_ajax.php:1741
+#: assets/lib/admin_general_ajax.php:2558
+#: assets/lib/notification_reminder.php:187
+#: assets/lib/oct_front_booking_complete.php:486
+#: assets/lib/oct_front_booking_complete.php:487
+msgid "Client Email"
+msgstr ""
+
+#: admin/general_settings.php:1624
+msgid "Client Email Notifications"
+msgstr ""
+
+#: admin/general_settings.php:1694 admin/general_settings.php:1701
+msgid "Client Email Templates"
+msgstr ""
+
+#: admin/clients.php:49 admin/clients.php:113 admin/clients.php:141
+#: admin/clients.php:197 assets/lib/admin_general_ajax.php:998
+#: assets/lib/admin_general_ajax.php:999 assets/lib/admin_general_ajax.php:1737
+#: assets/lib/admin_general_ajax.php:1738
+#: assets/lib/admin_general_ajax.php:2555
+#: assets/lib/admin_general_ajax.php:3825
+#: assets/lib/admin_general_ajax.php:3889
+#: assets/lib/admin_general_ajax.php:3929
+#: assets/lib/admin_general_ajax.php:3985
+#: assets/lib/notification_reminder.php:184
+#: assets/lib/oct_front_booking_complete.php:483
+#: assets/lib/oct_front_booking_complete.php:484
+msgid "Client Name"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:1015
+#: assets/lib/admin_general_ajax.php:1016
+#: assets/lib/admin_general_ajax.php:1754
+#: assets/lib/admin_general_ajax.php:1755
+#: assets/lib/admin_general_ajax.php:2561
+#: assets/lib/notification_reminder.php:190
+#: assets/lib/notification_reminder.php:202
+#: assets/lib/oct_front_booking_complete.php:499
+#: assets/lib/oct_front_booking_complete.php:500
+msgid "Client Phone"
+msgstr ""
+
+#: admin/general_settings.php:2408 admin/general_settings.php:2415
+msgid "Client SMS Templates"
+msgstr ""
+
+#: admin/header.php:628
+msgid "Close Notifications"
+msgstr ""
+
+#: admin/general_settings.php:963
+msgid "Color Scheme"
+msgstr ""
+
+#: admin/services.php:242 admin/services.php:471
+#: assets/lib/service_ajax.php:317 assets/lib/service_ajax.php:538
+msgid "Color Tag"
+msgstr ""
+
+#: admin/general_settings.php:39
+msgid "Company"
+msgstr ""
+
+#: admin/general_settings.php:106
+msgid "Company Address"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3493
+msgid "Company Director"
+msgstr ""
+
+#: admin/general_settings.php:73
+msgid "Company Email"
+msgstr ""
+
+#: admin/general_settings.php:140
+msgid "Company Logo"
+msgstr ""
+
+#: admin/general_settings.php:209
+msgid "Company logo is used for invoice purpose."
+msgstr ""
+
+#: admin/general_settings.php:64
+msgid "Company Name"
+msgstr ""
+
+#: admin/general_settings.php:69
+msgid "Company name is used for invoice purpose."
+msgstr ""
+
+#: admin/general_settings.php:93 admin/general_settings.php:98
+msgid "Company Phone"
+msgstr ""
+
+#: admin/general_settings.php:58
+msgid "Company Settings"
+msgstr ""
+
+#: admin/dashboard.php:241 admin/dashboard.php:302 admin/dashboard.php:341
+#: admin/export.php:150 assets/lib/admin_general_ajax.php:184
+#: assets/lib/admin_general_ajax.php:350 assets/lib/admin_general_ajax.php:509
+#: assets/lib/admin_general_ajax.php:3137
+#: assets/lib/admin_general_ajax.php:3201
+msgid "Completed"
+msgstr ""
+
+#: admin/dashboard.php:231 admin/dashboard.php:331 admin/header.php:860
+#: admin/header.php:870 assets/lib/admin_general_ajax.php:940
+#: assets/lib/admin_general_ajax.php:1677
+#: assets/lib/admin_general_ajax.php:2606
+#: assets/lib/admin_general_ajax.php:3127
+#: assets/lib/admin_general_ajax.php:3186
+#: assets/lib/oct_front_booking_complete.php:405
+msgid "Confirm"
+msgstr ""
+
+#: admin/calendar.php:37 admin/export.php:145 admin/header.php:294
+#: assets/lib/admin_general_ajax.php:178 assets/lib/admin_general_ajax.php:345
+#: assets/lib/admin_general_ajax.php:504
+msgid "Confirmed"
+msgstr ""
+
+#: frontend/oct_firstep.php:788
+msgid "Congratulations"
+msgstr ""
+
+#: frontend/oct_thankyou.php:127
+msgid "Congratulations!"
+msgstr ""
+
+#: admin/calendar.php:226
+msgid "Continue"
+msgstr ""
+
+#: admin/calendar.php:301 admin/export.php:326 admin/general_settings.php:132
+#: admin/locations.php:490 admin/locations.php:669 admin/locations.php:670
+#: assets/lib/location_ajax.php:362 assets/lib/location_ajax.php:363
+#: assets/lib/location_ajax.php:546 assets/lib/location_ajax.php:547
+msgid "Country"
+msgstr ""
+
+#: admin/general_settings.php:2719 admin/general_settings.php:2774
+#: admin/general_settings.php:2844
+msgid "Coupon Code"
+msgstr ""
+
+#: admin/general_settings.php:2817 admin/general_settings.php:2887
+msgid "Coupon code will work for such date"
+msgstr ""
+
+#: admin/general_settings.php:2807 admin/general_settings.php:2877
+msgid "Coupon code will work for such limit"
+msgstr ""
+
+#: frontend/oct_firstep.php:1453 assets/lib/oct_front_ajax.php:838
+msgid "Coupon Discount"
+msgstr ""
+
+#: admin/general_settings.php:2720
+msgid "Coupon Expire On"
+msgstr ""
+
+#: admin/general_settings.php:2722 admin/general_settings.php:2805
+#: admin/general_settings.php:2875
+msgid "Coupon Limit"
+msgstr ""
+
+#: admin/general_settings.php:2724
+msgid "Coupon Status"
+msgstr ""
+
+#: admin/general_settings.php:2782 admin/general_settings.php:2852
+msgid "Coupon Type"
+msgstr ""
+
+#: admin/general_settings.php:2723
+msgid "Coupon Used"
+msgstr ""
+
+#: admin/general_settings.php:2721
+msgid "Coupon Value"
+msgstr ""
+
+#: admin/general_settings.php:2798 admin/general_settings.php:2868
+msgid ""
+"Coupon Value would be consider as percentage in percentage mode and in flat "
+"mode it will be consider as amount.No need to add percentage sign it will "
+"auto added."
+msgstr ""
+
+#: admin/dashboard.php:100
+msgid "Coupons View"
+msgstr ""
+
+#: admin/general_settings.php:2824 admin/services.php:77 admin/staff.php:111
+#: assets/lib/category_ajax.php:79 assets/lib/service_ajax.php:177
+#: assets/lib/staff_ajax.php:235
+msgid "Create"
+msgstr ""
+
+#: admin/service_addons.php:67
+msgid "Create Addon Service"
+msgstr ""
+
+#: admin/general_settings.php:174 admin/general_settings.php:237
+#: admin/locations.php:413 admin/locations.php:592 admin/services.php:291
+#: admin/services.php:515 admin/service_addons.php:180
+#: admin/service_addons.php:398 admin/staff.php:236
+#: assets/lib/location_ajax.php:276 assets/lib/location_ajax.php:468
+#: assets/lib/service_ajax.php:366 assets/lib/service_ajax.php:582
+#: assets/lib/staff_ajax.php:611
+msgid "Crop & Save"
+msgstr ""
+
+#: admin/general_settings.php:447
+msgid "Currency"
+msgstr ""
+
+#: admin/general_settings.php:612
+msgid "Currency symbol position"
+msgstr ""
+
+#: admin/general_settings.php:1209
+msgid ""
+"Currency you have selected ( currency option ) is not supported by Stipe."
+msgstr ""
+
+#: admin/general_settings.php:47 admin/general_settings.php:2684
+msgid "Custom Form Fields"
+msgstr ""
+
+#: admin/general_settings.php:2632
+msgid "Custom Label"
+msgstr ""
+
+#: admin/header.php:205
+msgid "Custom Range"
+msgstr ""
+
+#: admin/export.php:118 admin/header.php:825 admin/reviews.php:39
+#: admin/reviews.php:146 admin/reviews.php:255
+msgid "Customer"
+msgstr ""
+
+#: admin/calendar.php:109
+msgid "Customer Details"
+msgstr ""
+
+#: admin/calendar.php:267
+msgid "Customer Name"
+msgstr ""
+
+#: admin/header.php:711 admin/header.php:741
+msgid "Customers"
+msgstr ""
+
+#: frontend/oct_firstep.php:712
+msgid "CVC"
+msgstr ""
+
+#: admin/header.php:724 admin/header.php:728
+msgid "Dashboard"
+msgstr ""
+
+#: admin/client_dashboard_front.php:83 admin/reviews.php:37
+#: admin/reviews.php:144 admin/reviews.php:253
+#: assets/lib/admin_general_ajax.php:3436
+msgid "Date"
+msgstr ""
+
+#: admin/calendar.php:175 admin/header.php:996
+msgid "Date & Time"
+msgstr ""
+
+#: admin/general_settings.php:329 admin/general_settings.php:353
+#: admin/general_settings.php:357
+msgid "Day"
+msgstr ""
+
+#: admin/general_settings.php:354 admin/general_settings.php:355
+#: admin/general_settings.php:356 admin/general_settings.php:358
+#: admin/general_settings.php:359
+msgid "Days"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "December"
+msgstr ""
+
+#: admin/general_settings.php:82
+msgid "Default Country Code"
+msgstr ""
+
+#: admin/services.php:360 admin/services.php:581
+#: assets/lib/service_ajax.php:434 assets/lib/service_ajax.php:648
+msgid "Default Price"
+msgstr ""
+
+#: admin/general_settings.php:219 admin/general_settings.php:941
+#: admin/general_settings.php:1171
+msgid "Default Setting"
+msgstr ""
+
+#: admin/general_settings.php:733
+msgid "Default url is :"
+msgstr ""
+
+#: admin/clients.php:80 admin/clients.php:162 admin/dashboard.php:304
+#: admin/header.php:920 admin/header.php:928 frontend/oct_firstep.php:1304
+#: frontend/oct_firstep.php:1388 assets/lib/admin_general_ajax.php:3856
+#: assets/lib/admin_general_ajax.php:3950 assets/lib/oct_front_ajax.php:607
+#: assets/lib/oct_front_ajax.php:713 assets/lib/oct_front_ajax.php:904
+#: assets/lib/oct_front_ajax.php:994
+msgid "Delete"
+msgstr ""
+
+#: admin/service_addons.php:105
+msgid "Delete Addon"
+msgstr ""
+
+#: admin/services.php:136
+msgid "Delete Category"
+msgstr ""
+
+#: admin/clients.php:80 admin/clients.php:162
+#: assets/lib/admin_general_ajax.php:3856
+#: assets/lib/admin_general_ajax.php:3950
+msgid "Delete Client"
+msgstr ""
+
+#: admin/general_settings.php:2744 assets/lib/setting_ajax.php:116
+msgid "Delete coupon"
+msgstr ""
+
+#: admin/staff.php:221 assets/lib/staff_ajax.php:595
+msgid "Delete Image"
+msgstr ""
+
+#: admin/locations.php:323 assets/lib/location_ajax.php:188
+msgid "Delete location"
+msgstr ""
+
+#: admin/staff.php:167
+msgid "Delete Member?"
+msgstr ""
+
+#: admin/reviews.php:106 admin/reviews.php:215 admin/reviews.php:303
+msgid "Delete Review?"
+msgstr ""
+
+#: admin/services.php:208 frontend/oct_firstep.php:1421
+#: assets/lib/oct_front_ajax.php:746 assets/lib/oct_front_ajax.php:1026
+msgid "Delete Service"
+msgstr ""
+
+#: admin/services.php:136
+msgid "Delete service category?"
+msgstr ""
+
+#: admin/service_addons.php:105
+msgid "Delete this Addon?"
+msgstr ""
+
+#: admin/header.php:920
+msgid "Delete this appointment?"
+msgstr ""
+
+#: admin/clients.php:80 admin/clients.php:162
+#: assets/lib/admin_general_ajax.php:3856
+#: assets/lib/admin_general_ajax.php:3950
+msgid "Delete this Client?"
+msgstr ""
+
+#: admin/general_settings.php:2744 assets/lib/setting_ajax.php:116
+msgid "Delete this coupon?"
+msgstr ""
+
+#: admin/locations.php:323 assets/lib/location_ajax.php:188
+msgid "Delete this location?"
+msgstr ""
+
+#: admin/services.php:208
+msgid "Delete this service?"
+msgstr ""
+
+#: admin/staff.php:284 assets/lib/staff_ajax.php:659
+msgid "Desc"
+msgstr ""
+
+#: admin/export.php:237 admin/export.php:319 admin/locations.php:368
+#: admin/locations.php:552 assets/lib/admin_general_ajax.php:3433
+#: assets/lib/location_ajax.php:232 assets/lib/location_ajax.php:428
+msgid "Description"
+msgstr ""
+
+#: admin/staff.php:191 assets/lib/staff_ajax.php:566
+msgid "Details"
+msgstr ""
+
+#: admin/general_settings.php:280 admin/general_settings.php:294
+#: admin/general_settings.php:665 admin/general_settings.php:692
+#: admin/general_settings.php:758 admin/general_settings.php:789
+#: admin/general_settings.php:800 admin/general_settings.php:813
+#: admin/general_settings.php:869 admin/general_settings.php:891
+#: admin/general_settings.php:913 admin/general_settings.php:1196
+#: admin/general_settings.php:1218 admin/general_settings.php:1234
+#: admin/general_settings.php:1276 admin/general_settings.php:1288
+#: admin/general_settings.php:1309 admin/general_settings.php:1350
+#: admin/general_settings.php:1390 admin/general_settings.php:1444
+#: admin/general_settings.php:1596 admin/general_settings.php:1607
+#: admin/general_settings.php:1618 admin/general_settings.php:1628
+#: admin/general_settings.php:1952 admin/general_settings.php:1969
+#: admin/general_settings.php:2021 admin/general_settings.php:2033
+#: admin/general_settings.php:2044 admin/general_settings.php:2080
+#: admin/general_settings.php:2132 admin/general_settings.php:2143
+#: admin/general_settings.php:2154 admin/general_settings.php:2189
+#: admin/general_settings.php:2241 admin/general_settings.php:2252
+#: admin/general_settings.php:2263 admin/general_settings.php:2298
+#: admin/general_settings.php:2341 admin/general_settings.php:2352
+#: admin/general_settings.php:2363 admin/general_settings.php:2738
+#: admin/locations.php:318 admin/services.php:194 admin/services.php:395
+#: admin/services.php:613 admin/service_addons.php:100
+#: assets/lib/location_ajax.php:178 assets/lib/service_ajax.php:273
+#: assets/lib/service_ajax.php:468 assets/lib/service_ajax.php:680
+#: assets/lib/setting_ajax.php:106 assets/lib/staff_ajax.php:804
+msgid "Disable"
+msgstr ""
+
+#: admin/general_settings.php:3023
+msgid "Disconnect"
+msgstr ""
+
+#: admin/payments.php:58 assets/lib/admin_general_ajax.php:3467
+msgid "Discount"
+msgstr ""
+
+#: admin/sidebar.php:8
+msgid "Discount Coupons"
+msgstr ""
+
+#: admin/general_settings.php:808
+msgid "Display cart discription in frontside"
+msgstr ""
+
+#: assets/lib/booking_crc_email.php:70
+msgid "Do you want to cancel this appointment?"
+msgstr ""
+
+#: assets/lib/booking_crc_email.php:42
+msgid "Do you want to confirm this appointment?"
+msgstr ""
+
+#: assets/lib/booking_crc_email.php:56
+msgid "Do you want to reject this appointment?"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:240 assets/lib/admin_general_ajax.php:2572
+#: assets/lib/notification_reminder.php:196
+msgid "DOB"
+msgstr ""
+
+#: frontend/oct_firstep.php:296 frontend/oct_firstep.php:781
+#: frontend/oct_firstep.php:807
+msgid "Done"
+msgstr ""
+
+#: admin/client_dashboard.php:65
+msgid "Download Invoice"
+msgstr ""
+
+#: admin/export.php:234 admin/services.php:340 admin/services.php:562
+#: assets/lib/admin_general_ajax.php:3434 assets/lib/service_ajax.php:415
+#: assets/lib/service_ajax.php:629
+msgid "Duration"
+msgstr ""
+
+#: admin/general_settings.php:2742
+msgid "Edit coupon code"
+msgstr ""
+
+#: admin/calendar.php:270 admin/clients.php:50 admin/clients.php:142
+#: admin/export.php:184 admin/export.php:320 admin/header.php:832
+#: admin/locations.php:448 admin/locations.php:626 admin/staff.php:105
+#: frontend/oct_firstep.php:342 assets/lib/admin_general_ajax.php:3826
+#: assets/lib/admin_general_ajax.php:3930 assets/lib/location_ajax.php:318
+#: assets/lib/location_ajax.php:502 assets/lib/staff_ajax.php:229
+msgid "Email"
+msgstr ""
+
+#: admin/sidebar.php:5
+msgid "Email "
+msgstr ""
+
+#: frontend/oct_firstep.php:1619
+msgid "Email already exist"
+msgstr ""
+
+#: admin/general_settings.php:1736 admin/general_settings.php:1814
+#: admin/general_settings.php:1892
+msgid "Email Content"
+msgstr ""
+
+#: admin/header.php:94
+msgid "Email exist or not valid"
+msgstr ""
+
+#: admin/general_settings.php:43
+msgid "Email Notification"
+msgstr ""
+
+#: admin/general_settings.php:1584
+msgid "Email Settings"
+msgstr ""
+
+#: admin/general_settings.php:1734 admin/general_settings.php:1812
+#: admin/general_settings.php:1890
+msgid "Email Subject"
+msgstr ""
+
+#: admin/general_settings.php:1690
+msgid "Email Template Settings"
+msgstr ""
+
+#: admin/general_settings.php:44 admin/sidebar.php:6
+msgid "Email Templates"
+msgstr ""
+
+#: admin/general_settings.php:280 admin/general_settings.php:294
+#: admin/general_settings.php:665 admin/general_settings.php:692
+#: admin/general_settings.php:758 admin/general_settings.php:789
+#: admin/general_settings.php:800 admin/general_settings.php:813
+#: admin/general_settings.php:869 admin/general_settings.php:891
+#: admin/general_settings.php:913 admin/general_settings.php:1196
+#: admin/general_settings.php:1218 admin/general_settings.php:1234
+#: admin/general_settings.php:1276 admin/general_settings.php:1288
+#: admin/general_settings.php:1309 admin/general_settings.php:1350
+#: admin/general_settings.php:1390 admin/general_settings.php:1444
+#: admin/general_settings.php:1596 admin/general_settings.php:1607
+#: admin/general_settings.php:1618 admin/general_settings.php:1628
+#: admin/general_settings.php:1952 admin/general_settings.php:1969
+#: admin/general_settings.php:2021 admin/general_settings.php:2033
+#: admin/general_settings.php:2044 admin/general_settings.php:2080
+#: admin/general_settings.php:2132 admin/general_settings.php:2143
+#: admin/general_settings.php:2154 admin/general_settings.php:2189
+#: admin/general_settings.php:2241 admin/general_settings.php:2252
+#: admin/general_settings.php:2263 admin/general_settings.php:2298
+#: admin/general_settings.php:2341 admin/general_settings.php:2352
+#: admin/general_settings.php:2363 admin/general_settings.php:2738
+#: admin/locations.php:318 admin/services.php:194 admin/services.php:395
+#: admin/services.php:613 admin/service_addons.php:100
+#: assets/lib/location_ajax.php:178 assets/lib/service_ajax.php:273
+#: assets/lib/service_ajax.php:468 assets/lib/service_ajax.php:680
+#: assets/lib/setting_ajax.php:106 assets/lib/staff_ajax.php:804
+msgid "Enable"
+msgstr ""
+
+#: admin/staff.php:393 assets/lib/staff_ajax.php:769
+msgid "Enable Booking"
+msgstr ""
+
+#: admin/general_settings.php:2048 admin/general_settings.php:2157
+#: admin/general_settings.php:2266
+msgid "Enable or Disable, Send SMS to Admin for appointment booking info."
+msgstr ""
+
+#: admin/general_settings.php:2366
+msgid "Enable or Disable, Send SMS to admin for appointment booking info."
+msgstr ""
+
+#: admin/general_settings.php:2355
+msgid "Enable or Disable, Send SMS to Client for appointment booking info."
+msgstr ""
+
+#: admin/general_settings.php:2036 admin/general_settings.php:2146
+#: admin/general_settings.php:2255
+msgid "Enable or Disable, Send SMS to client for appointment booking info."
+msgstr ""
+
+#: admin/general_settings.php:2344
+msgid ""
+"Enable or Disable, Send SMS to Service Provider for appointment booking info."
+msgstr ""
+
+#: admin/general_settings.php:2025 admin/general_settings.php:2135
+#: admin/general_settings.php:2244
+msgid ""
+"Enable or Disable, Send SMS to Service provider for appointment booking info."
+msgstr ""
+
+#: admin/staff.php:863 assets/lib/staff_ajax.php:1241
+#: assets/lib/staff_ajax.php:1403
+msgid "End Date"
+msgstr ""
+
+#: admin/staff.php:864 assets/lib/staff_ajax.php:1242
+#: assets/lib/staff_ajax.php:1404
+msgid "End Time"
+msgstr ""
+
+#: admin/staff.php:72 frontend/oct_firstep.php:319
+#: assets/lib/staff_ajax.php:196
+msgid "Existing User"
+msgstr ""
+
+#: frontend/oct_firstep.php:699
+msgid "Expiry (MM/YYYY)"
+msgstr ""
+
+#: admin/general_settings.php:2811 admin/general_settings.php:2881
+msgid "Expiry Date"
+msgstr ""
+
+#: admin/header.php:702 admin/header.php:749
+msgid "Export"
+msgstr ""
+
+#: frontend/oct_firstep.php:1392 assets/lib/oct_front_ajax.php:153
+#: assets/lib/oct_front_ajax.php:718 assets/lib/oct_front_ajax.php:999
+msgid "Extra Services"
+msgstr ""
+
+#: admin/header.php:560
+msgid "Failed!"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "February"
+msgstr ""
+
+#: frontend/oct_firstep.php:428
+msgid "Female"
+msgstr ""
+
+#: admin/staff.php:617
+msgid "Fifth Week"
+msgstr ""
+
+#: admin/staff.php:474 assets/lib/staff_ajax.php:851
+#: assets/lib/staff_ajax.php:994
+msgid "Fifth Week "
+msgstr ""
+
+#: admin/staff.php:733 assets/lib/staff_ajax.php:1111
+msgid "Fifth Week Breaks"
+msgstr ""
+
+#: admin/general_settings.php:184 admin/general_settings.php:247
+#: admin/locations.php:423 admin/locations.php:602 admin/services.php:301
+#: admin/services.php:525 admin/service_addons.php:190
+#: admin/service_addons.php:408 admin/staff.php:246
+#: assets/lib/location_ajax.php:286 assets/lib/location_ajax.php:478
+#: assets/lib/service_ajax.php:376 assets/lib/service_ajax.php:592
+#: assets/lib/staff_ajax.php:621
+msgid "File size"
+msgstr ""
+
+#: frontend/oct_firstep.php:394
+msgid "First Name"
+msgstr ""
+
+#: admin/staff.php:474 admin/staff.php:617
+msgid "First Week"
+msgstr ""
+
+#: assets/lib/staff_ajax.php:851 assets/lib/staff_ajax.php:994
+msgid "First Week "
+msgstr ""
+
+#: admin/staff.php:733 assets/lib/staff_ajax.php:1111
+msgid "First Week Breaks"
+msgstr ""
+
+#: admin/general_settings.php:2787 admin/general_settings.php:2857
+msgid "Flat"
+msgstr ""
+
+#: admin/general_settings.php:676 admin/general_settings.php:708
+msgid "Flat Fee"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:946 assets/lib/admin_general_ajax.php:959
+#: assets/lib/admin_general_ajax.php:1685
+#: assets/lib/admin_general_ajax.php:1698
+#: assets/lib/admin_general_ajax.php:2547
+#: assets/lib/notification_reminder.php:176
+#: assets/lib/oct_front_booking_complete.php:425
+#: assets/lib/oct_front_booking_complete.php:439
+msgid "For"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3490
+msgid "For "
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3140
+msgid "for a"
+msgstr ""
+
+#: frontend/oct_firstep.php:360
+msgid "Forget Password"
+msgstr ""
+
+#: admin/client_dashboard_front.php:222
+msgid "Forgot Password?"
+msgstr ""
+
+#: admin/sidebar.php:10
+msgid "Form Fields"
+msgstr ""
+
+#: admin/staff.php:617
+msgid "Fourth Week"
+msgstr ""
+
+#: admin/staff.php:474 assets/lib/staff_ajax.php:851
+#: assets/lib/staff_ajax.php:994
+msgid "Fourth Week "
+msgstr ""
+
+#: admin/staff.php:733 assets/lib/staff_ajax.php:1111
+msgid "Fourth Week Breaks"
+msgstr ""
+
+#: admin/payments.php:81 assets/lib/admin_general_ajax.php:107
+#: assets/lib/admin_general_ajax.php:194 assets/lib/admin_general_ajax.php:360
+#: assets/lib/admin_general_ajax.php:700 assets/lib/admin_general_ajax.php:3358
+msgid "Free"
+msgstr ""
+
+#: frontend/oct_firstep.php:1035 frontend/oct_firstep.php:1054
+#: frontend/oct_firstep.php:1073 frontend/oct_firstep.php:1092
+#: frontend/oct_firstep.php:1111 frontend/oct_firstep.php:1151
+#: frontend/oct_firstep.php:1170 assets/lib/oct_front_ajax.php:511
+msgid "Fri"
+msgstr ""
+
+#: admin/staff.php:491 admin/staff.php:636 admin/staff.php:751
+#: assets/lib/staff_ajax.php:868 assets/lib/staff_ajax.php:1013
+#: assets/lib/staff_ajax.php:1129
+msgid "Friday"
+msgstr ""
+
+#: admin/header.php:203
+msgid "From"
+msgstr ""
+
+#: admin/general_settings.php:1132
+msgid "Frontend Custom CSS"
+msgstr ""
+
+#: admin/staff.php:940 assets/lib/staff_ajax.php:1317
+msgid "Full Month"
+msgstr ""
+
+#: admin/staff.php:279 assets/lib/staff_ajax.php:654
+msgid "Full Name"
+msgstr ""
+
+#: admin/staff.php:101 assets/lib/staff_ajax.php:225
+msgid "Full name"
+msgstr ""
+
+#: frontend/oct_firstep.php:419 assets/lib/admin_general_ajax.php:222
+#: assets/lib/admin_general_ajax.php:1010
+#: assets/lib/admin_general_ajax.php:1011
+#: assets/lib/admin_general_ajax.php:1749
+#: assets/lib/admin_general_ajax.php:1750
+#: assets/lib/admin_general_ajax.php:2569
+#: assets/lib/notification_reminder.php:193
+#: assets/lib/oct_front_booking_complete.php:495
+#: assets/lib/oct_front_booking_complete.php:496
+msgid "Gender"
+msgstr ""
+
+#: admin/general_settings.php:40 admin/sidebar.php:2
+msgid "General"
+msgstr ""
+
+#: admin/general_settings.php:268
+msgid "General Settings"
+msgstr ""
+
+#: admin/general_settings.php:49 admin/general_settings.php:2919
+msgid "Google Calendar"
+msgstr ""
+
+#: admin/general_settings.php:2952
+msgid "Google Calender Admin URL"
+msgstr ""
+
+#: admin/general_settings.php:2928
+msgid "Google Calender Client ID"
+msgstr ""
+
+#: admin/general_settings.php:2936
+msgid "Google Calender Client Secret"
+msgstr ""
+
+#: admin/general_settings.php:2944
+msgid "Google Calender Frontend URL"
+msgstr ""
+
+#: admin/clients.php:29 admin/clients.php:134
+#: assets/lib/admin_general_ajax.php:3922
+msgid "Guest Customers"
+msgstr ""
+
+#: admin/clients.php:188 assets/lib/admin_general_ajax.php:3976
+msgid "Guest Customers Bookings"
+msgstr ""
+
+#: frontend/oct_firstep.php:330
+msgid "Guest User"
+msgstr ""
+
+#: admin/general_settings.php:1071
+msgid "Guest user checkout"
+msgstr ""
+
+#: admin/general_settings.php:187 admin/general_settings.php:250
+#: admin/locations.php:426 admin/locations.php:605 admin/services.php:304
+#: admin/services.php:528 admin/service_addons.php:193
+#: admin/service_addons.php:411 admin/staff.php:249
+#: assets/lib/location_ajax.php:289 assets/lib/location_ajax.php:481
+#: assets/lib/service_ajax.php:379 assets/lib/service_ajax.php:595
+#: assets/lib/staff_ajax.php:624
+msgid "H"
+msgstr ""
+
+#: frontend/oct_firstep.php:1485 assets/lib/oct_front_ajax.php:1065
+msgid "Have a Promocode?"
+msgstr ""
+
+#: admin/reviews.php:23 admin/reviews.php:244
+msgid "Hidden Reviews"
+msgstr ""
+
+#: admin/general_settings.php:1060
+msgid "Hide faded already booked time slots"
+msgstr ""
+
+#: admin/reviews.php:105 admin/reviews.php:214
+msgid "Hide Review"
+msgstr ""
+
+#: admin/general_settings.php:327 admin/general_settings.php:344
+#: admin/general_settings.php:410 admin/general_settings.php:431
+msgid "Hour"
+msgstr ""
+
+#: admin/general_settings.php:328 admin/general_settings.php:329
+#: admin/general_settings.php:329 admin/general_settings.php:329
+#: admin/general_settings.php:329 admin/general_settings.php:345
+#: admin/general_settings.php:346 admin/general_settings.php:347
+#: admin/general_settings.php:348 admin/general_settings.php:349
+#: admin/general_settings.php:350 admin/general_settings.php:351
+#: admin/general_settings.php:352 admin/general_settings.php:411
+#: admin/general_settings.php:412 admin/general_settings.php:413
+#: admin/general_settings.php:414 admin/general_settings.php:415
+#: admin/general_settings.php:416 admin/general_settings.php:417
+#: admin/general_settings.php:418 admin/general_settings.php:419
+#: admin/general_settings.php:432 admin/general_settings.php:433
+#: admin/general_settings.php:434 admin/general_settings.php:435
+#: admin/general_settings.php:436 admin/general_settings.php:437
+#: admin/general_settings.php:438 admin/general_settings.php:439
+#: admin/general_settings.php:440 admin/services.php:347 admin/services.php:568
+#: assets/lib/service_ajax.php:421 assets/lib/service_ajax.php:635
+msgid "Hours"
+msgstr ""
+
+#: assets/lib/oct_front_ajax.php:112
+msgid "Hrs"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://skymoonlabs.com/"
+msgstr ""
+
+#: frontend/oct_firstep.php:754
+msgid "I have read and accepted the"
+msgstr ""
+
+#: frontend/oct_firstep.php:652
+msgid "I will pay locally"
+msgstr ""
+
+#: assets/lib/booking_crc_email.php:71
+msgid "If Yes,Please Enter Cancel Reason"
+msgstr ""
+
+#: assets/lib/booking_crc_email.php:57
+msgid "If Yes,Please Enter Reject Reason"
+msgstr ""
+
+#: admin/locations.php:377 admin/locations.php:561
+#: assets/lib/location_ajax.php:242 assets/lib/location_ajax.php:437
+msgid "Image"
+msgstr ""
+
+#: frontend/oct_firstep.php:295 frontend/oct_firstep.php:780
+#: frontend/oct_firstep.php:806
+msgid "Info and Checkout"
+msgstr ""
+
+#: frontend/oct_firstep.php:1488 assets/lib/oct_front_ajax.php:1068
+msgid "Invalid Coupon code"
+msgstr ""
+
+#: frontend/oct_firstep.php:356
+msgid "Invalid Email or Password"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3333
+msgid "Invalid key supplied."
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3804
+msgid "Invalid Username or Password."
+msgstr ""
+
+#: admin/client_dashboard_front.php:169
+msgid "Invoice"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3420
+msgid "INVOICE #"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3425
+msgid "Invoice Date"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3400
+msgid "INVOICE TO:"
+msgstr ""
+
+#: admin/general_settings.php:1045
+msgid "It will enable descriptions for service on front."
+msgstr ""
+
+#: admin/general_settings.php:1034
+msgid "It will enable/disable dropdown for service on front."
+msgstr ""
+
+#: frontend/oct_firstep.php:1416 assets/lib/oct_front_ajax.php:741
+#: assets/lib/oct_front_ajax.php:1021
+msgid "Item Price"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "January"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "July"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "June"
+msgstr ""
+
+#: admin/reviews.php:75 admin/reviews.php:182 admin/reviews.php:291
+#: assets/lib/admin_general_ajax.php:3272
+msgid "Kinda bad - 2 stars"
+msgstr ""
+
+#: admin/reviews.php:74 admin/reviews.php:181 admin/reviews.php:290
+#: assets/lib/admin_general_ajax.php:3271
+msgid "Kinda bad - 2.5 stars"
+msgstr ""
+
+#: admin/general_settings.php:2623
+msgid "Labels"
+msgstr ""
+
+#: admin/header.php:197
+msgid "Last 30 Days"
+msgstr ""
+
+#: admin/header.php:196
+msgid "Last 7 Days"
+msgstr ""
+
+#: admin/header.php:199
+msgid "Last Month"
+msgstr ""
+
+#: frontend/oct_firstep.php:402
+msgid "Last Name"
+msgstr ""
+
+#: admin/dashboard.php:194
+msgid "Latest Bookings Activity"
+msgstr ""
+
+#: admin/calendar.php:35
+msgid "Legends"
+msgstr ""
+
+#: admin/general_settings.php:1280
+msgid "Let user pay through credit card without having Paypal account."
+msgstr ""
+
+#: admin/general_settings.php:2802 admin/general_settings.php:2872
+msgid "Limit"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:895 assets/lib/admin_general_ajax.php:1632
+#: assets/lib/oct_front_booking_complete.php:356
+msgid "Location"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:895 assets/lib/admin_general_ajax.php:1632
+#: assets/lib/oct_front_booking_complete.php:356
+msgid "Location Address"
+msgstr ""
+
+#: admin/locations.php:372 admin/locations.php:557
+#: assets/lib/location_ajax.php:237 assets/lib/location_ajax.php:433
+msgid "Location description is used for desribe about location."
+msgstr ""
+
+#: admin/locations.php:451 admin/locations.php:630
+#: assets/lib/location_ajax.php:323 assets/lib/location_ajax.php:507
+msgid "Location email is used for to identify your location for business."
+msgstr ""
+
+#: admin/locations.php:460 admin/locations.php:639
+#: assets/lib/location_ajax.php:332 assets/lib/location_ajax.php:516
+msgid "Location phone is used to find location easily."
+msgstr ""
+
+#: admin/general_settings.php:649
+msgid "Location sorting by"
+msgstr ""
+
+#: admin/locations.php:359 admin/locations.php:543
+#: assets/lib/location_ajax.php:223 assets/lib/location_ajax.php:417
+msgid "Location Title"
+msgstr ""
+
+#: admin/locations.php:362 admin/locations.php:547
+#: assets/lib/location_ajax.php:227 assets/lib/location_ajax.php:422
+msgid "Location title is used to display in frontend for bookings."
+msgstr ""
+
+#: admin/header.php:597 admin/header.php:719 admin/header.php:733
+msgid "Locations"
+msgstr ""
+
+#: admin/export.php:45
+msgid "Locations Information"
+msgstr ""
+
+#: admin/client_dashboard_front.php:222 frontend/oct_firstep.php:358
+msgid "Login"
+msgstr ""
+
+#: admin/client_dashboard_front.php:69 frontend/oct_firstep.php:309
+msgid "Logout"
+msgstr ""
+
+#: frontend/oct_firstep.php:424
+msgid "Male"
+msgstr ""
+
+#: admin/staff.php:144
+msgid "Manager"
+msgstr ""
+
+#: admin/general_settings.php:1603
+msgid "Manager Email Notifications"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "March"
+msgstr ""
+
+#: admin/calendar.php:43 admin/dashboard.php:243 admin/dashboard.php:343
+#: admin/header.php:300 assets/lib/admin_general_ajax.php:3139
+#: assets/lib/admin_general_ajax.php:3204
+msgid "Mark As No Show"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3142
+msgid "mark as read"
+msgstr ""
+
+#: admin/export.php:151 assets/lib/admin_general_ajax.php:185
+#: assets/lib/admin_general_ajax.php:351 assets/lib/admin_general_ajax.php:510
+msgid "Marked as No-Show"
+msgstr ""
+
+#: admin/service_addons.php:226 admin/service_addons.php:442
+msgid "Max Qty"
+msgstr ""
+
+#: admin/general_settings.php:366
+msgid "Maximum advance booking time"
+msgstr ""
+
+#: admin/general_settings.php:763
+msgid "Maximum booking limit"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "May"
+msgstr ""
+
+#: admin/reviews.php:76 admin/reviews.php:183 admin/reviews.php:292
+#: assets/lib/admin_general_ajax.php:3273
+msgid "Meh - 1.5 stars"
+msgstr ""
+
+#: admin/reviews.php:73 admin/reviews.php:180 admin/reviews.php:289
+#: assets/lib/admin_general_ajax.php:3270
+msgid "Meh - 3 stars"
+msgstr ""
+
+#: admin/reviews.php:72 admin/reviews.php:179 admin/reviews.php:288
+#: assets/lib/admin_general_ajax.php:3269
+msgid "Meh - 3.5 stars"
+msgstr ""
+
+#: admin/general_settings.php:1424
+msgid "Merchant Channel Id"
+msgstr ""
+
+#: admin/general_settings.php:1408
+msgid "Merchant Id"
+msgstr ""
+
+#: admin/general_settings.php:1432
+msgid "Merchant Industry Type"
+msgstr ""
+
+#: admin/general_settings.php:1360 admin/general_settings.php:1400
+msgid "Merchant Key"
+msgstr ""
+
+#: admin/general_settings.php:1416
+msgid "Merchant Website URL"
+msgstr ""
+
+#: admin/general_settings.php:336
+msgid "Minimum advance booking time"
+msgstr ""
+
+#: admin/general_settings.php:362
+msgid ""
+"Minimum advance booking time restrict client to book last minute booking, so "
+"that you should have sufficient time before appointment."
+msgstr ""
+
+#: admin/general_settings.php:321 admin/general_settings.php:322
+#: admin/general_settings.php:323 admin/general_settings.php:324
+#: admin/general_settings.php:325 admin/general_settings.php:326
+#: admin/general_settings.php:341 admin/general_settings.php:342
+#: admin/general_settings.php:343 admin/general_settings.php:394
+#: admin/general_settings.php:395 admin/general_settings.php:396
+#: admin/general_settings.php:397 admin/general_settings.php:398
+#: admin/services.php:352 admin/services.php:573
+#: assets/lib/service_ajax.php:426 assets/lib/service_ajax.php:639
+msgid "Minutes"
+msgstr ""
+
+#: frontend/oct_firstep.php:1023 frontend/oct_firstep.php:1063
+#: frontend/oct_firstep.php:1082 frontend/oct_firstep.php:1101
+#: frontend/oct_firstep.php:1120 frontend/oct_firstep.php:1139
+#: frontend/oct_firstep.php:1158 assets/lib/oct_front_ajax.php:499
+msgid "Mon"
+msgstr ""
+
+#: admin/staff.php:491 admin/staff.php:636 admin/staff.php:751
+#: assets/lib/staff_ajax.php:868 assets/lib/staff_ajax.php:1013
+#: assets/lib/staff_ajax.php:1129
+msgid "Monday"
+msgstr ""
+
+#: admin/general_settings.php:370
+msgid "Month"
+msgstr ""
+
+#: admin/export.php:196 admin/staff.php:387 assets/lib/staff_ajax.php:763
+msgid "Monthly"
+msgstr ""
+
+#: admin/general_settings.php:371 admin/general_settings.php:372
+#: admin/general_settings.php:373 admin/general_settings.php:374
+#: admin/general_settings.php:375 admin/general_settings.php:376
+#: admin/general_settings.php:377 admin/general_settings.php:378
+#: admin/general_settings.php:379 admin/general_settings.php:380
+msgid "Months"
+msgstr ""
+
+#: admin/clients.php:120 admin/clients.php:204
+#: assets/lib/admin_general_ajax.php:3896
+#: assets/lib/admin_general_ajax.php:3992
+msgid "More Details"
+msgstr ""
+
+#: admin/general_settings.php:275
+msgid "Multi-Location"
+msgstr ""
+
+#: admin/service_addons.php:230 admin/service_addons.php:446
+msgid "Multiple Qty"
+msgstr ""
+
+#: admin/general_settings.php:2225
+msgid "Must be a valid number associated with your Nexmo account."
+msgstr ""
+
+#: admin/general_settings.php:2116
+msgid "Must be a valid number associated with your Plivo account."
+msgstr ""
+
+#: admin/general_settings.php:2005
+msgid "Must be a valid number associated with your Twilio account."
+msgstr ""
+
+#: admin/client_dashboard.php:33
+msgid "My Appointments"
+msgstr ""
+
+#: admin/client_dashboard.php:61 admin/client_dashboard.php:78
+msgid "My Bookings"
+msgstr ""
+
+#: admin/calendar.php:266 admin/export.php:183 admin/header.php:828
+msgid "Name"
+msgstr ""
+
+#: admin/payments.php:61
+msgid "Net Total"
+msgstr ""
+
+#: admin/staff.php:62 frontend/oct_firstep.php:323
+#: assets/lib/staff_ajax.php:186
+msgid "New User"
+msgstr ""
+
+#: admin/general_settings.php:2198
+msgid "Nexmo Account Settings"
+msgstr ""
+
+#: admin/general_settings.php:2270
+msgid "Nexmo Admin Phone Number"
+msgstr ""
+
+#: admin/general_settings.php:2201
+msgid "Nexmo API Key"
+msgstr ""
+
+#: admin/general_settings.php:2210
+msgid "Nexmo API Secret"
+msgstr ""
+
+#: admin/general_settings.php:2220
+msgid "Nexmo From"
+msgstr ""
+
+#: admin/general_settings.php:2259
+msgid "Nexmo Send Sms To admin Status"
+msgstr ""
+
+#: admin/general_settings.php:2248
+msgid "Nexmo Send Sms To Client Status"
+msgstr ""
+
+#: admin/general_settings.php:2185
+msgid "Nexmo SMS Gateway"
+msgstr ""
+
+#: frontend/oct_firstep.php:1263
+msgid "Next"
+msgstr ""
+
+#: admin/general_settings.php:641 admin/general_settings.php:2925
+#: admin/general_settings.php:2960 admin/header.php:784
+msgid "No"
+msgstr ""
+
+#: admin/client_dashboard_front.php:192
+msgid "No Appointment Found"
+msgstr ""
+
+#: admin/client_dashboard.php:110
+msgid "No Appointment Found."
+msgstr ""
+
+#: admin/dashboard.php:143
+msgid "No Appointments Today"
+msgstr ""
+
+#: admin/dashboard.php:124
+msgid "No Coupon Data Available"
+msgstr ""
+
+#: admin/dashboard.php:200
+msgid "No latest booking"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3151
+msgid "No notification found"
+msgstr ""
+
+#: admin/dashboard.php:275
+msgid "No Past Booking For Quick Action"
+msgstr ""
+
+#: admin/dashboard.php:116
+msgid "No provider data available"
+msgstr ""
+
+#: frontend/oct_firstep.php:945 frontend/oct_firstep.php:969
+#: assets/lib/oct_front_ajax.php:212 assets/lib/oct_front_ajax.php:237
+msgid "No provider found with enable status"
+msgstr ""
+
+#: admin/dashboard.php:107
+msgid "No service data available"
+msgstr ""
+
+#: assets/lib/service_ajax.php:245
+msgid "No Service Found"
+msgstr ""
+
+#: frontend/oct_firstep.php:897 assets/lib/oct_front_ajax.php:89
+msgid "No service found for this location."
+msgstr ""
+
+#: admin/dashboard.php:303
+msgid "No Show"
+msgstr ""
+
+#: admin/staff.php:1014
+msgid "No Staff Found"
+msgstr ""
+
+#: frontend/oct_firstep.php:1210 frontend/oct_firstep.php:1240
+#: assets/lib/oct_front_ajax.php:548 assets/lib/oct_front_ajax.php:578
+msgid "Not Available"
+msgstr ""
+
+#: admin/calendar.php:216 admin/header.php:844
+#: assets/lib/admin_general_ajax.php:261 assets/lib/admin_general_ajax.php:1031
+#: assets/lib/admin_general_ajax.php:1032
+#: assets/lib/admin_general_ajax.php:1770
+#: assets/lib/admin_general_ajax.php:1771
+#: assets/lib/admin_general_ajax.php:2593
+#: assets/lib/notification_reminder.php:220
+#: assets/lib/oct_front_booking_complete.php:515
+#: assets/lib/oct_front_booking_complete.php:516
+msgid "Notes"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "November"
+msgstr ""
+
+#. Name of the plugin
+msgid "OctaBook"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"OctaBook is an online appointment booking wordpress plugin, your website "
+"visitor can see the available time for service provider and can book their "
+"appointment instantly,due its shopping cart feature one user can book "
+"multiple appointments at once. you can use this shortcode for booking page "
+"in frontend [octabook]."
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "October"
+msgstr ""
+
+#: admin/general_settings.php:742 admin/general_settings.php:1009
+#: admin/general_settings.php:1020 admin/general_settings.php:1031
+#: admin/general_settings.php:1042 admin/general_settings.php:1053
+#: admin/general_settings.php:1064 admin/general_settings.php:1075
+#: admin/general_settings.php:1112 admin/general_settings.php:1124
+#: admin/general_settings.php:1713 admin/general_settings.php:1790
+#: admin/general_settings.php:1868 admin/general_settings.php:2427
+#: admin/general_settings.php:2493 admin/general_settings.php:2561
+#: admin/services.php:413 admin/services.php:627 admin/service_addons.php:234
+#: admin/service_addons.php:450 admin/staff.php:396 admin/staff.php:427
+#: admin/staff.php:442 admin/staff.php:647 assets/lib/service_ajax.php:484
+#: assets/lib/service_ajax.php:692 assets/lib/staff_ajax.php:772
+#: assets/lib/staff_ajax.php:820 assets/lib/staff_ajax.php:1024
+msgid "Off"
+msgstr ""
+
+#: admin/staff.php:196 assets/lib/staff_ajax.php:571
+msgid "Off Days"
+msgstr ""
+
+#: admin/staff.php:195 assets/lib/staff_ajax.php:570
+msgid "Off Time"
+msgstr ""
+
+#: admin/staff.php:843 assets/lib/staff_ajax.php:1221
+msgid "Off Times for"
+msgstr ""
+
+#: admin/export.php:236 admin/services.php:370 admin/services.php:591
+#: assets/lib/service_ajax.php:444 assets/lib/service_ajax.php:658
+msgid "Offered Price"
+msgstr ""
+
+#: assets/lib/oct_front_ajax.php:125
+msgid "Offered Price -"
+msgstr ""
+
+#: admin/header.php:61
+msgid "Offered price should be less then default price"
+msgstr ""
+
+#: assets/lib/booking_crc_email.php:46 assets/lib/booking_crc_email.php:61
+#: assets/lib/booking_crc_email.php:75
+msgid "OK"
+msgstr ""
+
+#: admin/header.php:910 assets/lib/admin_general_ajax.php:3247
+msgid "Ok"
+msgstr ""
+
+#: admin/dashboard.php:250 admin/dashboard.php:352
+#: admin/general_settings.php:1009 admin/general_settings.php:1020
+#: admin/general_settings.php:1031 admin/general_settings.php:1042
+#: admin/general_settings.php:1053 admin/general_settings.php:1064
+#: admin/general_settings.php:1075 admin/general_settings.php:1112
+#: admin/general_settings.php:1124 admin/general_settings.php:1713
+#: admin/general_settings.php:1790 admin/general_settings.php:1868
+#: admin/general_settings.php:2427 admin/general_settings.php:2493
+#: admin/general_settings.php:2561 admin/services.php:413
+#: admin/services.php:627 admin/service_addons.php:234
+#: admin/service_addons.php:450 admin/staff.php:396 admin/staff.php:427
+#: admin/staff.php:442 admin/staff.php:647
+#: assets/lib/admin_general_ajax.php:948 assets/lib/admin_general_ajax.php:961
+#: assets/lib/admin_general_ajax.php:1687
+#: assets/lib/admin_general_ajax.php:1700
+#: assets/lib/admin_general_ajax.php:2549
+#: assets/lib/notification_reminder.php:178
+#: assets/lib/oct_front_booking_complete.php:427
+#: assets/lib/oct_front_booking_complete.php:441
+#: assets/lib/service_ajax.php:484 assets/lib/service_ajax.php:692
+#: assets/lib/staff_ajax.php:772 assets/lib/staff_ajax.php:820
+#: assets/lib/staff_ajax.php:1024
+msgid "On"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3140
+msgid "on"
+msgstr ""
+
+#: admin/client_dashboard.php:40 admin/client_dashboard_front.php:80
+msgid "Order #"
+msgstr ""
+
+#: admin/client_dashboard.php:41
+msgid "Order Date"
+msgstr ""
+
+#: admin/client_dashboard.php:42
+msgid "Order Time"
+msgstr ""
+
+#: admin/client_dashboard.php:85
+msgid "Order#"
+msgstr ""
+
+#: admin/general_settings.php:2631
+msgid "Original Label"
+msgstr ""
+
+#: admin/payments.php:60
+msgid "Partial Amount"
+msgstr ""
+
+#: admin/general_settings.php:688 frontend/oct_firstep.php:1522
+#: assets/lib/oct_front_ajax.php:862
+msgid "Partial Deposit"
+msgstr ""
+
+#: admin/general_settings.php:717
+msgid "Partial Deposit Message"
+msgstr ""
+
+#: admin/general_settings.php:696
+msgid ""
+"Partial payment option will help you to charge partial payment of total "
+"amount from client and remaining you can collect locally."
+msgstr ""
+
+#: admin/calendar.php:260 admin/client_dashboard_front.php:214
+#: admin/staff.php:97 frontend/oct_firstep.php:350
+#: assets/lib/staff_ajax.php:221
+msgid "Password"
+msgstr ""
+
+#: admin/dashboard.php:269
+msgid "Past Bookings Quick Actions"
+msgstr ""
+
+#: admin/payments.php:78 assets/lib/admin_general_ajax.php:104
+#: assets/lib/admin_general_ajax.php:191 assets/lib/admin_general_ajax.php:357
+#: assets/lib/admin_general_ajax.php:699 assets/lib/admin_general_ajax.php:3357
+msgid "Pay Locally"
+msgstr ""
+
+#: admin/general_settings.php:1215
+msgid "Pay locally"
+msgstr ""
+
+#: frontend/oct_firstep.php:663
+msgid "Pay with card now"
+msgstr ""
+
+#: frontend/oct_firstep.php:673
+msgid "Pay with paytm"
+msgstr ""
+
+#: frontend/oct_firstep.php:668
+msgid "Pay with payumoney"
+msgstr ""
+
+#: frontend/oct_firstep.php:1467 assets/lib/oct_front_ajax.php:851
+msgid "Payable Amount"
+msgstr ""
+
+#: admin/header.php:840
+msgid "Payment"
+msgstr ""
+
+#: admin/general_settings.php:42 admin/sidebar.php:4
+msgid "Payment "
+msgstr ""
+
+#: admin/general_settings.php:1186
+msgid "Payment Gateways"
+msgstr ""
+
+#: admin/clients.php:119 admin/clients.php:203
+#: assets/lib/admin_general_ajax.php:3426
+#: assets/lib/admin_general_ajax.php:3426
+#: assets/lib/admin_general_ajax.php:3895
+#: assets/lib/admin_general_ajax.php:3991
+msgid "Payment Method"
+msgstr ""
+
+#: admin/payments.php:56
+msgid "Payment method"
+msgstr ""
+
+#: frontend/oct_firstep.php:643
+msgid "Payment Methods"
+msgstr ""
+
+#: admin/header.php:709 admin/header.php:743
+msgid "Payments"
+msgstr ""
+
+#: admin/payments.php:75 frontend/oct_firstep.php:658
+#: assets/lib/admin_general_ajax.php:101 assets/lib/admin_general_ajax.php:188
+#: assets/lib/admin_general_ajax.php:354 assets/lib/admin_general_ajax.php:698
+#: assets/lib/admin_general_ajax.php:3356
+msgid "Paypal"
+msgstr ""
+
+#: admin/general_settings.php:1259
+msgid "Paypal API password can get easily from developer.paypal.com account."
+msgstr ""
+
+#: admin/general_settings.php:1268
+msgid "Paypal API Signature can get easily from developer.paypal.com account"
+msgstr ""
+
+#: admin/general_settings.php:1250
+msgid "Paypal API username can get easily from developer.paypal.com account."
+msgstr ""
+
+#: admin/general_settings.php:1229
+msgid "Paypal Express Checkout"
+msgstr ""
+
+#: admin/general_settings.php:1272
+msgid "Paypal guest payment"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:119 assets/lib/admin_general_ajax.php:206
+msgid "Paytm"
+msgstr ""
+
+#: admin/general_settings.php:1385
+msgid "Paytm Payment Form"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:116 assets/lib/admin_general_ajax.php:203
+msgid "Payumoney"
+msgstr ""
+
+#: admin/general_settings.php:1345
+msgid "Payumoney Payment Form"
+msgstr ""
+
+#: admin/calendar.php:41 admin/header.php:293
+msgid "Pending"
+msgstr ""
+
+#: admin/reviews.php:22 admin/reviews.php:135
+msgid "Pending Reviews"
+msgstr ""
+
+#: admin/general_settings.php:672 admin/general_settings.php:704
+#: admin/general_settings.php:2786 admin/general_settings.php:2856
+msgid "Percentage"
+msgstr ""
+
+#: admin/calendar.php:274 admin/clients.php:51 admin/clients.php:143
+#: admin/export.php:119 admin/export.php:185 admin/export.php:321
+#: admin/header.php:836 admin/locations.php:456 admin/locations.php:634
+#: admin/staff.php:288 assets/lib/admin_general_ajax.php:228
+#: assets/lib/admin_general_ajax.php:3827
+#: assets/lib/admin_general_ajax.php:3931 assets/lib/location_ajax.php:327
+#: assets/lib/location_ajax.php:511 assets/lib/staff_ajax.php:663
+msgid "Phone"
+msgstr ""
+
+#: frontend/oct_firstep.php:411
+msgid "Phone number"
+msgstr ""
+
+#: frontend/oct_firstep.php:766
+msgid "Please Accept term & conditions."
+msgstr ""
+
+#: frontend/oct_firstep.php:863
+msgid "Please check service area."
+msgstr ""
+
+#: frontend/oct_firstep.php:1613
+msgid "Please check your area zipcode"
+msgstr ""
+
+#: frontend/oct_firstep.php:839 frontend/oct_firstep.php:1613
+msgid "Please choose location"
+msgstr ""
+
+#: frontend/oct_firstep.php:869 frontend/oct_firstep.php:1613
+msgid "Please choose service"
+msgstr ""
+
+#: frontend/oct_firstep.php:978
+msgid "Please choose service provider"
+msgstr ""
+
+#: admin/general_settings.php:725
+msgid "Please Enable Payment Gateway"
+msgstr ""
+
+#: admin/general_settings.php:698
+msgid "Please enable payment gateway first."
+msgstr ""
+
+#: frontend/oct_firstep.php:1633
+msgid "Please Enter"
+msgstr ""
+
+#: admin/header.php:83
+msgid "Please enter  address"
+msgstr ""
+
+#: admin/header.php:71
+msgid "Please enter addon price"
+msgstr ""
+
+#: admin/header.php:73
+msgid "Please enter addon pricing quantity"
+msgstr ""
+
+#: admin/header.php:69
+msgid "Please enter addon title"
+msgstr ""
+
+#: frontend/oct_firstep.php:1629
+msgid "Please Enter Address"
+msgstr ""
+
+#: frontend/oct_firstep.php:823
+msgid "Please enter area code or zip code"
+msgstr ""
+
+#: admin/header.php:56
+msgid "Please enter category title"
+msgstr ""
+
+#: frontend/oct_firstep.php:1630
+msgid "Please Enter City"
+msgstr ""
+
+#: admin/header.php:84
+msgid "Please enter city"
+msgstr ""
+
+#: admin/header.php:87
+msgid "Please enter country"
+msgstr ""
+
+#: frontend/oct_firstep.php:1617
+msgid "Please Enter Email"
+msgstr ""
+
+#: frontend/oct_firstep.php:345
+msgid "Please enter Email"
+msgstr ""
+
+#: admin/header.php:78 admin/header.php:93
+msgid "Please enter email"
+msgstr ""
+
+#: frontend/oct_firstep.php:1623
+msgid "Please Enter First Name"
+msgstr ""
+
+#: frontend/oct_firstep.php:397
+msgid "Please enter First Name"
+msgstr ""
+
+#: admin/header.php:95
+msgid "Please enter fullname"
+msgstr ""
+
+#: frontend/oct_firstep.php:1624
+msgid "Please Enter Last Name"
+msgstr ""
+
+#: frontend/oct_firstep.php:405
+msgid "Please enter Last Name"
+msgstr ""
+
+#: admin/header.php:77
+msgid "Please enter location title"
+msgstr ""
+
+#: frontend/oct_firstep.php:1628
+msgid "Please enter maximum 14 Characters"
+msgstr ""
+
+#: frontend/oct_firstep.php:1622
+msgid "Please enter maximum 30 Characters"
+msgstr ""
+
+#: admin/header.php:63
+msgid "Please enter minimum 1 hours maximum 23 hours"
+msgstr ""
+
+#: frontend/oct_firstep.php:1627
+msgid "Please enter minimum 10 Characters"
+msgstr ""
+
+#: admin/header.php:65
+msgid "Please enter minimum 5 mintues maximum 59 mintues"
+msgstr ""
+
+#: frontend/oct_firstep.php:1621
+msgid "Please enter minimum 8 Characters"
+msgstr ""
+
+#: admin/header.php:118
+msgid "Please enter nexmo admin account number"
+msgstr ""
+
+#: admin/header.php:115
+msgid "Please enter nexmo API"
+msgstr ""
+
+#: admin/header.php:116
+msgid "Please enter nexmo API Secert"
+msgstr ""
+
+#: admin/header.php:117
+msgid "Please enter nexmo from number"
+msgstr ""
+
+#: frontend/oct_firstep.php:1632
+msgid "Please Enter Notes"
+msgstr ""
+
+#: frontend/oct_firstep.php:415
+msgid "Please Enter Only Numeric value"
+msgstr ""
+
+#: frontend/oct_firstep.php:1620
+msgid "Please Enter Password"
+msgstr ""
+
+#: frontend/oct_firstep.php:354
+msgid "Please enter Password"
+msgstr ""
+
+#: admin/header.php:92
+msgid "Please enter password"
+msgstr ""
+
+#: admin/header.php:80
+msgid "Please enter phone"
+msgstr ""
+
+#: frontend/oct_firstep.php:1625
+msgid "Please Enter Phone Number"
+msgstr ""
+
+#: frontend/oct_firstep.php:414
+msgid "Please enter Phone number"
+msgstr ""
+
+#: admin/header.php:110
+msgid "Please enter plivo account SID"
+msgstr ""
+
+#: admin/header.php:113
+msgid "Please enter plivo admin account number"
+msgstr ""
+
+#: admin/header.php:111
+msgid "Please enter plivo auth token"
+msgstr ""
+
+#: admin/header.php:112
+msgid "Please enter plivo sender number"
+msgstr ""
+
+#: frontend/oct_firstep.php:378
+msgid "Please enter Preferred Email"
+msgstr ""
+
+#: frontend/oct_firstep.php:386
+msgid "Please enter Preferred Password"
+msgstr ""
+
+#: admin/header.php:60
+msgid "Please enter price in digits"
+msgstr ""
+
+#: admin/header.php:99
+msgid "Please enter promocode"
+msgstr ""
+
+#: admin/header.php:102
+msgid "Please enter promocode limit"
+msgstr ""
+
+#: admin/header.php:100
+msgid "Please enter promocode value"
+msgstr ""
+
+#: admin/header.php:58
+msgid "Please enter service description"
+msgstr ""
+
+#: admin/header.php:59
+msgid "Please enter service price"
+msgstr ""
+
+#: admin/header.php:57
+msgid "Please enter service title"
+msgstr ""
+
+#: frontend/oct_firstep.php:464
+msgid "Please enter Special Notes"
+msgstr ""
+
+#: frontend/oct_firstep.php:1631
+msgid "Please Enter State"
+msgstr ""
+
+#: frontend/oct_firstep.php:456
+msgid "Please enter State"
+msgstr ""
+
+#: admin/header.php:85
+msgid "Please enter state"
+msgstr ""
+
+#: frontend/oct_firstep.php:440
+msgid "Please enter Street Address"
+msgstr ""
+
+#: frontend/oct_firstep.php:448
+msgid "Please enter Town/City"
+msgstr ""
+
+#: admin/header.php:105
+msgid "Please enter twillio account SID"
+msgstr ""
+
+#: admin/header.php:108
+msgid "Please enter twillio admin account number"
+msgstr ""
+
+#: admin/header.php:106
+msgid "Please enter twillio auth token"
+msgstr ""
+
+#: admin/header.php:107
+msgid "Please enter twillio sender number"
+msgstr ""
+
+#: admin/header.php:90
+msgid "Please enter username"
+msgstr ""
+
+#: admin/header.php:72
+msgid "Please enter valid addon price"
+msgstr ""
+
+#: admin/header.php:74
+msgid "Please enter valid addon pricing quantity"
+msgstr ""
+
+#: frontend/oct_firstep.php:1618
+msgid "Please Enter Valid Email"
+msgstr ""
+
+#: admin/header.php:79
+msgid "Please enter valid email"
+msgstr ""
+
+#: admin/header.php:70
+msgid "Please enter valid max addon quantity"
+msgstr ""
+
+#: admin/header.php:82
+msgid "Please enter valid phone"
+msgstr ""
+
+#: frontend/oct_firstep.php:1626
+msgid "Please Enter Valid Phone Number"
+msgstr ""
+
+#: admin/header.php:81
+msgid "Please enter valid phone number"
+msgstr ""
+
+#: admin/header.php:97
+msgid "Please enter valid phone number."
+msgstr ""
+
+#: admin/header.php:103
+msgid "Please enter valid promocode limit"
+msgstr ""
+
+#: admin/header.php:101
+msgid "Please enter valid promocode value"
+msgstr ""
+
+#: admin/header.php:66
+msgid "Please enter value in digits only"
+msgstr ""
+
+#: admin/header.php:64
+msgid "Please enter value minimum 5 minutes"
+msgstr ""
+
+#: admin/header.php:86
+msgid "Please enter zip/postal code"
+msgstr ""
+
+#: frontend/oct_firstep.php:1261
+msgid "Please select date & time"
+msgstr ""
+
+#: admin/header.php:96
+msgid "Please select existing user"
+msgstr ""
+
+#: frontend/oct_firstep.php:833
+msgid "Please select location"
+msgstr ""
+
+#: admin/header.php:62
+msgid "Please select service category"
+msgstr ""
+
+#: admin/calendar.php:243
+msgid "Please Wait..."
+msgstr ""
+
+#: admin/general_settings.php:2089
+msgid "Plivo Account Settings"
+msgstr ""
+
+#: admin/general_settings.php:2111
+msgid "Plivo Sender Number"
+msgstr ""
+
+#: admin/general_settings.php:2076
+msgid "Plivo SMS Gateway"
+msgstr ""
+
+#: admin/general_settings.php:2126
+msgid "Plivo SMS Settings"
+msgstr ""
+
+#: frontend/oct_firstep.php:375
+msgid "Preferred Email"
+msgstr ""
+
+#: frontend/oct_firstep.php:383
+msgid "Preferred Password"
+msgstr ""
+
+#: admin/reviews.php:71 admin/reviews.php:178 admin/reviews.php:287
+#: assets/lib/admin_general_ajax.php:3268
+msgid "Pretty good - 4 stars"
+msgstr ""
+
+#: admin/reviews.php:70 admin/reviews.php:177 admin/reviews.php:286
+#: assets/lib/admin_general_ajax.php:3267
+msgid "Pretty good - 4.5 stars"
+msgstr ""
+
+#: admin/export.php:235 admin/header.php:821 admin/service_addons.php:215
+#: admin/service_addons.php:256 admin/service_addons.php:265
+#: admin/service_addons.php:296 admin/service_addons.php:323
+#: admin/service_addons.php:432 admin/staff.php:479 admin/staff.php:552
+#: assets/lib/admin_general_ajax.php:3438 assets/lib/service_ajax.php:803
+#: assets/lib/service_ajax.php:831 assets/lib/staff_ajax.php:325
+#: assets/lib/staff_ajax.php:856 assets/lib/staff_ajax.php:929
+msgid "Price"
+msgstr ""
+
+#: admin/general_settings.php:637
+msgid "Price format comma separator"
+msgstr ""
+
+#: admin/general_settings.php:623
+msgid "Price format decimal Places"
+msgstr ""
+
+#: admin/general_settings.php:966
+msgid "Primary Color"
+msgstr ""
+
+#: admin/general_settings.php:909 frontend/oct_firstep.php:761
+msgid "Privacy Policy"
+msgstr ""
+
+#: admin/general_settings.php:920
+msgid "Privacy Policy Link"
+msgstr ""
+
+#: admin/general_settings.php:48 admin/general_settings.php:2703
+msgid "Promocode"
+msgstr ""
+
+#: admin/general_settings.php:2706
+msgid "Promocodes"
+msgstr ""
+
+#: admin/general_settings.php:2714
+msgid "Promocodes list"
+msgstr ""
+
+#: admin/calendar.php:119 admin/client_dashboard.php:86 admin/export.php:114
+#: admin/header.php:817 admin/header.php:960 admin/reviews.php:40
+#: admin/reviews.php:147 admin/reviews.php:256
+#: assets/lib/admin_general_ajax.php:3435
+msgid "Provider"
+msgstr ""
+
+#: assets/lib/staff_ajax.php:1221
+msgid "provider"
+msgstr ""
+
+#: admin/client_dashboard_front.php:81 admin/staff.php:921
+#: assets/lib/staff_ajax.php:1298
+msgid "Provider Name"
+msgstr ""
+
+#: admin/dashboard.php:99
+msgid "Provider View"
+msgstr ""
+
+#: admin/general_settings.php:1329
+msgid "Publishable Key"
+msgstr ""
+
+#: admin/reviews.php:21 admin/reviews.php:28
+msgid "Published Reviews"
+msgstr ""
+
+#: admin/service_addons.php:282 admin/service_addons.php:312
+#: assets/lib/service_ajax.php:789 assets/lib/service_ajax.php:820
+msgid "Qty"
+msgstr ""
+
+#: admin/reviews.php:41 admin/reviews.php:148 admin/reviews.php:257
+msgid "Rating"
+msgstr ""
+
+#: admin/clients.php:28 admin/clients.php:44
+#: assets/lib/admin_general_ajax.php:3820
+msgid "Registered Customers"
+msgstr ""
+
+#: admin/clients.php:105 assets/lib/admin_general_ajax.php:3881
+msgid "Registered Customers Bookings"
+msgstr ""
+
+#: admin/dashboard.php:233 admin/dashboard.php:333 admin/header.php:879
+#: admin/header.php:890 assets/lib/admin_general_ajax.php:942
+#: assets/lib/admin_general_ajax.php:1679
+#: assets/lib/admin_general_ajax.php:2608
+#: assets/lib/admin_general_ajax.php:3129
+#: assets/lib/admin_general_ajax.php:3189
+#: assets/lib/oct_front_booking_complete.php:407
+msgid "Reject"
+msgstr ""
+
+#: admin/header.php:879
+msgid "Reject reason?"
+msgstr ""
+
+#: admin/calendar.php:39 admin/export.php:146 admin/header.php:295
+#: assets/lib/admin_general_ajax.php:179 assets/lib/admin_general_ajax.php:346
+#: assets/lib/admin_general_ajax.php:505
+msgid "Rejected"
+msgstr ""
+
+#: frontend/oct_firstep.php:1530 assets/lib/oct_front_ajax.php:868
+msgid "Remaining Deposit"
+msgstr ""
+
+#: admin/sidebar.php:7
+msgid "Reminder SMS"
+msgstr ""
+
+#: admin/general_settings.php:151
+msgid "Remove company Image"
+msgstr ""
+
+#: admin/general_settings.php:151 admin/locations.php:571
+#: admin/services.php:267 admin/services.php:494 admin/service_addons.php:156
+#: admin/service_addons.php:377 admin/staff.php:219
+#: assets/lib/location_ajax.php:254 assets/lib/location_ajax.php:447
+#: assets/lib/service_ajax.php:342 assets/lib/service_ajax.php:561
+#: assets/lib/staff_ajax.php:593
+msgid "Remove Image?"
+msgstr ""
+
+#: admin/locations.php:571 assets/lib/location_ajax.php:254
+#: assets/lib/location_ajax.php:447
+msgid "Remove location Image"
+msgstr ""
+
+#: admin/header.php:691 admin/header.php:761
+msgid "Remove Sample Data"
+msgstr ""
+
+#: admin/services.php:267 admin/service_addons.php:156
+#: assets/lib/service_ajax.php:342
+msgid "Remove Service Image"
+msgstr ""
+
+#: admin/services.php:494 admin/service_addons.php:377
+#: assets/lib/service_ajax.php:561
+msgid "Remove service Image"
+msgstr ""
+
+#: admin/staff.php:219 assets/lib/staff_ajax.php:593
+msgid "Remove Staff Image"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3233
+msgid "Reschedule"
+msgstr ""
+
+#: admin/header.php:1074
+msgid "Reschedule Appointment"
+msgstr ""
+
+#: admin/general_settings.php:443
+msgid ""
+"Reschedule buffer helps service providers to avoid last minute reschedule by "
+"their clients. "
+msgstr ""
+
+#: admin/general_settings.php:426
+msgid "Reschedule Buffer Time"
+msgstr ""
+
+#: admin/header.php:1010
+msgid "Reschedule Note"
+msgstr ""
+
+#: admin/calendar.php:38 admin/dashboard.php:235 admin/dashboard.php:335
+#: admin/export.php:152 admin/header.php:296
+#: assets/lib/admin_general_ajax.php:3131
+#: assets/lib/admin_general_ajax.php:3192
+msgid "Rescheduled"
+msgstr ""
+
+#: admin/general_settings.php:2669 admin/locations.php:508
+#: admin/locations.php:688 admin/services.php:434 admin/services.php:644
+#: admin/service_addons.php:243 admin/service_addons.php:465
+#: assets/lib/location_ajax.php:382 assets/lib/location_ajax.php:567
+#: assets/lib/service_ajax.php:500 assets/lib/service_ajax.php:708
+msgid "Reset"
+msgstr ""
+
+#: admin/reviews.php:42 admin/reviews.php:149 admin/reviews.php:258
+msgid "Review"
+msgstr ""
+
+#: admin/general_settings.php:1108 admin/header.php:707 admin/header.php:748
+msgid "Reviews"
+msgstr ""
+
+#: admin/general_settings.php:1368
+msgid "Salt Key"
+msgstr ""
+
+#: admin/header.php:695 admin/header.php:765
+msgid "Sample Data"
+msgstr ""
+
+#: frontend/oct_firstep.php:1038 frontend/oct_firstep.php:1057
+#: frontend/oct_firstep.php:1076 frontend/oct_firstep.php:1095
+#: frontend/oct_firstep.php:1114 frontend/oct_firstep.php:1133
+#: frontend/oct_firstep.php:1173 assets/lib/oct_front_ajax.php:514
+msgid "Sat"
+msgstr ""
+
+#: admin/staff.php:491 admin/staff.php:636 admin/staff.php:751
+#: assets/lib/staff_ajax.php:868 assets/lib/staff_ajax.php:1013
+#: assets/lib/staff_ajax.php:1129
+msgid "Saturday"
+msgstr ""
+
+#: admin/client_dashboard_front.php:158 admin/locations.php:507
+#: admin/locations.php:687 admin/services.php:433 admin/services.php:643
+#: admin/service_addons.php:242 admin/service_addons.php:464
+#: admin/staff.php:402 assets/lib/location_ajax.php:381
+#: assets/lib/location_ajax.php:566 assets/lib/service_ajax.php:499
+#: assets/lib/service_ajax.php:707 assets/lib/staff_ajax.php:778
+msgid "Save"
+msgstr ""
+
+#: admin/general_settings.php:218 admin/general_settings.php:940
+#: admin/general_settings.php:1170 admin/general_settings.php:1573
+#: admin/general_settings.php:1675 admin/general_settings.php:2394
+#: admin/general_settings.php:2668 admin/general_settings.php:3032
+#: admin/staff.php:718 assets/lib/staff_ajax.php:1096
+msgid "Save Setting"
+msgstr ""
+
+#: admin/general_settings.php:1748 admin/general_settings.php:1826
+#: admin/general_settings.php:1904 admin/general_settings.php:2459
+#: admin/general_settings.php:2526 admin/general_settings.php:2594
+msgid "Save Template"
+msgstr ""
+
+#: admin/export.php:186 admin/staff.php:384 assets/lib/staff_ajax.php:760
+msgid "Schedule Type"
+msgstr ""
+
+#: admin/calendar.php:122 admin/calendar.php:134 admin/calendar.php:237
+msgid "Search"
+msgstr ""
+
+#: frontend/oct_firstep.php:1613
+msgid "Searching..."
+msgstr ""
+
+#: admin/staff.php:474 admin/staff.php:617
+msgid "Second Week"
+msgstr ""
+
+#: assets/lib/staff_ajax.php:851 assets/lib/staff_ajax.php:994
+msgid "Second Week "
+msgstr ""
+
+#: admin/staff.php:733 assets/lib/staff_ajax.php:1111
+msgid "Second Week Breaks"
+msgstr ""
+
+#: admin/general_settings.php:970
+msgid "Secondary color"
+msgstr ""
+
+#: admin/general_settings.php:1321
+msgid "Secret Key"
+msgstr ""
+
+#: frontend/oct_firstep.php:676
+msgid "Select Atleast one payment method"
+msgstr ""
+
+#: admin/general_settings.php:3013
+msgid "Select Calendar"
+msgstr ""
+
+#: admin/services.php:327 admin/services.php:549
+#: assets/lib/service_ajax.php:402 assets/lib/service_ajax.php:616
+msgid "Select Category"
+msgstr ""
+
+#: admin/export.php:266
+msgid "Select Category to export"
+msgstr ""
+
+#: admin/staff.php:84 assets/lib/staff_ajax.php:209
+msgid "Select from WP users"
+msgstr ""
+
+#: admin/export.php:303
+msgid "Select Location to export"
+msgstr ""
+
+#: admin/calendar.php:50
+msgid "Select Option To Show Bookings"
+msgstr ""
+
+#: admin/export.php:68
+msgid "Select option to show bookings"
+msgstr ""
+
+#: admin/payments.php:24
+msgid "Select payment option export details"
+msgstr ""
+
+#: admin/calendar.php:60 admin/export.php:79
+msgid "Select Service"
+msgstr ""
+
+#: admin/export.php:211
+msgid "Select service to export"
+msgstr ""
+
+#: admin/export.php:168
+msgid "Select Staff to export"
+msgstr ""
+
+#: frontend/oct_firstep.php:1209 frontend/oct_firstep.php:1239
+#: assets/lib/oct_front_ajax.php:547 assets/lib/oct_front_ajax.php:577
+msgid "Selected"
+msgstr ""
+
+#: admin/general_settings.php:2359
+msgid "Send SMS To Admin"
+msgstr ""
+
+#: admin/general_settings.php:2040 admin/general_settings.php:2150
+msgid "Send SMS to Admin"
+msgstr ""
+
+#: admin/general_settings.php:2348
+msgid "Send SMS To Client"
+msgstr ""
+
+#: admin/general_settings.php:2029 admin/general_settings.php:2139
+msgid "Send SMS to Client"
+msgstr ""
+
+#: admin/general_settings.php:2337
+msgid "Send SMS To Service Provider"
+msgstr ""
+
+#: admin/general_settings.php:2017 admin/general_settings.php:2128
+#: admin/general_settings.php:2237
+msgid "Send SMS to Service Provider"
+msgstr ""
+
+#: admin/general_settings.php:1642
+msgid "Sender Email Address (octabook Admin Email)"
+msgstr ""
+
+#: admin/general_settings.php:1634 admin/general_settings.php:2319
+msgid "Sender Name"
+msgstr ""
+
+#: admin/staff.php:917 assets/lib/staff_ajax.php:1294
+msgid "September"
+msgstr ""
+
+#: admin/calendar.php:131 admin/clients.php:115 admin/clients.php:199
+#: admin/client_dashboard.php:87 admin/client_dashboard_front.php:82
+#: admin/export.php:113 admin/header.php:813 admin/header.php:970
+#: admin/reviews.php:38 admin/reviews.php:145 admin/reviews.php:254
+#: assets/lib/admin_general_ajax.php:3891
+#: assets/lib/admin_general_ajax.php:3987
+msgid "Service"
+msgstr ""
+
+#: admin/service_addons.php:253
+msgid "Service Addons price rules"
+msgstr ""
+
+#: admin/export.php:233
+msgid "Service Category"
+msgstr ""
+
+#: admin/services.php:251 admin/services.php:480
+#: assets/lib/service_ajax.php:326 assets/lib/service_ajax.php:547
+msgid "Service Description"
+msgstr ""
+
+#: assets/lib/oct_front_ajax.php:141
+msgid "Service duration - "
+msgstr ""
+
+#: admin/services.php:255 admin/services.php:484 admin/service_addons.php:367
+#: assets/lib/service_ajax.php:330 assets/lib/service_ajax.php:551
+msgid "Service Image"
+msgstr ""
+
+#: assets/lib/oct_front_ajax.php:142
+msgid "Service price - "
+msgstr ""
+
+#: admin/clients.php:114 admin/clients.php:198
+#: assets/lib/admin_general_ajax.php:3890
+#: assets/lib/admin_general_ajax.php:3986
+msgid "Service Provider"
+msgstr ""
+
+#: admin/general_settings.php:1695 admin/general_settings.php:1778
+msgid "Service Provider Email Template"
+msgstr ""
+
+#: admin/general_settings.php:2409 admin/general_settings.php:2481
+msgid "Service Provider SMS Template"
+msgstr ""
+
+#: admin/export.php:232 admin/services.php:246 admin/services.php:475
+#: assets/lib/service_ajax.php:321 assets/lib/service_ajax.php:542
+msgid "Service Title"
+msgstr ""
+
+#: frontend/oct_firstep.php:294 frontend/oct_firstep.php:779
+#: frontend/oct_firstep.php:805
+msgid "Service, Staff and Time"
+msgstr ""
+
+#: admin/header.php:715 admin/header.php:735 admin/staff.php:192
+#: assets/lib/staff_ajax.php:543 assets/lib/staff_ajax.php:567
+msgid "Services"
+msgstr ""
+
+#: admin/export.php:41 admin/export.php:207
+msgid "Services Information"
+msgstr ""
+
+#: admin/staff.php:421 assets/lib/staff_ajax.php:798
+msgid "Services provided by"
+msgstr ""
+
+#: admin/dashboard.php:98
+msgid "Services View"
+msgstr ""
+
+#: admin/general_settings.php:393
+msgid "Set Booking Padding Time"
+msgstr ""
+
+#: admin/general_settings.php:320
+msgid "Set Booking Time Interval"
+msgstr ""
+
+#: admin/general_settings.php:409
+msgid "Set cancellation buffer time"
+msgstr ""
+
+#: admin/general_settings.php:1654
+msgid "Set Email & SMS Reminder Buffer"
+msgstr ""
+
+#: admin/general_settings.php:340
+msgid "Set Minimum advance booking time"
+msgstr ""
+
+#: admin/general_settings.php:430
+msgid "Set reschedule buffer time"
+msgstr ""
+
+#: admin/header.php:676 admin/header.php:678 admin/header.php:704
+#: admin/header.php:745
+msgid "Settings"
+msgstr ""
+
+#: admin/client_dashboard.php:43
+msgid "Show All Bookings"
+msgstr ""
+
+#: admin/general_settings.php:1049
+msgid "Show coupons input on checkout"
+msgstr ""
+
+#: frontend/oct_firstep.php:740
+msgid "Show More"
+msgstr ""
+
+#: admin/general_settings.php:1016
+msgid "Show providers avatars"
+msgstr ""
+
+#: admin/general_settings.php:1038
+msgid "Show service description"
+msgstr ""
+
+#: admin/general_settings.php:1027
+msgid "Show service dropdown"
+msgstr ""
+
+#: admin/general_settings.php:1005
+msgid "Show service providers"
+msgstr ""
+
+#: admin/general_settings.php:1263
+msgid "Signature"
+msgstr ""
+
+#. Author of the plugin
+msgid "Skymoonlabs"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:2590
+#: assets/lib/notification_reminder.php:217
+msgid "Skype"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:256
+msgid "Skype id"
+msgstr ""
+
+#: admin/general_settings.php:2448 admin/general_settings.php:2515
+#: admin/general_settings.php:2582
+msgid "SMS Content"
+msgstr ""
+
+#: admin/general_settings.php:45
+msgid "SMS Notification"
+msgstr ""
+
+#: admin/general_settings.php:1941
+msgid "SMS Reminder"
+msgstr ""
+
+#: admin/general_settings.php:1948
+msgid "SMS Service"
+msgstr ""
+
+#: admin/general_settings.php:2404
+msgid "SMS Template Settings"
+msgstr ""
+
+#: admin/general_settings.php:46
+msgid "SMS Templates"
+msgstr ""
+
+#: frontend/oct_firstep.php:461
+msgid "Special Notes"
+msgstr ""
+
+#: admin/header.php:713 admin/header.php:738
+msgid "Staff"
+msgstr ""
+
+#: admin/export.php:40 admin/export.php:163
+msgid "Staff Information"
+msgstr ""
+
+#: admin/calendar.php:80
+msgid "Staff Member"
+msgstr ""
+
+#: admin/export.php:96
+msgid "Staff member"
+msgstr ""
+
+#: admin/general_settings.php:1614
+msgid "Staff Member Email Notifications"
+msgstr ""
+
+#: admin/staff.php:45 assets/lib/staff_ajax.php:171
+msgid "Staff Members"
+msgstr ""
+
+#: admin/staff.php:861 assets/lib/staff_ajax.php:1239
+#: assets/lib/staff_ajax.php:1401
+msgid "Start Date"
+msgstr ""
+
+#: admin/staff.php:862 assets/lib/staff_ajax.php:1240
+#: assets/lib/staff_ajax.php:1402
+msgid "Start Time"
+msgstr ""
+
+#: admin/calendar.php:290 admin/export.php:325 admin/general_settings.php:120
+#: admin/general_settings.php:653 admin/locations.php:477
+#: admin/locations.php:656 admin/locations.php:657 frontend/oct_firstep.php:453
+#: assets/lib/admin_general_ajax.php:1027
+#: assets/lib/admin_general_ajax.php:1028
+#: assets/lib/admin_general_ajax.php:1766
+#: assets/lib/admin_general_ajax.php:1767
+#: assets/lib/admin_general_ajax.php:2584 assets/lib/location_ajax.php:349
+#: assets/lib/location_ajax.php:350 assets/lib/location_ajax.php:533
+#: assets/lib/location_ajax.php:534 assets/lib/notification_reminder.php:211
+#: assets/lib/oct_front_booking_complete.php:511
+#: assets/lib/oct_front_booking_complete.php:512
+msgid "State"
+msgstr ""
+
+#: admin/clients.php:118 admin/clients.php:202 admin/client_dashboard.php:89
+#: admin/client_dashboard_front.php:85 admin/export.php:120
+#: assets/lib/admin_general_ajax.php:3894
+#: assets/lib/admin_general_ajax.php:3990
+msgid "Status"
+msgstr ""
+
+#: admin/client_dashboard.php:90
+msgid "Status Note"
+msgstr ""
+
+#: frontend/oct_firstep.php:437
+msgid "Street Address"
+msgstr ""
+
+#: admin/payments.php:84 assets/lib/admin_general_ajax.php:110
+#: assets/lib/admin_general_ajax.php:197 assets/lib/admin_general_ajax.php:363
+#: assets/lib/admin_general_ajax.php:701 assets/lib/admin_general_ajax.php:3359
+msgid "Stripe"
+msgstr ""
+
+#: admin/general_settings.php:1304
+msgid "Stripe Payment Form"
+msgstr ""
+
+#: frontend/oct_firstep.php:1447 assets/lib/oct_front_ajax.php:831
+msgid "Sub Total"
+msgstr ""
+
+#: admin/calendar.php:89 admin/export.php:105 admin/payments.php:33
+msgid "Submit"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3288
+msgid "Submit Review"
+msgstr ""
+
+#: admin/header.php:554
+msgid "Success!"
+msgstr ""
+
+#: admin/reviews.php:78 admin/reviews.php:185 admin/reviews.php:294
+#: assets/lib/admin_general_ajax.php:3275
+msgid "Sucks big time - 0.5 stars"
+msgstr ""
+
+#: admin/reviews.php:77 admin/reviews.php:184 admin/reviews.php:293
+#: assets/lib/admin_general_ajax.php:3274
+msgid "Sucks big time - 1 star"
+msgstr ""
+
+#: frontend/oct_firstep.php:1041 frontend/oct_firstep.php:1060
+#: frontend/oct_firstep.php:1079 frontend/oct_firstep.php:1098
+#: frontend/oct_firstep.php:1117 frontend/oct_firstep.php:1136
+#: frontend/oct_firstep.php:1155 assets/lib/oct_front_ajax.php:496
+msgid "Sun"
+msgstr ""
+
+#: admin/staff.php:491 admin/staff.php:636 admin/staff.php:751
+#: assets/lib/staff_ajax.php:868 assets/lib/staff_ajax.php:1013
+#: assets/lib/staff_ajax.php:1129
+msgid "Sunday"
+msgstr ""
+
+#: admin/general_settings.php:1753 admin/general_settings.php:1830
+#: admin/general_settings.php:1908 admin/general_settings.php:2463
+#: admin/general_settings.php:2530 admin/general_settings.php:2598
+msgid "Tags"
+msgstr ""
+
+#: admin/payments.php:59 assets/lib/admin_general_ajax.php:3466
+msgid "Tax"
+msgstr ""
+
+#: frontend/oct_firstep.php:1461 assets/lib/oct_front_ajax.php:845
+msgid "Tax Amount"
+msgstr ""
+
+#: admin/general_settings.php:661
+msgid "Tax/Vat"
+msgstr ""
+
+#: admin/general_settings.php:898
+msgid "Terms & Condition Link"
+msgstr ""
+
+#: admin/general_settings.php:887
+msgid "Terms & Conditions"
+msgstr ""
+
+#: frontend/oct_firstep.php:756
+msgid "Terms &amp; Conditions"
+msgstr ""
+
+#: admin/general_settings.php:1284 admin/general_settings.php:1440
+msgid "Test Mode"
+msgstr ""
+
+#: admin/general_settings.php:974
+msgid "Text color"
+msgstr ""
+
+#: admin/general_settings.php:978
+msgid "Text color on Bg"
+msgstr ""
+
+#: admin/general_settings.php:2307
+msgid "Textlocal Account Settings"
+msgstr ""
+
+#: admin/general_settings.php:2294
+msgid "Textlocal SMS Gateway"
+msgstr ""
+
+#: admin/general_settings.php:2335
+msgid "Textlocal SMS Settings"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3487
+msgid "THANK YOU FOR YOUR BUSINESS!"
+msgstr ""
+
+#: frontend/oct_firstep.php:717
+msgid ""
+"The last 3 digit printed on the signature panel on the back of your credit "
+"card."
+msgstr ""
+
+#: admin/staff.php:617
+msgid "Third Week"
+msgstr ""
+
+#: admin/staff.php:474 assets/lib/staff_ajax.php:851
+#: assets/lib/staff_ajax.php:994
+msgid "Third Week "
+msgstr ""
+
+#: admin/staff.php:733 assets/lib/staff_ajax.php:1111
+msgid "Third Week Breaks"
+msgstr ""
+
+#: admin/general_settings.php:1139
+msgid "This custom css will apply on frontend"
+msgstr ""
+
+#: admin/header.php:198
+msgid "This Month"
+msgstr ""
+
+#: admin/dashboard.php:62 admin/staff.php:619 assets/lib/staff_ajax.php:996
+msgid "This Week"
+msgstr ""
+
+#: admin/staff.php:735 assets/lib/staff_ajax.php:1113
+msgid "This Week Breaks"
+msgstr ""
+
+#: admin/general_settings.php:1023
+msgid "This will show avatars of providers on front."
+msgstr ""
+
+#: admin/dashboard.php:83
+msgid "This Year"
+msgstr ""
+
+#: frontend/oct_firstep.php:1032 frontend/oct_firstep.php:1051
+#: frontend/oct_firstep.php:1070 frontend/oct_firstep.php:1089
+#: frontend/oct_firstep.php:1129 frontend/oct_firstep.php:1148
+#: frontend/oct_firstep.php:1167 assets/lib/oct_front_ajax.php:508
+msgid "Thu"
+msgstr ""
+
+#: admin/staff.php:491 admin/staff.php:636 admin/staff.php:751
+#: assets/lib/staff_ajax.php:868 assets/lib/staff_ajax.php:1013
+#: assets/lib/staff_ajax.php:1129
+msgid "Thursday"
+msgstr ""
+
+#: admin/client_dashboard_front.php:84 assets/lib/admin_general_ajax.php:3437
+msgid "Time"
+msgstr ""
+
+#: admin/general_settings.php:316
+msgid "Time Interval"
+msgstr ""
+
+#: admin/general_settings.php:332
+msgid ""
+"Time interval is helpful to show time difference between availability time "
+"slots."
+msgstr ""
+
+#: admin/staff.php:293 assets/lib/staff_ajax.php:669
+msgid "Time Zone"
+msgstr ""
+
+#: admin/export.php:318
+msgid "Title"
+msgstr ""
+
+#: admin/header.php:204
+msgid "To"
+msgstr ""
+
+#: admin/export.php:141 admin/staff.php:529 admin/staff.php:672
+#: admin/staff.php:784 frontend/oct_firstep.php:1410
+#: assets/lib/admin_general_ajax.php:500 assets/lib/oct_front_ajax.php:736
+#: assets/lib/oct_front_ajax.php:1015 assets/lib/staff_ajax.php:302
+#: assets/lib/staff_ajax.php:446 assets/lib/staff_ajax.php:906
+#: assets/lib/staff_ajax.php:1050 assets/lib/staff_ajax.php:1162
+msgid "to"
+msgstr ""
+
+#: frontend/oct_firstep.php:917
+msgid "To whom you want to select as service provider?"
+msgstr ""
+
+#: admin/dashboard.php:43 admin/header.php:194 frontend/oct_firstep.php:1247
+#: assets/lib/oct_front_ajax.php:585
+msgid "Today"
+msgstr ""
+
+#: admin/dashboard.php:137
+msgid "Today's next Appointments"
+msgstr ""
+
+#: admin/header.php:649
+msgid "Toggle navigation"
+msgstr ""
+
+#: admin/general_settings.php:2657 admin/general_settings.php:2659
+#: assets/lib/admin_general_ajax.php:3465
+msgid "Total"
+msgstr ""
+
+#: admin/payments.php:57
+msgid "Total amount"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3480
+msgid "TOTAL:"
+msgstr ""
+
+#: frontend/oct_firstep.php:445
+msgid "Town/City"
+msgstr ""
+
+#: frontend/oct_firstep.php:1026 frontend/oct_firstep.php:1045
+#: frontend/oct_firstep.php:1085 frontend/oct_firstep.php:1104
+#: frontend/oct_firstep.php:1123 frontend/oct_firstep.php:1142
+#: frontend/oct_firstep.php:1161 assets/lib/oct_front_ajax.php:502
+msgid "Tue"
+msgstr ""
+
+#: admin/staff.php:491 admin/staff.php:636 admin/staff.php:751
+#: assets/lib/staff_ajax.php:868 assets/lib/staff_ajax.php:1013
+#: assets/lib/staff_ajax.php:1129
+msgid "Tuesday"
+msgstr ""
+
+#: admin/general_settings.php:1978
+msgid "Twilio Account Settings"
+msgstr ""
+
+#: admin/general_settings.php:2000
+msgid "Twilio Sender Number"
+msgstr ""
+
+#: admin/general_settings.php:1965
+msgid "Twilio SMS Gateway"
+msgstr ""
+
+#: admin/general_settings.php:2015
+msgid "Twilio SMS Settings"
+msgstr ""
+
+#: admin/general_settings.php:2960
+msgid "Two Way Sync"
+msgstr ""
+
+#: admin/services.php:140
+msgid "Unable to delete category,having services"
+msgstr ""
+
+#: admin/locations.php:331 assets/lib/location_ajax.php:196
+msgid "Unable to delete location,having linked staff"
+msgstr ""
+
+#: admin/services.php:216 admin/service_addons.php:113
+#: assets/lib/service_ajax.php:291
+msgid "Unable to delete service,having bookings"
+msgstr ""
+
+#: admin/staff.php:173 assets/lib/staff_ajax.php:549
+msgid "Unable to delete staff,having linked services"
+msgstr ""
+
+#: admin/general_settings.php:765
+msgid "Unlimited"
+msgstr ""
+
+#: admin/general_settings.php:2894 admin/service_addons.php:299
+#: assets/lib/service_ajax.php:806
+msgid "Update"
+msgstr ""
+
+#: admin/header.php:856
+msgid "Update Appointment"
+msgstr ""
+
+#: admin/general_settings.php:2708 admin/general_settings.php:2836
+msgid "Update Promocode"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3288
+msgid "Update Review"
+msgstr ""
+
+#: admin/header.php:554 admin/header.php:560
+msgid "Updated successfully"
+msgstr ""
+
+#: admin/services.php:364 admin/services.php:374 admin/services.php:585
+#: admin/services.php:595 admin/service_addons.php:436
+#: assets/lib/service_ajax.php:438 assets/lib/service_ajax.php:448
+#: assets/lib/service_ajax.php:652 assets/lib/service_ajax.php:662
+msgid "US Dollar"
+msgstr ""
+
+#: admin/staff.php:80 assets/lib/staff_ajax.php:205
+msgid "User"
+msgstr ""
+
+#: frontend/oct_firstep.php:301
+msgid "User Information"
+msgstr ""
+
+#: admin/staff.php:275 assets/lib/staff_ajax.php:650
+msgid "User Name"
+msgstr ""
+
+#: admin/client_dashboard_front.php:209
+msgid "UserName"
+msgstr ""
+
+#: admin/calendar.php:256 admin/staff.php:93 assets/lib/staff_ajax.php:217
+msgid "Username"
+msgstr ""
+
+#: admin/header.php:91
+msgid "Username exist or not valid"
+msgstr ""
+
+#: admin/general_settings.php:2793 admin/general_settings.php:2796
+#: admin/general_settings.php:2863 admin/general_settings.php:2866
+msgid "Value"
+msgstr ""
+
+#: admin/general_settings.php:3009
+msgid "Verify Account"
+msgstr ""
+
+#: admin/general_settings.php:190 admin/general_settings.php:253
+#: admin/locations.php:429 admin/locations.php:608 admin/services.php:307
+#: admin/services.php:531 admin/service_addons.php:196
+#: admin/service_addons.php:414 admin/staff.php:252
+#: assets/lib/location_ajax.php:292 assets/lib/location_ajax.php:484
+#: assets/lib/service_ajax.php:382 assets/lib/service_ajax.php:598
+#: assets/lib/staff_ajax.php:627
+msgid "W"
+msgstr ""
+
+#: admin/general_settings.php:1209
+msgid "Warning!"
+msgstr ""
+
+#: frontend/oct_firstep.php:1613
+msgid "We are not provide service in your area zipcode"
+msgstr ""
+
+#: frontend/oct_firstep.php:824
+msgid "We cover your location area"
+msgstr ""
+
+#: frontend/oct_firstep.php:1029 frontend/oct_firstep.php:1048
+#: frontend/oct_firstep.php:1067 frontend/oct_firstep.php:1107
+#: frontend/oct_firstep.php:1126 frontend/oct_firstep.php:1145
+#: frontend/oct_firstep.php:1164 assets/lib/oct_front_ajax.php:505
+msgid "Wed"
+msgstr ""
+
+#: admin/staff.php:491 admin/staff.php:636 admin/staff.php:751
+#: assets/lib/staff_ajax.php:868 assets/lib/staff_ajax.php:1013
+#: assets/lib/staff_ajax.php:1129
+msgid "Wednesday"
+msgstr ""
+
+#: admin/staff.php:476 assets/lib/staff_ajax.php:853
+msgid "Week "
+msgstr ""
+
+#: admin/export.php:196 admin/staff.php:387 assets/lib/staff_ajax.php:763
+msgid "Weekly"
+msgstr ""
+
+#: frontend/oct_firstep.php:982
+msgid "When would you like us to come?"
+msgstr ""
+
+#: frontend/oct_firstep.php:816
+msgid "Where would you like us to provide service?"
+msgstr ""
+
+#: frontend/oct_firstep.php:862
+msgid "Which service you would like us to provide?"
+msgstr ""
+
+#: admin/services.php:389 admin/services.php:607
+#: assets/lib/service_ajax.php:462 assets/lib/service_ajax.php:674
+msgid "Who provide these Services"
+msgstr ""
+
+#: admin/dashboard.php:173 admin/dashboard.php:225 admin/dashboard.php:349
+#: assets/lib/admin_general_ajax.php:947 assets/lib/admin_general_ajax.php:960
+#: assets/lib/admin_general_ajax.php:1686
+#: assets/lib/admin_general_ajax.php:1699
+#: assets/lib/admin_general_ajax.php:2548
+#: assets/lib/notification_reminder.php:177
+#: assets/lib/oct_front_booking_complete.php:426
+#: assets/lib/oct_front_booking_complete.php:440
+msgid "With"
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3140
+msgid "with"
+msgstr ""
+
+#: admin/general_settings.php:792
+msgid ""
+"With Enable of this feature, Appointment request from clients will be auto "
+"confirmed."
+msgstr ""
+
+#: admin/general_settings.php:1078
+msgid ""
+"With this feature you can allow a visitor to book appointment without "
+"registration."
+msgstr ""
+
+#: admin/general_settings.php:1127
+msgid ""
+"With this feature you can Auto confirm clients reivews. No need to confirm "
+"manually."
+msgstr ""
+
+#: admin/general_settings.php:1115
+msgid "With this feature you can Enable/Disable reviews for clients."
+msgstr ""
+
+#: admin/general_settings.php:1067
+msgid ""
+"With this you can hide the already booked slots just to hide your bookings "
+"from your Competitors."
+msgstr ""
+
+#: assets/lib/admin_general_ajax.php:3282
+msgid "Write Review"
+msgstr ""
+
+#: admin/general_settings.php:381
+msgid "year"
+msgstr ""
+
+#: admin/general_settings.php:382 admin/general_settings.php:383
+msgid "years"
+msgstr ""
+
+#: admin/clients.php:87 admin/clients.php:170 admin/dashboard.php:312
+#: admin/general_settings.php:159 admin/general_settings.php:642
+#: admin/general_settings.php:2751 admin/general_settings.php:2925
+#: admin/general_settings.php:2960 admin/header.php:783 admin/locations.php:333
+#: admin/locations.php:399 admin/locations.php:578 admin/reviews.php:115
+#: admin/reviews.php:224 admin/reviews.php:312 admin/services.php:147
+#: admin/services.php:218 admin/services.php:277 admin/services.php:501
+#: admin/service_addons.php:115 admin/service_addons.php:166
+#: admin/service_addons.php:384 admin/staff.php:179 admin/staff.php:225
+#: admin/staff.php:563 admin/staff.php:808
+#: assets/lib/admin_general_ajax.php:3863
+#: assets/lib/admin_general_ajax.php:3958 assets/lib/location_ajax.php:198
+#: assets/lib/location_ajax.php:262 assets/lib/location_ajax.php:454
+#: assets/lib/service_ajax.php:293 assets/lib/service_ajax.php:352
+#: assets/lib/service_ajax.php:568 assets/lib/setting_ajax.php:123
+#: assets/lib/staff_ajax.php:336 assets/lib/staff_ajax.php:470
+#: assets/lib/staff_ajax.php:555 assets/lib/staff_ajax.php:599
+#: assets/lib/staff_ajax.php:940 assets/lib/staff_ajax.php:1186
+msgid "Yes"
+msgstr ""
+
+#: admin/header.php:195
+msgid "Yesterday"
+msgstr ""
+
+#: frontend/oct_firstep.php:309
+msgid "You are logged in as"
+msgstr ""
+
+#: admin/general_settings.php:1292
+msgid "You can enable Paypal test mode for sandbox account testing."
+msgstr ""
+
+#: admin/general_settings.php:1447
+msgid "You can enable paytm test mode for sandbox account testing."
+msgstr ""
+
+#: admin/general_settings.php:297
+msgid "you can get bookings by zip code.By enable this option"
+msgstr ""
+
+#: admin/general_settings.php:1012
+msgid ""
+"you can hide service providers, if you think there is only one service "
+"provider you want to use."
+msgstr ""
+
+#: admin/general_settings.php:1056
+msgid "You can show/hide coupon input on checkout form."
+msgstr ""
+
+#: admin/client_dashboard_front.php:207
+msgid "You Must Login to check your appointments"
+msgstr ""
+
+#: admin/general_settings.php:283
+msgid "you want  multilocations.Enable this option"
+msgstr ""
+
+#: admin/general_settings.php:803
+msgid ""
+"you want to allow booking even service during overlap the day closing time."
+msgstr ""
+
+#: admin/general_settings.php:816
+msgid "you want to allow display cart description in front side"
+msgstr ""
+
+#: frontend/oct_firstep.php:790 frontend/oct_thankyou.php:129
+msgid "You will be notified with details of appointment(s)."
+msgstr ""
+
+#: admin/general_settings.php:2955
+msgid "Your Admin URL"
+msgstr ""
+
+#: admin/general_settings.php:2650 admin/general_settings.php:2652
+msgid "Your Appointments"
+msgstr ""
+
+#: frontend/oct_firstep.php:820
+msgid "Your area code or zip code"
+msgstr ""
+
+#: frontend/oct_firstep.php:1596 assets/lib/oct_front_ajax.php:1035
+msgid "Your Cart is Empty!"
+msgstr ""
+
+#: admin/general_settings.php:2931
+msgid "Your Client ID"
+msgstr ""
+
+#: admin/general_settings.php:2939
+msgid "Your Client Secret ID"
+msgstr ""
+
+#: admin/general_settings.php:76
+msgid "Your Company email"
+msgstr ""
+
+#: admin/general_settings.php:67
+msgid "Your Company Name"
+msgstr ""
+
+#: admin/general_settings.php:2777 admin/general_settings.php:2847
+msgid "Your Coupon Code"
+msgstr ""
+
+#: admin/general_settings.php:2947
+msgid "Your Frontend URL"
+msgstr ""
+
+#: frontend/oct_firstep.php:789 frontend/oct_thankyou.php:128
+msgid "Your payment was successful."
+msgstr ""
+
+#: admin/calendar.php:298 admin/export.php:324 admin/general_settings.php:129
+#: assets/lib/admin_general_ajax.php:246 assets/lib/admin_general_ajax.php:2587
+#: assets/lib/notification_reminder.php:214
+msgid "Zip"
+msgstr ""
+
+#: admin/general_settings.php:289
+msgid "Zip Code Wise Booking"
+msgstr ""
+
+#: admin/general_settings.php:302
+msgid "Zip Codes"
+msgstr ""
+
+#: admin/locations.php:486 admin/locations.php:665 admin/locations.php:666
+#: assets/lib/location_ajax.php:358 assets/lib/location_ajax.php:359
+#: assets/lib/location_ajax.php:542 assets/lib/location_ajax.php:543
+msgid "Zip/Postal Code"
+msgstr ""

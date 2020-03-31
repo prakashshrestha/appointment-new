@@ -1,0 +1,3508 @@
+/*
+OctaBook:  Admin   
+
+
+*/
+	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600');
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+	
+	#wpcontent{
+		padding-left: 0px !important; /* to remove padding from left of bookddice admin */
+	}
+	html.wp-toolbar{
+		background: unset; /* remvoe white space from wordpress 4.0 in octabook admin */
+	}
+	body { 	
+		font-family:inherit !important;
+		font-weight: normal !important;
+		font-size: 13px;
+		line-height: 22px;
+		background: #ffffff;
+		color: #3d3d3d !important;
+		direction: ltr;
+	}
+	#oct.oct-wrapper{
+		clear: both;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		float: left;
+	}
+	#oct header.oct-header{
+		position: relative;
+	}
+	
+	#oct #oct-top-nav .navbar-header a.navbar-brand img{
+		position: relative;
+		width: 180px;
+	}
+	#oct #oct-top-nav .navbar-header a.navbar-brand,
+	#oct #oct-main-navigation .navbar-header a.navbar-brand{
+		padding: 5px;
+	}
+	
+
+	#oct #oct-top-nav .navbar-toggle .icon-bar,
+	#oct #oct-main-navigation .navbar-toggle .icon-bar{
+		background: #fff;
+	}
+	#oct  #oct-top-nav .navbar{
+		min-height:52px;
+		border:0 none;
+		margin: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-o-border-radius: 0;
+		-ms-border-radius: 0;
+		border-radius: 0;
+	}
+	#oct  #oct-main-navigation .navbar{
+		min-height:65px;
+		border:0 none;
+		z-index: 98;
+	}
+	#oct .w-100{
+		width: 100%;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li.right-location button.btn{
+		background: transparent;
+    border: none;
+    color: #fff;
+    text-shadow: none;
+    padding-right: inherit;
+    padding-left: inherit;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li.right-location{
+		float: right;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li.location-select:hover{
+		background-color: transparent;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li:first-child:before{
+		border-left-width: thin;
+		border-left-style: solid;
+		left: 0;
+	}
+		
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li:before{
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		height:100%;
+		border-right-width: thin;
+		border-right-style: solid;		
+		opacity: 0.3;
+	}
+	#oct  #oct-main-navigation .navbar .nav.oct-nav-tab li{
+		float: left;
+		min-width: 80px;
+		height: 67px;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		list-style: none;	
+		border-radius: 5px;	
+	}
+	#oct  #oct-main-navigation .navbar .nav.oct-nav-tab > li > a {
+		font-family: inherit;
+		text-shadow: none;
+		color: #BCBCBC;
+		font-size: 12px;
+		padding: 0 15px;
+		line-height: 32px;
+		font-weight: bold;
+		font-weight: 400;
+		background-image: unset;
+		height: 100%;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a#oct-notifications,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li.right-location > a
+	{
+		line-height: 32px;
+    
+    background: transparent !important;
+    box-shadow: none !important;
+	}
+	#oct  #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .fa,
+	#oct  #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .icons,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li span.oct-map-location .icons{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    margin-top: 5px;
+    margin-right: 3px;
+    font-size: 24px
+	}
+	#oct  #oct-main-navigation .navbar .nav.oct-nav-tab > li > a span{
+		display: block;
+		padding-bottom: 2px;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > .active > a,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > .active > a:focus{
+		background-color: #242C33 ;
+		color: #FFF ;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		-o-box-shadow: none;
+	}
+	
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a:hover {
+		background-color: rgb(85, 88, 92) ;
+		color: #FFF ;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		-o-box-shadow: none;
+	}
+	#oct #oct-top-nav{
+		font-family: inherit;
+		border-radius: 0px;
+		background: #E1E7EB;
+		border: medium none;
+		filter: none;
+		height: 52px;
+		border-bottom: 1px solid #efefef;
+		display: none;
+	}
+	#oct #oct-top-nav .navbar-collapse.collapse.in{
+		border-color: #d3d3d3;
+		position: relative;
+		z-index: 99;
+		background: #E1E7EB;
+		-webkit-box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.3);
+		-moz-box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.3);
+		box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.3);
+	}
+	#oct #oct-main-navigation{
+		font-family: inherit;
+		border-radius: 0px;
+		background: #E1E7EB  none no-repeat scroll 0% 0%;
+		border: medium none;
+		filter: none;
+		height: 67px;
+		clear: both;
+	}
+	
+	#oct #oct-top-nav .navbar .nav > li > a#oct-notifications{
+		line-height: 0px;
+		margin-right: 10px;
+		top: 0px;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a#oct-notifications .oct-bell-notification{
+		line-height: 38px;
+	}
+	#oct #oct-top-nav .navbar-right {
+		margin-right: 0px;
+	}
+	#oct #oct-notifications i.fa-angle-down,
+	#oct #oct-user-info i.fa-angle-down{
+		position: relative;
+		top: 4px;
+		left: 5px;
+	}
+	#oct .noti_color,
+	#oct a#oct-notifications i.icon-bell,
+	#oct a#oct-notifications i.fa-angle-down{
+		color: #3d3d3d;
+	}
+	#oct a#oct-notifications i.icon-bell:before,
+	#oct a#oct-notifications i.fa-angle-down:before {
+		font-size: 18px;
+		font-weight: bold;
+	}	
+	#oct a#oct-notifications i.icon-bell,
+	#oct a#oct-notifications i.fa-angle-down {
+		position: relative;
+		top: 3px;
+	}
+	#oct a#oct-notifications .oct-pulse{
+		-webkit-animation: bdpulsate 1.25s cubic-bezier(0.5,-0.5,0.25,1.5);
+		-moz-animation: bdpulsate 1.25s cubic-bezier(0.5,-0.5,0.25,1.5);
+		-o-animation: bdpulsate 1.25s cubic-bezier(0.5,-0.5,0.25,1.5);
+		-ms-animation: bdpulsate 1.25s cubic-bezier(0.5,-0.5,0.25,1.5);
+		animation-iteration-count: infinite;
+	}
+
+	@-webkit-keyframes bdpulsate {
+		0% {
+		  transform: scale(.1);
+		  opacity: 0.3;
+		}
+		50% {
+		  opacity: 1;
+		}
+		100% {
+		  transform: scale(1.2);
+		  opacity: 0.6;
+		}
+	}
+	@-moz-keyframes bdpulsate {
+		0% {
+		  transform: scale(.1);
+		  opacity: 0.3;
+		}
+		50% {
+		  opacity: 1;
+		}
+		100% {
+		  transform: scale(1.2);
+		  opacity: 0.6;
+		}
+	}
+	@-o-keyframes bdpulsate {
+		0% {
+		  transform: scale(.1);
+		  opacity: 0.3;
+		}
+		50% {
+		  opacity: 1;
+		}
+		100% {
+		  transform: scale(1.2);
+		  opacity: 0.6;
+		}
+	}
+	@-ms-keyframes bdpulsate {
+		0% {
+		  transform: scale(.1);
+		  opacity: 0.3;
+		}
+		50% {
+		  opacity: 1;
+		}
+		100% {
+		  transform: scale(1.2);
+		  opacity: 0.6;
+		}
+	}
+	@keyframes bdpulsate {
+		0% {
+		  transform: scale(.1);
+		  opacity: 0.3;
+		}
+		50% {
+		  opacity: 1;
+		}
+		100% {
+		  transform: scale(1.2);
+		  opacity: 0.6;
+		}
+	}
+	
+	#oct #oct-notifications #oct-notification-top {
+    display: inline-block;
+    padding: 0 2px;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: -4px;
+    right: 10px
+	}
+	#oct #oct-notifications .get_notification_rem{
+    padding: 3px !important;
+    border: 1px solid #6aa5e3;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    background: #fff;
+    color: #000;
+    line-height: 17px;
+	}
+	#oct #oct-notifications .not-arrow{
+    margin-left: -20px;
+	}	
+	#oct #oct-top-nav .navbar .nav > li > a.oct-notifications-new {
+		float: none;
+		position: relative;
+	}
+	
+	#oct .oct-overlay-notification.visible{
+		visibility: visible;
+		background-color: rgba(0,0,0,.5);
+		pointer-events: auto;
+		z-index: 9999;
+	}
+	#oct .oct-overlay-notification{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		visibility: hidden;
+		transition-duration: .2s;
+		transition-timing-function: ease-in;
+		transition-property: background-color,visibility;
+		background-color: rgba(0,0,0,0.4);
+		z-index: 9999;
+	}
+	#oct .oct-notifications-inner{
+		height: 95%;
+		max-width: 90%;
+		top: 30px;
+		right: -400px;
+		width: 400px;
+		border: 1px solid gray;
+		border-width: 0px;
+		-webkit-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		-moz-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		-o-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		-ms-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		background-color: #fff;
+		-webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+		-moz-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+		-o-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+		-ms-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+		box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+		position: fixed;
+		z-index: 1049;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	#oct .oct-notifications-inner.visible{
+		right: 0px;
+		-webkit-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		-moz-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		-o-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		-ms-transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		transition: all .3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	}
+	#oct .oct-notification-main .notification-header {
+		margin: 0px;
+		height: 50px;
+		font-size: 16px;
+		line-height: 50px;
+		text-align: center;
+		display: block;
+		text-transform: capitalize;
+		font-family: Montserrat;
+	}
+	#oct .oct-notification-main .notification-header a.oct-clear-all{
+		position: relative;
+		line-height: 26px;
+		top: 6px;
+	}
+	#oct .oct-notification-main .notification-header #oct-close-notifications {
+		position: relative;
+		cursor: pointer;
+		font-size: 40px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		text-decoration: none;
+		font-family: initial;
+	}
+	#oct #oct-top-nav .navbar-right .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+	   width: 150px;
+	   top: 2px;
+	   right: 5px;
+	   padding-left: 10px;
+	}
+	#oct #oct-top-nav .navbar-right label {
+	   line-height: 50px;
+	}
+	/* .modal-backdrop {
+		position: absolute !important;
+		z-index: 99 !important;
+	}
+	*/
+	#oct .oct-notification-main .oct-recent-booking-container{
+		text-align:left;
+		margin:0px;
+		padding:0px;
+		position:absolute;
+		overflow: auto;
+		display: inline-block;
+		height: 90%;
+		width: 100%;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list{
+		list-style-type: none;
+		margin: 0px !important;
+		padding: 0px !important;
+		max-height:100%;
+		overflow-y: auto;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list li{
+		cursor: pointer;
+		padding: 0px 13px;
+		background: #f1f1f1;
+		display: block;
+		float: left;
+		width: 100%;
+		margin: 0px;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list .list-inner.oct-no-notification{
+		border: 0;
+		text-align: center;
+		margin: 22% 0px;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list .list-inner.oct-no-notification .booking-text{
+		text-align: center;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list .list-inner a.oct-mark-read{
+		position: absolute;
+		right: 0;
+	}
+	
+	#oct .oct-notification-main ul.oct-recent-booking-list .list-inner{
+		padding: 10px 0px;
+		float:left;
+		word-wrap: break-word;
+		width:100%;
+		border-bottom: 1px solid rgba(156, 156, 156, 0.36) ;
+		display: inline-block;
+		z-index: 9;
+		position: relative;
+	}
+	
+	
+	#oct .oct-notification-main ul.oct-recent-booking-list .list-inner span.booking-text{
+		font-size:13px;
+		font-family: inherit;
+		line-height:20px;
+		text-align:justify;
+		position:relative;
+		width: 100%;
+		float:left;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list li .list-inner span.booking-time{
+		font-size:11px;
+		font-family: inherit;
+		line-height:18px;
+		margin-top: 5px;
+		position:relative;
+		clear: left;
+	}
+	
+/* css loader */
+		
+	#oct .oct-load-bar {
+	  position: relative;
+	  margin-top: 20px;
+	  width: 100%;
+	  height: 6px;
+	  background-color: #fdba2c;
+	}
+	#oct .oct-bar {
+	  content: "";
+	  display: inline;
+	  position: absolute;
+	  width: 0;
+	  height: 100%;
+	  left: 50%;
+	  text-align: center;
+	}
+	#oct .oct-bar:nth-child(1) {
+	  background-color: #da4733;
+	  animation: loading 3s linear infinite;
+	}
+	#oct .oct-bar:nth-child(2) {
+	  background-color: #3b78e7;
+	  animation: loading 3s linear 1s infinite;
+	}
+	#oct .oct-bar:nth-child(3) {
+	  background-color: #fdba2c;
+	  animation: loading 3s linear 2s infinite;
+	}
+	@keyframes loading {
+		from {left: 50%; width: 0;z-index:100;}
+		33.3333% {left: 0; width: 100%;z-index: 10;}
+		to {left: 0; width: 100%;}
+	}
+	
+	#oct .oct-loading-main{
+		display: none;
+		position: fixed;
+		z-index: 100;
+		top: 0px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+		background: rgba(0,0,0,0.5);
+		overflow: auto;
+		z-index: 99999;
+		
+	}
+	#oct .loader{
+		position : fixed;
+		top: 50% !important;
+		left: 50% !important;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		width: 100px;
+		height: 100px;
+	}
+	#oct .loader .oct-first,
+	#oct .loader .oct-second,
+	#oct .loader .oct-third{
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	#oct .loader .oct-first{
+		height: 25px;
+		width: 25px;
+		animation: rotate 1s infinite linear;
+		border: 3px solid #fff;
+		border-right-color: transparent !important;
+		border-radius: 50%;
+		display: inline-block;
+		top: 18px;
+		left: 18px;
+	}
+	#oct .loader .oct-second{
+		height: 45px;
+		width: 45px;
+		animation: anti-rotate 1s infinite linear;
+		border: 3px solid #fff;
+		border-bottom-color: transparent !important;
+		border-radius: 50%;
+		display: inline-block;
+		top: 8px;
+		left: 8px;
+	}
+	#oct .loader .oct-third{
+		height: 60px;
+		width: 60px;
+		animation: rotate 1s infinite linear;
+		border: 3px solid #fff;
+		border-top-color: transparent !important; 
+		border-radius: 50%;
+		display: inline-block;		
+	}
+	
+	
+	
+
+	@-moz-keyframes rotate {
+	  0%    { transform: rotate(0deg); }
+	  100%  { transform: rotate(360deg); }
+	}
+	@-webkit-keyframes rotate {
+	  0%    { transform: rotate(0deg); }
+	  100%  { transform: rotate(360deg); }
+	}
+	@keyframes rotate {
+	  0%    { transform: rotate(0deg); }
+	  100%  { transform: rotate(360deg); }
+	}
+	
+	@-moz-keyframes anti-rotate {
+	  0%    { transform: rotate(360deg); }
+	  100%  { transform: rotate(0deg); }
+	}
+	@-webkit-keyframes anti-rotate {
+	  0%    { transform: rotate(360deg); }
+	  100%  { transform: rotate(0deg); }
+	}
+	@keyframes anti-rotate {
+	  0%    { transform: rotate(360deg); }
+	  100%  { transform: rotate(0deg); }
+	}
+	
+	/* alert all messages */
+	#oct .oct-alert-msg-show-main{
+		width: auto;
+		text-align: center;
+		position: fixed;
+		z-index: 999;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#oct .oct-all-alert-messags.alert{
+		display: none;
+		/* display: inline-block; */
+		position: relative;
+		padding: 10px 20px;
+		margin: 0px;		
+	}
+	/* new line icons font size */
+	#oct i.icon-bell,
+	#oct i.icon-bulb,
+	#oct i.icon-layers,
+	#oct i.icon-diamond,
+	#oct i.icon-user{
+		font-size: 18px;
+		position: relative;
+		top: 3px;
+	}
+	
+	/* appointment details modal popup */
+	#oct .modal-md{
+		width: 450px;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li {
+		padding: 1px 0px;
+		margin: 0;
+		clear: both;
+		font-size: 13px;
+		list-style: none;
+		display: inline-block;
+		line-height: 12px;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li label{
+		width: 95px;
+		float: left;
+		color: #626262;
+		text-align: left;
+		margin-right: 17px;
+		margin-bottom: 0;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li span.span-scroll{
+		float: left;
+		color: #333;
+		font-size: 13px;
+		line-height: 16px;
+		width: 300px;
+		word-wrap: break-word;
+		max-height: 70px;
+		overflow: auto;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li a,span.client_fulladdress_span{
+		margin-left: -23px;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li .oct-booking-status{
+		float: left;
+		color: #333;
+		font-size: 13px;
+		line-height: 16px;
+		width: 250px;
+		word-wrap: break-word;
+		max-height: 70px;
+		overflow: auto;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li a.client_fulladdress{
+		width: 300px;
+		float: left;
+		position: absolute;
+		line-height: 1.3;
+		margin-left: 25px;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li .oct-booking-status em{
+		font-family: inherit;
+		font-size: 13px;
+		margin-left: 5px;	
+	}	
+	#oct #booking-details li h6.oct-customer-details-hr{
+		margin: 0px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+	}
+	#oct #booking-details .nav > .active > a ,
+	#oct #edit-booking-details-view .nav > .active > a {
+		background-color: #fff !important;
+		color: #555 !important ;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		-o-box-shadow: none;
+	 }
+	#oct #booking-details .nav > li > a:hover ,
+	#oct #edit-booking-details-view .nav > li > a:hover {
+		background-color: #fff !important ;
+		color: #555 !important ;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		-o-box-shadow: none;
+	}
+	
+	#oct .modal-body table{
+		width: 100%;
+	}
+	
+	#oct .modal-footer table td,
+	#oct .modal-body table td{
+		padding: 5px;
+	}
+	#oct #booking-details .modal-body .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) ,
+	#oct #edit-booking-details-view .modal-body .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	#oct #booking-details .modal-body .form-group{
+		margin-bottom: 1px;
+	}
+	#oct #booking-details .modal-body  .bootstrap-select.btn-group .dropdown-menu{
+		max-height:260px !important;
+	}
+	#oct #booking-details .modal-body .bootstrap-select.btn-group .dropdown-menu li a{
+		line-height:23px;
+		padding: 5px 14px;
+	}
+	
+	#oct #oct-dashboard .panel,
+	#oct #oct-locations-panel.panel,
+	#oct #oct-service-addon-panel.panel,					 
+	#oct #oct-services-panel.panel,
+	#oct #oct-staff-panel.panel,
+	#oct #oct-customers-listing.panel,
+	#oct #oct-customers-listing.panel .panel-default,
+	#oct #oct-payments.panel,
+	#oct #oct-payments .panel.panel-default,
+	#oct #oct-settings.panel,
+	#oct #oct-settings .oct-setting-details .oct-email-template-panel.panel,
+	#oct #oct-settings .oct-setting-details .oct-email-template-panel.panel-default,
+	#oct #oct-staff-panel .oct-staff-right-details #member-offdays .panel,
+	#oct #oct-staff-panel .oct-staff-right-details #member-offdays .panel.panel-default,
+	#oct #oct-settings #company-details .panel,
+	#oct #oct-settings #company-details .panel.panel-default,
+	#oct #oct-settings #general-setting .panel,
+	#oct #oct-settings #general-setting .panel.panel-default,
+	#oct #oct-settings #appearance-setting .panel,
+	#oct #oct-settings #appearance-setting .panel.panel-default,
+	#oct #oct-settings #payment-setting .panel,
+	#oct #oct-settings #payment-setting .panel.panel-default,
+	#oct #oct-settings #email-setting .panel,
+	#oct #oct-settings #email-setting .panel.panel-default,
+	#oct #oct-settings #email-template .panel,
+	#oct #oct-settings #email-template .panel.panel-default,
+	#oct #oct-settings #sms-reminder .panel,
+	#oct #oct-settings #sms-reminder .panel.panel-default,
+	#oct #oct-settings #sms-template .panel,
+	#oct #oct-settings #sms-template .panel.panel-default,
+	#oct #oct-settings #custom-form-fields .panel,
+	#oct #oct-settings #custom-form-fields .panel.panel-default,
+	#oct #oct-settings #promocode .panel,
+	#oct #oct-settings #promocode .panel.panel-default{	
+		box-shadow: unset;
+		border: 0px none;
+		margin-bottom: 10px;
+	}
+	
+	
+	/* dashborad index page */
+	
+	#oct #oct-dashboard .oct-top-menus-stats.nav > li > a{
+		border: 1px solid #E7ECF1;
+		display: block;
+		overflow: hidden;
+		padding: 15px;
+	}
+	#oct #oct-dashboard .oct-top-menus-stats.nav > li.active > a{
+		box-shadow: 0px 0px 4px #555;
+		-webkit-box-shadow: 0px 0px 4px #555;
+		-moz-box-shadow: 0px 0px 4px #555;
+		-o-box-shadow: 0px 0px 4px #555;
+	}
+	#oct #oct-dashboard .oct-title-amount-stats{
+		width: 100%;
+		float: left;
+		display: block;
+	}
+	
+	
+	#oct #oct-dashboard h4.oct-dash-header{
+		font-size: 24px;
+		font-weight: 400;
+		margin: 0px 0px 5px;
+		color: #778492;
+		float: left;
+		display: inline-block;
+	}
+	
+	#oct #oct-dashboard .oct-stats-total{
+		display: block;
+		font-size: 22px;
+		line-height: 22px;	
+		font-weight: 300;
+		color: #3E4F5E;
+		position: relative;
+		text-align: right;
+		width: 100%;
+		clear: both;
+	}
+	#oct #oct-dashboard .oct-dash-icon{
+		float: left;
+		width: 50px;
+		height: 60px;
+		display: inline-block;
+		font-size: 17px;
+		line-height: 41px;
+		color: #FFF;
+		text-align: center;
+		padding: 5px;
+		margin-right: 15px;
+    margin-left: 6px;
+	}
+	#oct #oct-dashboard .oct-dash-icon img{
+		width: 100%;
+	}
+	#oct #oct-dashboard .oct-dash-icon.this-week{
+		background: #5AD3D1 none repeat scroll 0% 0% !important;
+	}
+	
+	
+	
+	#oct #oct-dashboard .oct-stats-title{
+		padding-top: 2px;
+		display: block;
+		font-size: 14px;
+		font-weight: 600;
+		color: #8E9DAA;
+	}
+	#oct #oct-dashboard .oct-stats-counting{
+		display: block;
+		font-size: 28px;
+		font-weight: 600;
+		color: #3E4F5E;
+	}
+	
+	#oct  #oct-settings .oct-left-menu-stats ul li a{
+		font-family: inherit;
+		font-size: 12px;
+		font-weight: 400;
+		color: #8D8D8D;
+		line-height: 20px;
+		padding: 5px 0px;
+		text-align: center;
+	}
+	
+	#oct #oct-dashboard .oct-left-menu-stats ul li a{
+		font-family: inherit;
+		font-size: 15px;
+		color: inherit;
+		line-height: 30px;
+		height: 42px;
+		padding: 5px 0px;
+		text-align: center;
+		text-transform: capitalize;
+	}
+	#oct .nav li.active a{
+		font-weight: 600;
+	}
+	#oct #oct-dashboard .oct-left-menu-stats{
+		background: #E1E7EB none repeat scroll 0% 0%;
+		height: 100%;
+		min-width: 170px;
+		color: #8D8D8D;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	}
+	#oct #oct-dashboard .oct-statistic-month-main table.oct-statistic-month tr td{
+		padding: 10px 15px;
+	}
+	/* new appointments listing */
+	#oct #oct-dashboard .oct-today-list-actions{
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-dashboard .oct-today-list-actions .oct-past-booking-button{
+		position: absolute;
+		right: 13px;
+		top: 7px;
+		z-index: 999;
+	}
+	#oct #oct-dashboard .oct-today-list-actions .oct-past-booking-button .popover{
+		width: 140px;
+		max-width: 200px;
+	}
+	
+	#oct #oct-dashboard .oct-today-bookings-main,
+	#oct #oct-dashboard .oct-latest-activity{
+		height: 380px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-booking-list,
+	#oct #oct-dashboard .oct-latest-activity .oct-bookings-activity-list{
+		cursor: pointer;
+		font-size: 13px;
+		line-height: 20px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list{
+		border-bottom: 1px solid #ddd;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		float: left;
+		width: 100%;
+		z-index: 99;
+	}
+	
+	#oct #oct-dashboard #oct-today-stats .oct-no-booking-chart,
+	#oct #oct-dashboard .oct-bookings-activity .oct-no-today-booking-message{
+		text-align: center;
+		margin: 22% 0px;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list .list-inner span.booking-text .oct-label,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .oct-label {
+		padding: 3px 10px;
+	}
+	
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list:hover,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list:hover{
+		background: #f9f9f9;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-left{
+		min-width: 80px;
+		padding-right: 10px;
+		display: table-cell;
+		vertical-align: middle;
+		float: left;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-center{
+		display: table-cell;
+		vertical-align: top;
+		overflow: hidden;
+		float: left;
+	}
+	
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right{
+		display: table-cell;
+		vertical-align: top;
+		overflow: hidden;
+		float: right;
+	}
+	
+	#oct #oct-dashboard .oct-today-bookings-main [class*=" icon-"]:before,
+	#oct #oct-dashboard .oct-bookings-activity [class*=" icon-"]:before,
+	#oct #oct-dashboard .oct-today-bookings-main [class^="icon-"]:before,
+	#oct #oct-dashboard .oct-bookings-activity [class^="icon-"]:before{
+		margin-left: 0px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main i.icon-user,
+	#oct #oct-dashboard .oct-latest-activity i.icon-user{
+		font-size: inherit;
+		position: relative;
+		top: unset;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-center .oct-service-text,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .oct-service-text{
+		color: #315D51;
+		font-size: 14px;
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-dashboard .panel-default > .panel-heading{
+		background-color: unset;
+		border-color: unset;
+		background-image: none;
+		border: none !important;
+	}
+	#oct #oct-dashboard .panel-heading{
+		background: transparent;
+		border-radius: 0px;
+		border-bottom: 0px;
+		padding: 15px 15px 5px 15px;
+		position: relative;
+		z-index: 3;
+		font-size: 15px;
+		font-weight: 600;
+		height: 42px;
+		text-transform: capitalize;		
+	}
+	#oct #oct-dashboard .oct-statistic-month-main .panel-body,
+	#oct #oct-dashboard .oct-today-bookings .panel-body,
+	#oct #oct-dashboard .oct-bookings-activity .panel-body{
+		padding: 0px;
+	}
+	#oct #oct-dashboard .oct-statistic-month-main hr#hr,
+	#oct #oct-dashboard .oct-today-bookings hr#hr,
+	#oct #oct-dashboard .oct-bookings-activity hr#hr{
+		margin: 0px;
+	}
+	#oct #booking-details .modal-body .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) ,
+	#oct #edit-booking-details-view .modal-body .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn),
+	#oct #add-new-booking-details .modal-body .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	/* 
+	#oct #chart-area{
+		width: 500px !important;
+		height: 500px !important;
+	}
+	*/
+	
+/* customers details */
+	/* Add manual booking css */
+	#oct .oct-search-customer-main .search-container{
+		margin-left: 20px;
+		margin-top: 10px;
+		margin-right: 20px;
+		padding-bottom: 20px;
+		position: relative;
+	}
+	#oct .search-container .search-icon{
+		position: absolute;
+		right: 7px;
+		z-index: 99;
+		top: 7px;
+	}
+	#oct .search-container ul.oct-search-result-list{
+		display: none;
+		list-style-type: none;
+		background: none repeat scroll 0 0 #FFF;
+		font-weight: normal;
+		font-size: 14px;
+		width: 100%;
+		margin-top: -2px;
+		position: absolute;
+		max-height: 150px;
+		z-index: 99;
+		overflow: auto;
+		cursor: pointer;
+	}
+	#oct .search-container ul.oct-search-result-list li img.list-customer-image{
+		width: 30px;
+		height: 30px;
+	}
+	#oct .search-container ul.oct-search-result-list li span.list-customer-contact{
+		line-height: 30px;
+	}
+	#oct .search-container ul.oct-search-result-list li:hover{
+		background: rgba(0,0,0, 0.10);
+	}
+	#oct .search-container .oct-searching-customer{
+		display: none;
+		padding: 8px 10px;
+		position: absolute;
+		width: 100%;
+		top: 30px;
+		font-size: 14px;
+	}
+
+	#oct #oct-customers-listing .oct-custom-checkbox ul.oct-checkbox-list label span,
+	#oct #oct-payments .oct-custom-checkbox ul.oct-checkbox-list label span{
+		margin-left: 10px;
+	}
+	#oct #oct-calendar-all .modal-content .modal-footer,
+	#oct #booking-details .modal-content .modal-footer,
+	#oct #edit-booking-details-view .modal-content .modal-footer{
+		text-align: center;
+		padding: 5px 15px;
+		clear: both;
+	}
+	#oct #oct-delete-appointment-cal-popup,
+	#oct #oct-calendar-all  #oct-delete-appointment-cal-popup,
+	#oct #booking-details  #oct-delete-appointment,
+	#oct #edit-booking-details-view  #edit-oct-delete-appointment{
+		color: #CC3F3B;
+	}
+	#oct #oct-confirm-appointment-cal-popup,
+	#oct #oct-calendar-all  #oct-confirm-appointment-cal-popup,
+	#oct #booking-details  #oct-confirm-appointment,
+	#oct #edit-booking-details-view  #edit-oct-confirm-appointment{
+		color: #54AE54;
+	}
+	#oct #oct-reject-appointment-cal-popup,
+	#oct #oct-calendar-all  #oct-reject-appointment-cal-popup,
+	#oct #booking-details  #oct-reject-appointment,
+	#oct #edit-booking-details-view #edit-oct-reject-appointment{
+		color: #2c2c2c;
+	}
+	#oct #oct-calendar-all .modal-footer .oct-footer-popup-btn,
+	#oct #booking-details .modal-footer .oct-footer-popup-btn,
+	#oct #edit-booking-details-view .modal-footer .oct-footer-popup-btn{
+		line-height: 53px;
+	}
+	#oct .modal-header li.oct_booking_datetime i.fa{
+		padding-right: 5px;
+	}
+	
+	
+	#oct #oct-calendar-all .modal-footer .oct-footer-popup-btn a#oct-confirm-appointment-cal-popup.oct-small-btn{
+		color: #54AE54;
+	}
+	#oct #oct-calendar-all .modal-footer .oct-footer-popup-btn a#oct-reject-appointment-cal-popup.oct-small-btn{
+		color: #2c2c2c;
+	}
+	#oct #oct-calendar-all .modal-footer .oct-footer-popup-btn a#oct-delete-appointment-cal-popup.oct-small-btn{
+		color: #CC3F3B;
+	}
+	
+	#oct #oct-calendar-all .modal-footer .oct-footer-popup-btn .oct-small-btn,
+	#oct #booking-details .modal-footer .oct-footer-popup-btn .oct-small-btn,
+	#oct #edit-booking-details-view .modal-footer .oct-footer-popup-btn .oct-small-btn{
+		padding: 6px 2px;
+	}
+	#oct #booking-details-calendar .close ,
+	#oct #booking-details .close ,
+	#oct #edit-booking-details-view .close {
+		float: right;
+		font-size: 50px;
+		position: absolute;
+		right: 12px;
+		top: 5px;
+	}
+	
+	
+	/****************************/
+	/****  Appointments page style ***/	
+	#oct .oct-calendar-top-bar{
+		float: left;
+		width: 100%;
+		min-height: 70px;
+		display: block;
+		cursor: pointer;
+	}
+	/* #oct .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 300px;
+	} */
+	#oct .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	
+	#oct div#reportrange{
+		width:370px;
+	}
+	#oct .fc { /* extra precedence to overcome jqui */
+		font-size: 14px;
+		clear: both;
+		overflow-x: hidden;
+	}
+	
+	#oct .fc-toolbar {
+		min-height: 60px;
+		padding: 0px;
+		background: #fff;
+		border-top: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+		margin-bottom: 0px;
+	}
+	
+	/* header style */
+	
+
+	#oct .fc-toolbar h2 {
+		color: #fff;
+		font-size: 24px !important;
+		line-height: 54px;
+		font-family: Helvetica;
+	}
+
+	#oct button.fc-today-button {
+		float: left;
+		display: inline-block;
+		opacity: 1 !important;
+	}
+
+	#oct .fc button {
+		background: none !important;
+		border: none;
+		color: #fff;
+		text-shadow: unset;
+	}
+	#oct .fc-state-default.fc-corner-left {
+		border-top-left-radius: 2px;
+		border-bottom-left-radius: 2px;
+	}
+
+	#oct .fc-state-default.fc-corner-right {
+		border-top-right-radius: 2px;
+		border-bottom-right-radius: 2px;
+	}
+	#oct .fc button .fc-icon{
+		width: 15px;
+	}
+	#oct .fc-icon-right-single-arrow::after, #oct .fc-icon-left-single-arrow::after {
+		padding: 0 !important;
+	}
+	#oct .fc button {
+		display: block;
+		height: 60px;
+		padding: 0 15px;
+		text-transform: capitalize;
+		font-size: 16px;
+		white-space: nowrap;
+		cursor: pointer;
+	}
+
+	.fc-state-down,
+	.fc-state-active {
+		box-shadow: none !important;
+		background-color: #efefef !important;
+	} 
+	/* header style */
+	
+	#oct .fc-toolbar h2 {
+		color: #fff;
+		font-size: 24px !important;
+		line-height: 54px;
+		font-family: Helvetica;
+	}
+	#oct button.fc-today-button{
+		float: left;
+		display: inline-block;
+	}
+	
+	#oct .fc-toolbar .fc-left {
+		position: relative;
+		left: 15px;
+	}
+	#oct .fc-toolbar .fc-center h2,
+	#oct .fc-toolbar .fc-center {
+		position: relative;
+	}
+	#oct .fc-toolbar .fc-right {
+		position: relative;
+		right: 15px;
+	}
+	#oct .fc-icon-left-single-arrow:after {
+		content: "\f100";
+		font-family: FontAwesome !important;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		
+		font-size: 24px;
+		padding-right: 0.5em;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	#oct .fc-icon-right-single-arrow:after{
+		content: "\f101";
+		font-family: FontAwesome !important;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		
+		font-size: 24px;
+		padding-right: 0.5em;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	
+	/* table */
+	#oct .fc table th{
+		font-size: 14px;
+		font-weight: 600;
+		letter-spacing: 0.5px;
+		padding: 8px 12px;
+	}
+	/* caledar booking details popup */
+	#oct #oct-calendar-all li.oct-custmers{
+		padding: 10px 0px 0px !important;
+	}
+	#oct #edit-booking-details-view .modal-md{
+		width: 450px !important;
+	}
+	
+	#oct .vertical-alignment-helper {
+		display:table;
+		height: 100%;
+		width: 100%;
+	}
+	#oct .vertical-align-center {
+		/* To center vertically */
+		display: table-cell;
+		vertical-align: middle;
+	}
+	#oct .modal-content {
+		width:inherit;
+		height:inherit;
+		/* To center horizontally */
+		margin: 0 auto;
+	}
+	#oct #oct-calendar-all ul.oct-cal-booking-details li{
+		padding: 5px 0px;
+		margin: 0;
+		clear: both;
+		font-size: 12px;
+		list-style: none;
+	}
+	#oct #oct-calendar-all ul.oct-cal-booking-details li label{
+		width: 83px;
+		float: left;
+		color: #626262;
+		text-align: left;
+		margin-right: 17px;
+		margin-bottom: 0;
+		font-size: 13px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	#oct #oct-calendar-all ul.oct-cal-booking-details li.oct-second-child span{
+		max-width: unset !important;
+	}
+	#oct #oct-calendar-all ul.oct-cal-booking-details li:not(:first-child) span{
+		float: left;
+		color: #333;
+		font-size: 13px;
+		line-height: 16px;
+		max-width: 250px;
+		word-break: break-word;
+		word-wrap: break-word;
+		max-height: 100px;
+		overflow: auto;
+	}
+	#oct #oct-calendar-all .oct-booking-status{
+		position: relative;
+		right: 10px;
+		top: 2px;
+		text-align: center;
+		font-size: 10px;
+	}
+	#oct #oct-calendar-all .oct-curr-status hr#hr{
+		margin: 0px 0px 3px;
+	}
+	#oct #oct-calendar-all .oct-booking-status{
+		font-size: 15px;
+		font-weight: 400;
+		text-transform: uppercase;
+		line-height: 16px;
+		padding-left: 7px;
+		float: left;
+		color: #31bf57;
+	}
+	#oct #oct-calendar-all .oct-booking-status span.badge{
+		display: inline-block;
+		padding: 4px;
+		min-width: 5px;
+		position: relative;
+		right: 4px;
+		top: -2px;
+	}
+	
+	#oct .oct-appointment-popup{
+		
+		box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+		-o-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+		width: 380px;
+		background: #fff;
+		margin: 30px auto;
+		
+	}
+	
+
+/****************************/
+	/****  Staff style ***/
+	
+		
+	#oct #oct-staff-panel{
+		background:#F1F5F7;
+		border-color: #8D8D8D;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-o-border-radius: 2px;
+	}
+	#oct #oct-staff-panel .panel-body{
+		background:#fff;
+		padding: 0px;
+	}	
+	#oct #oct-staff-panel .oct-staff-container{
+		width: 95%;
+		margin: 0px auto;
+		padding: 0px;
+		clear: both;
+	}
+	#oct #oct-staff-panel .oct-staf-img-small{
+	
+		width: 35px;
+		height: 35px;
+		border-radius:100%;
+		-moz-border-radius:100%;
+		-webkit-border-radius:100%;
+	}
+	#oct #oct-staff-panel  #oct-add-new-staff{
+		position: relative;
+		top: -7px;
+	}
+	#oct #oct-staff-panel .oct-staff-container h3{
+		padding: 10px 0px 5px;
+		font-size: 22px;
+	}
+	#oct #oct-staff-panel .oct-staff-list table tr td .oct-custom-radio ul.oct-radio-list li{
+		width: 100% !important;
+	}	
+	#oct #oct-staff-panel .oct-staff-list{	
+		background: #F1F5F7 none repeat scroll 0% 0%;
+		height: 100%;
+		min-width: 170px;
+		color: #8D8D8D;
+		text-align: left;
+		margin: 0px;
+		padding: 0px;
+	}
+	#oct  #oct-staff-panel .oct-staff-list span.oct-staff-name{
+		font-family: inherit;
+		font-size: 15px;
+		font-weight: 400;
+		color: #8D8D8D;
+		line-height: 15px;
+		text-indent: 2px;
+		text-align: left;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		display: inline-block;
+		width: 70%;
+	}
+	#oct  #oct-staff-panel .oct-staff-list ul li.active span.oct-staff-name{
+		color: #495861 !important;
+		border-radius: 0px;
+		font-family: inherit;
+		font-size: 15px;
+		font-weight: 400;
+		color: #3c4c5c;
+		line-height: 15px;
+		text-indent: 2px;
+		text-align: left;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		display: inline-block;
+		width: 70%;
+	}
+	
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff{
+		margin-top: 15px;
+		overflow-y: auto;
+		min-height: 450px;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list a{
+		padding: 8px 0 8px 5px;
+	}
+	
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list span.oct-manager-star{
+		position: absolute;
+		top: 13px;
+		right: 25px;
+		text-align: center;
+		line-height: 13px;
+		font-size: 11px;
+		text-transform: uppercase;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list span.oct-manager-star input[type="checkbox"] {
+		display: none !important;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list span.oct-manager-star input[type="checkbox"] + label span i.fa-star{
+		cursor: pointer;
+		font-size: 18px;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list span.oct-manager-star input[type="checkbox"]:checked + label span i.fa-star:before{
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		-ms-transition: all .3s;
+		transition: all .3s;
+		color: #EDB900;
+		
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list span.oct-manager-star input[type="checkbox"]:checked + label span .oct-text:after{
+		content: "Manager";
+		position: absolute;
+		display: block;
+		right: -15px;
+	}
+	
+	#oct #oct-staff-panel .oct-staff-list .popover {
+		max-width: 340px;
+		width: 350px;
+	}
+	
+	#oct #oct-staff-panel .oct-staff-list h3.popover-title{
+		background-color: #F8F8F8;
+		font-size: 15px;
+		padding: 8px 14px;
+		display: block;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list .oct-staff-clone{
+		display: inline-block;
+		width: 22px;
+		position: relative;
+		top: 5px;
+		left: 0px;
+	}
+	#oct #oct-staff-panel .oct-staf-img-small{
+		width: 30px;
+		height: 30px;
+		border-radius:100%;
+		-moz-border-radius:100%;
+		-webkit-border-radius:100%;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list .oct-staff-image{
+		display: inline-block;
+		width: 30px;
+		width: 30px;
+		position: relative;
+		top: -3px;
+		right: 3px;
+	}
+	
+	#oct  #oct-staff-panel .oct-clone-staff{
+		padding:1px 3px;
+		position: relative;
+		top: 0px;
+		right: 2px;
+	}
+	#oct  #oct-staff-panel .oct-clone-staff .oct-clone-staff i.fa-clone{
+		font-size: 12px !important;
+	}
+	
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list{
+		width: auto;
+		height: auto;
+		padding: 2px;
+		margin: 3px 0px;
+		position: relative;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list a:focus,
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list a:hover,
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list:hover,
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list.active{
+		background: #dbdbdb;
+		-webkit-transition: all 300ms ease-in-out 0s;
+		-moz-transition: all 300ms ease-in-out 0s;
+		-o-transition: all 300ms ease-in-out 0s;
+		-ms-transition: all 300ms ease-in-out 0s;
+		transition: all 300ms ease-in-out 0s; 
+	}
+	
+	/* right side staff member service list and price rules and top menu */
+	#oct #oct-staff-panel .intl-tel-input .country-list{
+		min-width: 270px;
+	}
+	#oct  #oct-staff-panel .oct-staff-top-header{
+		line-height:30px;
+		color: #3C4C5C;
+		font-size: 24px;
+		float: left;
+		width: 100%;
+		padding: 35px 0px 10px 0px;
+	}
+	#oct  #oct-staff-panel .oct-staff-top-header .popover {
+		max-width:170px;
+		width: 180px;
+	}
+	#oct  #oct-staff-panel .oct-staff-right-details{
+		width: 100%;
+		margin-top: 20px;
+		padding: 0px;
+	}
+	#oct  #oct-staff-panel .oct-staff-right-menu{
+		text-transform:uppercase;
+	}
+	
+	#oct #oct-staff-panel .oct-staff-right-details table {
+		float:left;
+		width:100%;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table tr.oct-col4 .btn{
+		padding: 4px 8px;
+	}
+	
+	
+	/* staff > services */
+	
+	#oct .member-services .panel{
+		border:unset;
+	}
+	#oct .member-services .panel-default{
+		box-shadow:unset;
+		-webkit-box-shadow:unset;
+		-moz-box-shadow:unset;
+		-o-box-shadow:unset;
+		border-color:unset;
+	}
+	#oct .member-services .oct-staff-service-panel.panel{
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+		-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+		-o-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+	}
+	#oct .member-services .oct-staff-service-panel.panel-default{
+		float: left;
+		width: 100%;
+		margin-bottom: 5px !important;
+		border: 1px solid rgba(0,0,0,0.3);
+	}
+	
+	#oct .member-services{
+		padding:0px;
+	}
+	#oct .member-services input[type="checkbox"]{
+		display:none;
+	}
+	
+	#oct .member-services .oct-service-time-member,
+	#oct .member-services .oct-service-price-member{
+		line-height:35px;
+		position:relative;
+		padding: 0px 5px;
+		min-width: 80px;
+		float: left;
+		display: inline-block;
+		text-align: right;
+	}
+	
+	#oct #oct-staff-panel table tr td{
+		padding:5px;
+		vertical-align: top;
+	}
+	/* #oct #oct-staff-panel table tr td:nth-child(1){
+		width:110px
+	} */
+	/* #oct #oct-staff-panel .oct-staff-right-details table.offdaystable tr td:nth-child(1){
+		width: 33.33333333% !important;
+	}	
+	#oct #oct-staff-panel .oct-staff-right-details table.offdaystable table.monthtable tr td:nth-child(1),
+	#oct #oct-staff-panel .oct-price-row table.oct-staff-common-table tr td:nth-child(1){
+		width: unset !important;
+	} */
+	/* staff service listing */
+	#oct .member-services .oct-staff-service-panel .panel-heading{
+		padding:3px 13px;
+		float: left;
+		width: 100%;
+	}
+	#oct .member-services .oct-staff-service-panel .panel-heading h4.panel-title{
+		line-height: 33px;
+	}
+	#oct .member-services .oct-staff-service-panel .panel-heading .oct-toggle{
+		margin: 4px 4px 4px 0px;
+		position: relative;
+		
+	}
+	#oct .member-services .oct-staff-service-panel .panel-heading span.oct-service-title{
+		line-height: 22px;
+	}
+	
+	/* staff pricing rules */
+	
+	#oct .member-services .oct-provider-custom-price-menu,
+	#oct .member-services .oct-staff-price-rules .panel-body {
+		padding:10px;
+		clear: both;
+	}
+	#oct .member-services .oct-staff-price-rules .panel,
+	#oct .member-services .oct-staff-price-rules .panel-default{
+		box-shadow: unset;
+		-webkit-box-shadow: unset;
+		-moz-box-shadow: unset;
+		-o-box-shadow: unset;
+		border-color: transparent;
+	}
+	#oct .member-services ul#oct-staff-breaks li.row {
+		line-height: 37px;
+		padding: 0px 0px 7px;
+	}
+	#oct .member-services .oct-staff-price-rules ul#oct-staff-price span.oct-day-name{
+		font-size:16px;
+		font-weight:400;
+	}
+	#oct .member-services .oct-staff-price-rules ul#oct-staff-price .oct-price-row li .oct-staff-price-schedule{
+		top: 5px;
+	}
+	#oct .member-services .oct-staff-price-rules ul#oct-staff-price .oct-price-row li{
+		margin-bottom: 5px !important;
+	}
+	#oct .member-services .oct-staff-price-rules ul#oct-staff-price .oct-price-row li:last-child{
+		border-bottom: 0!important;
+	}
+	
+	#oct .member-services .oct-staff-price-rules ul#oct-staff-price li.row{
+		line-height: 37px;
+		padding: 0px 0px 7px 0px;
+	}
+	
+	#oct .member-services .oct-staff-price-rules .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 95px;
+	}
+	#oct .member-services .oct-staff-price-rules .bootstrap-select.btn-group .dropdown-menu{
+		max-height:260px !important;
+	}
+	#oct .member-services .oct-staff-price-rules .bootstrap-select.btn-group .dropdown-menu li a{
+		line-height:23px;
+		padding: 3px 14px;
+	}
+	#oct .member-services .oct-staff-price-rules .panel-default ul#oct-staff-price li.active{
+		float: left;
+		width: 100%;
+		min-height: 44px;
+		border-bottom: thin solid #efefef;
+		margin-bottom: 10px;
+	}
+	
+	#oct .member-services .oct-staff-price-rules .oct-price-hours-to{
+		font-size:12px;
+		margin: 0px 5px;
+	}
+	#oct .member-services .oct-staff-price-rules  li#oct-add-price-row{
+		display:none;
+	}
+	
+	
+	/* staff > availabilty weekly */
+	
+	#oct .member-availabilty .oct-staff-time-schedule .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 110px;
+	}
+	#oct .member-availabilty .oct-staff-time-schedule .bootstrap-select.btn-group .dropdown-menu{
+		max-height:260px !important;
+	}
+	#oct .member-availabilty .oct-staff-time-schedule  .bootstrap-select.btn-group .dropdown-menu li a{
+		line-height:23px;
+		padding: 3px 14px;
+	}
+	
+	#oct .member-availabilty  ul#oct-staff-timing li.active{
+		float: left;
+		width: 100%;
+		line-height: 31px;
+		margin-bottom: 5px !important;
+		padding: 3px 0px;
+		box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+		-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+		-o-box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+		border: 1px solid rgba(0,0,0,0.1);
+	}
+	#oct .member-availabilty .oct-staff-time-schedule .oct-staff-hours-to{
+		font-size:12px;
+		margin: 0px 5px;
+	}
+
+	/*  staff breaks */
+	/* hide box shadow and border color in breaks and availabilty */
+	#oct .member-availabilty .panel,
+	#oct .member-addbreaks .panel,
+	#oct .member-offtime .panel{
+		box-shadow: unset !important;
+		border: 0px !important;
+	}
+	#oct .member-availabilty .panel-default,
+	#oct .member-addbreaks .panel-default,
+	#oct .member-offtime .panel-default{
+		border-color: unset !important;
+	}
+	
+	#oct .member-addbreaks .oct-weeks-breaks-menu{
+		border-right:1px solid #BDBDBD;
+	}
+	#oct .member-addbreaks .oct-staff-breaks-schedule .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 105px;
+	}
+	#oct .member-addbreaks .oct-staff-breaks-schedule .bootstrap-select.btn-group .dropdown-menu{
+		max-height:260px !important;
+	}
+	#oct .member-addbreaks .oct-staff-breaks-schedule .bootstrap-select.btn-group .dropdown-menu ul{
+		overflow-y: auto;
+	}
+	#oct .member-addbreaks .oct-staff-breaks-schedule  .bootstrap-select.btn-group .dropdown-menu li a{
+		line-height:23px;
+		padding: 3px 14px;
+	}
+	#oct .member-addbreaks ul#oct-staff-breaks li.active{
+		float: left;
+		width: 100%;
+		line-height: 31px;
+		margin-bottom: 5px !important;
+		padding: 3px 0px;
+		box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+		-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+		-o-box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+		border: 1px solid rgba(0,0,0,0.1);
+	}
+	#oct .member-addbreaks ul#oct-staff-breaks li .list-unstyled li{
+		margin-bottom: 5px !important;
+	}
+
+	#oct .member-addbreaks .oct-staff-breaks-schedule .oct-staff-hours-to{
+		font-size:12px;
+		margin: 0px 5px;
+	}
+	#oct .member-addbreaks ul#oct-staff-breaks span.oct-day-name{
+		font-size:16px;
+		font-weight:400;
+	}
+	#oct .member-offdays .highlight{
+		color: #fff !important;
+		background: #ff0000;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details .member-offdays .offdaystable .all{
+		cursor: pointer;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details .member-offdays .offdaystable .oct-col4 {
+		min-height: 260px !important;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details .member-offdays .offdaystable th {
+		font-size: 18px;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table.monthtable tr td{
+		text-align: center;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table.monthtable tr td:nth-child(1) {
+		width: unset;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details .member-offtime .oct-member-offtime-inner{
+		float: left;
+		width: 100%;
+		min-height: 70px;
+		display: block;
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	
+	
+/********************************************/
+/*******   Customers  page ****************/	
+	#oct #oct-customers-listing{
+		background: #F1F5F7 none repeat scroll 0% 0%;
+		margin-top: 20px;
+		border-color: #8D8D8D;
+		border-radius: 2px;
+	}
+	#oct #oct-customers-listing .tab-content{
+		padding:15px;
+	}
+	td.details-control {
+		background: url('../resources/details_open.png') no-repeat center center;
+		cursor: pointer;
+	}
+	tr.details td.details-control {
+		background: url('../resources/details_close.png') no-repeat center center;
+	}
+	
+	
+		
+/********************************************/
+/*******   Locations page ****************/
+	
+	#oct #oct-locations-panel{
+		/* background:#F1F5F7; */
+		border-color: #8D8D8D;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	#oct #oct-locations-panel .panel-body{
+		background:#fff;
+		padding: 0px;
+	}	
+	#oct #oct-locations-panel .panel-heading{
+		padding: 5px 10px;
+	}
+	#oct #oct-locations-panel .panel-heading,
+	#oct #oct-locations-panel .panel,
+	#oct #oct-locations-panel .panel-default{
+		border-radius:2px;
+		-webkit-border-radius:2px;
+		-moz-border-radius:2px;
+		-o-border-radius:2px;
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-locations-panel .panel-default .panel-body {
+		padding: 0px 5px 10px 5px;
+	}
+	#oct #oct-locations-panel .panel-default .oct-location-collapse-div.col-md-6 {
+		padding: 0px;
+	}
+	
+	#oct #oct-locations-panel .oct-locations-container{
+		width: 90%;
+		margin: 0px auto;
+		padding: 0px;
+		clear: both;
+	}
+
+
+	#oct #oct-locations-panel .oct-locations-container h3{
+		padding: 10px 0px 5px;
+		font-size: 22px;
+	}
+	#oct #oct-locations-panel .oct-locations-list{
+		background: #F1F5F7 none repeat scroll 0% 0%;
+		height: 100%;
+		min-width: 170px;
+		color: #8D8D8D;
+		text-align: left;
+		margin: 0px;
+		padding: 0px;
+	}
+	#oct  #oct-locations-panel .oct-locations-list span.oct-location-name{
+		font-family: inherit;
+		font-size: 16px;
+		font-weight: 400;
+		color: #8D8D8D;
+		line-height: 21px;
+		text-align: left;
+	}
+	#oct  #oct-locations-panel .oct-locations-list span.oct-location-name i.fa-th{
+		margin-right:5px;
+	}
+	#oct  #oct-locations-panel .oct-locations-list span.oct-location-name i.fa{
+		margin-right:5px;
+		cursor:move;
+	}
+	#oct  #oct-locations-panel .oct-locations-details i.fa-th-list{
+		margin-right:8px;
+		cursor:move;
+		float: left;
+		position: relative;
+		top: 8px;
+	}
+	#oct  #oct-locations-panel .oct-locations-list ul li.active span.oct-location-name{
+		color: #495861 !important;
+		border-radius: 0px;
+		font-family: inherit;
+		font-size: 16px;
+		font-weight: 400;
+		color: #3c4c5c;
+		line-height: 21px;
+		text-align: left;
+	}
+	
+	/* right side services details and top menu */
+	#oct  #oct-locations-panel .oct-location-top-header{
+		float: left;
+		width: 100%;
+		padding: 15px 0px 10px 15px;
+	}
+	#oct  #oct-locations-panel .oct-location-top-header .oct-location-name{
+		position: relative;
+		top: 5px;
+		color: #3C4C5C;
+		font-size: 24px;
+	}
+	
+	#oct  #oct-locations-panel .oct-location-top-header .popover {
+		max-width:230px;
+		width: 200px;
+	}
+	#oct  #oct-locations-panel .oct-locations-details{
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	#oct #oct-locations-panel table tr td{
+		padding:5px;
+	}
+	/* new style for locations list left side */
+	#oct #oct-locations-panel .oct-locations-list .oct-left-locations li.oct-left-location-menu-li,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-location li.oct-left-location-menu-li{
+		width: auto;
+		height: auto;
+		padding: 5px;
+		margin-top: 5px;
+		position: relative;
+		white-space: nowrap;
+		overflow: hidden;
+		padding-left: 24px;
+	}
+	
+	#oct #oct-locations-panel .oct-locations-list .oct-left-location li.oct-left-location-menu-li a:focus,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-locations li.oct-left-location-menu-li a:focus,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-location li.oct-left-location-menu-li a:hover,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-locations li.oct-left-location-menu-li a:hover,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-location li.oct-left-location-menu-li:hover,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-locations li.oct-left-location-menu-li:hover,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-locations li.oct-left-location-menu-li,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-location li.oct-left-location-menu-li.active{
+		background: #dbdbdb;
+	}
+	#oct #oct-locations-panel .oct-locations-list .oct-left-locations li.oct-left-location-menu-li .oct-location-sort-icon,
+	#oct #oct-locations-panel .oct-locations-list .oct-left-location li.oct-left-location-menu-li .oct-location-sort-icon{
+		display: block;
+		width: 30px;
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		bottom: 0px;
+		text-align: center;
+		padding: 5px 0px;
+		
+	}
+	
+	
+	#oct #oct-locations-panel .oct-locations-list .nav li a{
+		padding:3px 5px;
+	}
+	#oct #oct-locations-panel .oct-locations-list .popover {
+		max-width: 220px;
+		width: 200px;
+	}
+	
+	#oct #oct-locations-panel .oct-locations-list h3.popover-title{
+		background-color: #F8F8F8;
+		font-size: 15px;
+		padding: 8px 14px;
+		display: block;
+	}
+	#oct #oct-locations-panel .oct-locations-list .oct-left-location {
+		margin-top: 15px;
+		overflow-y: auto;
+	}
+	#oct #oct-locations-panel .oct-locations-list .popover {
+		max-width: 220px;
+		width: 200px;
+	}
+	#oct #oct-locations-panel .oct-locations-list h3.popover-title {
+		background-color: #F8F8F8;
+		font-size: 15px;
+		padding: 8px 14px;
+		display: block;
+	}
+	/* right side listing new style */
+	#oct #oct-locations-panel .panel-heading .panel-title{
+		line-height:30px;
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-locations-panel .oct-location-panel .panel-heading .panel-title span.oct-location-title-name{
+		width: 90%;
+		float: left;
+		overflow: hidden;
+		white-space: nowrap;
+		line-height: 34px;
+		text-overflow: ellipsis;
+		margin-right: 0;
+	}
+	#oct #oct-locations-panel .panel .collapse.in{
+		float:left;
+		width:100%;
+	}
+	#oct #oct-locations-panel #sortable-services li .oct-col1 {
+		min-width: 30px !important;
+	}
+	#oct #oct-locations-panel .panel-heading .panel-title .oct-service-time-main,
+	#oct #oct-locations-panel .panel-heading .panel-title .oct-service-price-main {font-size:13px;}
+	
+	#oct #oct-locations-panel .oct-create-location-table {
+		float:left;
+		width:100%;
+	}
+	
+	/* locations  listing */
+	#oct #oct-locations-panel .panel-heading .panel-title a#oct-delete-location{
+		position: relative;
+		top: 3px;
+		right: 0px;
+		cursor: pointer;
+	}
+	#oct #oct-locations-panel .oct-add-new-location{
+		display:none;
+	}
+	
+	#oct #oct-locations-panel ul#sortable-locations li{
+		float:left;
+		width:100%;
+		margin-bottom:5px !important;
+	}
+	#oct #oct-locations-panel .bootstrap-select.btn-group .dropdown-menu li{
+		margin-bottom: unset !important;
+	}
+	/* google map locations */
+	
+	#oct #oct-locations-panel .oct-location-map {
+		width: 100%;
+		float: left;
+		height: 350px;
+		position: relative;
+		top: 5px;
+	}
+	#oct #oct-locations-panel #map {
+        height: 92%;
+    }
+    #oct #oct-locations-panel .controls {
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    #oct #oct-locations-panel #pac-input {
+        background-color: #fff;
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 94%;
+    }
+
+    #oct #oct-locations-panel #pac-input:focus {
+        border-color: #4d90fe;
+    }
+
+    #oct #oct-locations-panel .pac-container {
+        font-family: inherit;
+    }
+
+    #oct #oct-locations-panel #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+    #oct #oct-locations-panel #type-selector label {
+        font-family: inherit;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    #oct #oct-locations-panel #target {
+        width: 345px;
+    }
+	#oct #oct-locations-panel .oct-services-asign{
+		position: relative;
+		width: 100%;
+		float: left;
+	}
+	#oct #oct-locations-panel .oct-right-header{
+		margin: 25px 0px 0px 0px;
+	}
+	
+
+	
+	
+/********************************************/
+/*******   SERVICES page ****************/
+	
+	
+	#oct #oct-service-addon-panel,						   
+	#oct #oct-services-panel{
+		/* background:#F1F5F7; */
+		border-color: #8D8D8D;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-o-border-radius: 2px;
+		border-radius: 2px;
+	}
+	
+	#oct #oct-service-addon-panel .panel-body,			   
+	#oct #oct-services-panel .panel-body{
+		background:#fff;
+		padding: 15px;
+	}	
+	#oct #oct-service-addon-panel .panel-default .panel-body,
+	#oct #oct-services-panel .panel-default .panel-body {
+		padding: 0px 5px 10px 5px;
+	}
+	#oct #oct-service-addon-panel .panel-default .oct-service-collapse-div.col-md-7 ,
+	#oct #oct-services-panel .panel-default .oct-service-collapse-div.col-md-7 {
+		padding: 0px;
+	}
+	
+	#oct #oct-service-addon-panel .panel-heading,	  
+	#oct #oct-services-panel .panel-heading{
+		padding: 5px 10px;
+	}
+	#oct #oct-service-addon-panel .panel-heading,
+	#oct #oct-service-addon-panel .panel,
+	#oct #oct-service-addon-panel .panel-default,			  
+	#oct #oct-services-panel .panel-heading,
+	#oct #oct-services-panel .panel,
+	#oct #oct-services-panel .panel-default{
+		border-radius:2px;
+		-webkit-border-radius:2px;
+		-moz-border-radius:2px;
+		-o-border-radius:2px;
+		float: left;
+		width: 100%;
+	}
+	
+	#oct #oct-service-addon-panel .oct-service-container,		 
+	#oct #oct-services-panel .oct-service-container{
+		width: 90%;
+		margin: 0px auto;
+		padding: 0px;
+		clear: both;
+	}
+	#oct #oct-services-panel .manage-addons-btn {
+		margin: 2px 0px 0;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	#oct #oct-service-addon-panel .oct-service-container h3,
+	#oct #oct-services-panel .oct-service-container h3{
+		padding: 5px 0px 20px;
+		font-size: 17px;
+		line-height: 34px;
+	}
+	#oct #oct-service-addon-panel .oct-service-list,
+	#oct #oct-services-panel .oct-service-list{
+		background: #F1F5F7 none repeat scroll 0% 0%;
+		height: 100%;
+		min-width: 170px;
+		color: #8D8D8D;
+		text-align: left;
+		margin: 0px;
+		padding: 0px;
+	}
+	#oct  #oct-service-addon-panel .oct-service-list span.oct-service-name,							   
+	#oct  #oct-services-panel .oct-service-list span.oct-service-name{
+		font-family: inherit;
+		font-size: 16px;
+		font-weight: 400;
+		color: #8D8D8D;
+		line-height: 21px;
+		text-align: left;
+		margin-right: 0;
+	}
+	#oct  #oct-service-addon-panel .oct-service-list span.oct-service-name i.fa-th,
+	#oct  #oct-services-panel .oct-service-list span.oct-service-name i.fa-th{
+		margin-right:5px;
+	}
+	#oct  #oct-service-addon-panel .oct-services-panel i.fa-th-list,	
+	#oct  #oct-services-panel .oct-services-panel i.fa-th-list{
+		margin-right:8px;
+		cursor:move;
+		float: left;
+		position: relative;
+		top: 10px;
+	}
+	#oct #oct-service-addon-panel .oct-service-details.col-lg-9,	
+	#oct #oct-services-panel .oct-service-details.col-lg-9,
+	#oct #oct-settings .oct-setting-details.col-lg-9{
+		padding: 0px !important;
+	}
+	#oct #oct-service-addon-panel .oct-services-right-details .col-md-12,							   
+	#oct #oct-services-panel .oct-services-right-details .col-md-12{
+		padding: 0px 0px 0px 15px;
+	}
+	#oct  #oct-service-addon-panel .oct-staff-right-details i.fa-th-list,							   
+	#oct  #oct-services-panel .oct-staff-right-details i.fa-th-list{
+		margin-right:5px;
+		cursor:move;
+		position: relative;
+		top: 2px;
+	}
+	#oct  #oct-service-addon-panel .oct-service-list ul li.active span.oct-service-name,
+	#oct  #oct-services-panel .oct-service-list ul li.active span.oct-service-name{
+		color: #495861 !important;
+		border-radius: 0px;
+		font-family: inherit;
+		font-size: 16px;
+		font-weight: 400;
+		color: #3c4c5c;
+		line-height: 21px;
+		text-align: left;
+		margin-right: 0;
+	}
+	
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service,								 
+	#oct #oct-services-panel .oct-service-list .oct-left-service{
+		margin-top: 15px;
+		overflow-y: auto;
+	}
+	/* new style for service list left side */
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li,	
+	#oct #oct-services-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li,
+	#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li{
+		width: auto;
+		height: auto;
+		padding: 5px;
+		margin-top: 5px;
+		position: relative;
+		white-space: nowrap;
+		overflow: hidden;
+		padding-left: 24px;
+	}
+	
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li a:focus,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li a:focus,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li a:hover,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li a:hover,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li:hover,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li:hover,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li.active,	
+	#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li a:focus,
+	#oct #oct-services-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li a:focus,
+	#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li a:hover,
+	#oct #oct-services-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li a:hover,
+	#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li:hover,
+	#oct #oct-services-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li:hover,
+	#oct #oct-services-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li,
+	#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li.active{
+		background: #dbdbdb;
+	}
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li .oct-service-sort-icon,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li .oct-service-sort-icon,
+	#oct #oct-services-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li .oct-service-sort-icon,
+	#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li .oct-service-sort-icon{
+		display: block;
+		width: 30px;
+		position: absolute;
+		top: 5px;
+		left: 0px;
+		bottom: 0px;
+	
+		text-align: center;
+		padding: 5px 0px;
+		cursor: move;
+	}
+	
+	
+	#oct #oct-service-addon-panel .oct-service-list .nav li a, 
+	#oct #oct-services-panel .oct-service-list .nav li a{
+		padding:3px 5px;
+		white-space: normal;
+		word-wrap: break-word;
+	}
+	#oct #oct-service-addon-panel .oct-service-list .popover ,
+	#oct #oct-services-panel .oct-service-list .popover {
+		max-width: 250px;
+		width: 200px;
+	}
+	#oct #oct-service-addon-panel ul#sortable-services li .oct-col1 .popover,
+	#oct #oct-services-panel ul#sortable-services li .oct-col1 .popover{
+		width: 170px;
+		max-width: 250px;
+	}
+	#oct #oct-service-addon-panel .oct-staff-right-details ul li .popover ,								
+	#oct #oct-services-panel .oct-staff-right-details ul li .popover {
+		width: 170px;
+		max-width: 200px;
+	}
+	
+	#oct #oct-service-addon-panel .oct-service-list h3.popover-title,									 
+	#oct #oct-services-panel .oct-service-list h3.popover-title{
+		background-color: #F8F8F8;
+		font-size: 15px;
+		padding: 8px 14px;
+		display: block;
+	}
+	
+	/* right side services details and top menu */
+	#oct  #oct-service-addon-panel .oct-service-top-header,
+	#oct  #oct-services-panel .oct-service-top-header{
+		line-height:30px;
+		color: #3C4C5C;
+		font-size: 24px;
+		float: left;
+		width: 100%;
+		padding: 15px 0px 10px 15px;
+	}
+	#oct #oct-service-addon-panel .oct-service-details,	
+	#oct #oct-services-panel .oct-service-details{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#oct #oct-service-addon-panel .panel-heading .panel-title .oct-delete-popover,
+	#oct #oct-services-panel .panel-heading .panel-title .oct-delete-popover{
+		position: relative;
+		top: 3px;
+	}
+	#oct #oct-locations-panel .panel-default.oct-location-panel .oct-col2  .btn-sm.oct-delete-popover{
+		position: relative;
+		top: 4px;
+	}
+	
+	#oct  #oct-service-addon-panel .oct-service-top-header .popover , 
+	#oct  #oct-services-panel .oct-service-top-header .popover {
+		max-width:230px;
+		width: 200px;
+	}
+	#oct  #oct-service-addon-panel .oct-service-right-details,
+	#oct  #oct-services-panel .oct-service-right-details{
+		width: 100%;
+		margin-top: 20px;
+	}
+	#oct  #oct-service-addon-panel .oct-service-right-menu,
+	#oct  #oct-services-panel .oct-service-right-menu{
+		text-transform:uppercase;
+	}
+	#oct #oct-service-addon-panel table tr td,
+	#oct #oct-services-panel table tr td{
+		padding:5px;
+	}
+	
+	
+	
+	/* right side listing new style */
+	#oct #oct-service-addon-panel .panel-heading .panel-title,  
+	#oct #oct-services-panel .panel-heading .panel-title{
+		line-height:30px;
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-service-addon-panel .oct-services-panel .panel-title span.oct-service-title-name,
+	#oct #oct-services-panel .oct-services-panel .panel-title span.oct-service-title-name{
+		position: relative;
+		padding-left: 5px;
+		margin-right: 0px;
+	}
+	#oct #oct-service-addon-panel .panel-heading .panel-title .badge,	  
+	#oct #oct-services-panel .panel-heading .panel-title .badge{
+		display:inline-block;
+		width:20px;
+		height:20px;
+		-moz-border-radius: 3px !important;
+		-webkit-border-radius: 3px !important;
+		-ms-border-radius: 3px !important;
+		border-radius: 3px !important;
+		margin:0px 5px;
+	}
+	#oct #oct-service-addon-panel .panel .collapse.in,
+	#oct #oct-services-panel .panel .collapse.in{
+		float:left;
+		width:100%;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col1 ,	
+	#oct #oct-services-panel #sortable-services li .oct-col1 {
+		min-width: 20px !important;
+		position: relative;
+		right: 10px;
+		top: 2px;
+	}
+	#oct #oct-service-addon-panel .panel-heading .panel-title .oct-service-time-main,
+	#oct #oct-service-addon-panel .panel-heading .panel-title .oct-service-price-main,
+	#oct #oct-services-panel .panel-heading .panel-title .oct-service-time-main,
+	#oct #oct-services-panel .panel-heading .panel-title .oct-service-price-main {font-size:14px;margin: 0;}
+	
+	#oct #oct-service-addon-panel .oct-create-service-table,
+	#oct #oct-services-panel .oct-create-service-table {
+		float:left;
+		width:100%;
+	}
+	
+	#oct #oct-service-addon-panel .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark:before,	 
+	#oct #oct-services-panel .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark:before{
+		content:"\f00c";
+		font-family:FontAwesome;
+	}
+	
+	#oct #oct-service-addon-panel .oct-service-duration .bootstrap-select,
+	#oct #oct-services-panel .oct-service-duration .bootstrap-select{
+		width: 110px;
+	}
+	#oct .oct-services-panel  .oct-create-service-table .demo{
+		width:130px;
+		cursor: pointer;
+	}
+	#oct #oct-service-addon-panel .oct-service-duration .bootstrap-select.btn-group .dropdown-menu li a,
+	#oct #oct-services-panel .oct-service-duration .bootstrap-select.btn-group .dropdown-menu li a {
+		line-height: 23px;
+		padding: 3px 14px;
+	}
+	#oct #oct-service-addon-panel .oct-service-duration .dropdown-menu > li > a:focus,
+	#oct #oct-service-addon-panel .oct-service-duration .dropdown-menu > li > a:hover,
+	#oct #oct-services-panel .oct-service-duration .dropdown-menu > li > a:focus,
+	#oct #oct-services-panel .oct-service-duration .dropdown-menu > li > a:hover {
+		background: transparent linear-gradient(to bottom, #5BC0DE 0px, #2AABD2 100%) repeat scroll 0% 0%;
+		background: transparent -webkit-linear-gradient(to bottom, #5BC0DE 0px, #2AABD2 100%) repeat scroll 0% 0%;
+		background: transparent -moz-linear-gradient(to bottom, #5BC0DE 0px, #2AABD2 100%) repeat scroll 0% 0%;
+		background: transparent -o-linear-gradient(to bottom, #5BC0DE 0px, #2AABD2 100%) repeat scroll 0% 0%;
+		color: #FFF;
+	}
+	
+	
+	/* service listing */
+	#oct #oct-service-addon-panel .panel-heading .panel-title a#oct-delete-service,
+	#oct #oct-services-panel .panel-heading .panel-title a#oct-delete-service{
+		position: relative;
+		top: 4px;
+		cursor: pointer;
+	}
+	#oct #oct-service-addon-panel .oct-add-new-service-addons,
+	#oct #oct-services-panel .oct-add-new-service{
+		display:none;
+	}
+	
+	#oct #oct-service-addon-panel ul#sortable-services li,				   
+	#oct #oct-services-panel ul#sortable-services li{
+		float:left;
+		width:100%;
+		margin-bottom:5px !important;
+	}
+	#oct #oct-service-addon-panel .bootstrap-select.btn-group .dropdown-menu li,
+	#oct #oct-services-panel .bootstrap-select.btn-group .dropdown-menu li{
+		margin-bottom: unset !important;
+	}
+	#oct #oct-service-addon-panel ul#oct-select-staff-member li span.oct-service-provider-list,
+	#oct #oct-services-panel ul#oct-select-staff-member li span.oct-service-provider-list{
+		width: 70%;
+		float: right;
+		overflow: hidden;
+		white-space: nowrap;
+		line-height: 34px;
+		text-overflow: ellipsis;
+		margin-right: 0;
+	}
+	
+	/****************************/
+/****************************/
+	/*   Settings page  */
+	/*
+	#oct  #oct-settings #appearance-setting .minicolors-theme-bootstrap .minicolors-input {
+		float: left;
+		padding-left: 40px;
+		width: 100%;
+	}*/
+	#oct .input-group .form-control:focus {
+		z-index: initial;
+	}
+	#oct .intl-tel-input input,
+	#oct .intl-tel-input input[type="text"],
+	#oct .intl-tel-input input[type="tel"]{
+		padding-left: 45px !important;
+	}
+	
+	#oct  .oct-toggle-abs{
+		visibility: hidden;
+		position: absolute;
+		width: 100%;
+		top: 0;
+		height: 0;
+	}
+	
+	#oct  .oct-toggle-abs.tab-pane.active{
+		visibility: visible !important;
+		height: auto;
+		position: relative;
+	}
+	
+	
+	/* common style for form-group */
+	#oct  #oct-settings #company-details .form-group,
+	#oct  #oct-settings #general-setting .form-group,
+	#oct  #oct-settings #appearance-setting .form-group,
+	#oct  #oct-settings #payment-setting .oct-payment-methods .form-group,
+	#oct  #oct-settings #sms-reminder .oct-sms-reminder-input .form-group,
+	#oct #oct-settings #labels .oct-labels-all .form-group{
+		margin-bottom: 1px;
+		float: left;
+		margin-right: 20px;
+		position: relative;
+	}
+	#oct .form-group-margin .form-group{
+		margin-bottom: 1px;
+		float: left;
+		width: 100%;
+		margin-right: 20px;
+		position: relative;
+	}
+	/* {
+		margin-right: 20px;
+	} */
+	#oct #oct-settings #company-details img.oct-company-image {
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		float: left;
+		vertical-align: middle;
+		cursor: default;
+	}
+	#oct #oct-settings #company-details .oct-company-image-uploader i.oct-camera-icon-common.fa-camera {
+		position: absolute;
+		background: #fff;
+		text-align: center;
+		opacity: 0.85;
+		display: none;
+		cursor: pointer;
+		border: 1px solid #cfcfcf;
+		top: 55px;
+		left: 85px;
+		padding: 10px;
+		font-size: 22px;
+		margin: 0px;
+		cursor: pointer;
+	}
+
+	
+	#oct #oct-settings .panel-heading{
+		color: #333;
+		background-color: #F5F5F5;
+		border-color: #8D8D8D;
+	}
+	#oct  #oct-settings #email-template .panel-collapse.collapse,
+	#oct  #oct-settings #sms-template .panel-collapse.collapse {
+		float: left;
+		width: 100%;
+		position: relative;
+	}
+	#oct  #oct-settings  .oct-panel-default{
+		background:#F1F5F7;
+		margin-top: 20px;
+		border-color: #8D8D8D;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+	#oct  #oct-settings  .oct-panel-default .panel-body{
+		padding: 15px;
+	}
+	
+	#oct  #oct-settings  .oct-left-menu{
+		background: #E1E7EB none repeat scroll 0% 0%;
+		height: 100%;
+		min-width: 170px;
+		color: #8D8D8D;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	}
+	#oct  #oct-settings .oct-left-menu ul li a{
+		font-family: inherit;
+		font-size: 12px;
+		font-weight: 400;
+		color: #8D8D8D;
+		line-height: 20px;
+		padding: 18px 0px;
+		text-align: center;
+	}
+	#oct  #oct-settings  .oct-left-menu ul li.active a,
+	#oct  #oct-settings  .oct-left-menu ul li a:hover{
+		
+		background-color: #F1F5F7 !important;
+		color: #495861 !important;
+		border-radius: 0px;
+		font-family: inherit;
+		font-size: 12px;
+		font-weight: 400;
+		color: #C1C8CD;
+		line-height: 20px;
+		padding: 18px 0px;
+		text-align: center;
+	}
+	
+	#oct  #oct-settings  .oct-setting-details table.oct-common-table tr td{
+		padding:5px;
+	}
+	#oct table.form-group-margin tr td,
+	#oct table.oct-common-table tr td{
+		position: relative;
+		padding: 5px;
+	}
+	#oct  #oct-settings .oct-general-setting .oct-setting-menu{
+		color:#000;
+		font-size:13px;
+		font-weight:300;
+	}
+
+	#oct  #oct-settings #general-setting .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	
+	#oct  #oct-settings #general-setting .bootstrap-select.btn-group .dropdown-menu{
+		max-height:260px !important;
+		overflow: hidden;
+	}
+	#oct  #oct-settings #general-setting .bootstrap-select.btn-group .dropdown-menu li a{
+		line-height:23px;
+		padding: 3px 14px;
+	}
+	#oct  #oct-settings #general-setting  .oct-tax-vat-input-container{
+		position: relative;
+		float: left;
+		width: 100%;
+		line-height: 36px;
+	}
+	#oct  #oct-settings #general-setting i.oct-tax-percent,
+	#oct  #oct-settings #general-setting .mycollapse_patial-deposit i.fa-percent{
+		position: relative;
+		top: 1px;
+		right: -5px;
+	}
+	
+	#oct  #oct-settings #general-setting  .oct-tax-vat-input-container .oct-partial-input-per{
+		float: left;
+	}
+	/* setting > payment gateways setting css */
+	#oct #oct-settings #payment-setting .oct-all-payments-main .oct-payment-methods img.oct-img-payments,
+	#oct #oct-settings #sms-reminder .oct-all-sms-main .oct-sms-gateway img.oct-sms-gateway-img{
+		position: relative;
+		left: 10px;
+	}
+	#oct #oct-settings #payment-setting .oct-all-payments-main .oct-enable-disable-right,
+	#oct #oct-settings #sms-reminder .oct-all-sms-main .oct-enable-disable-right {
+		display: inline-block;
+		position: relative;
+		top: -2px;
+		right: 0px;
+	}
+	
+	
+	#oct  #oct-settings #payment-setting .oct-all-payments-main h4.panel-title,
+	#oct  #oct-settings #sms-reminder .oct-all-sms-main h4.panel-title{
+		line-height: 24px;
+	}
+	
+	#oct h4.panel-title span{
+		margin-right: 20px;
+	}
+	#oct span,
+	#oct span span,
+	#oct h4.panel-title span.toggle-handle{
+		margin-right: 0px !important;
+	}
+	
+
+	#oct  #oct-settings #payment-setting .oct-all-payments-main,
+	#oct  #oct-settings #payment-setting .oct-all-payments-main .oct-payment-methods,
+	#oct  #oct-settings #sms-reminder .oct-all-sms-main .panel.oct-sms-gateway{
+		float: left;
+		width: 100%;
+		position: relative;
+		line-height: 24px;
+		margin-bottom: 5px !important;
+		border: 1px solid rgba(0,0,0,0.3);
+	}
+	
+	
+	#oct  #oct-settings #payment-setting .panel-group {
+		margin-bottom: 0px !important;
+	}
+	#oct #oct-settings #payment-setting .oct-paypal-setting-warning{
+		position: relative;
+		float:left;
+		display: inline-block;
+		bottom: 7px;
+	}
+	#oct #oct-settings #payment-setting .oct-enable-disable-right{
+		display: inline-block;
+		position: relative;
+		top: -7px;
+		right: 0px;
+		height: 26px;
+	}	
+	
+	
+	
+	/* setting > Email,sms template setting css */
+	#oct  #oct-settings #email-template ul li .panel-heading,
+	#oct  #oct-settings #sms-template ul li .panel-heading{
+	    padding: 5px 10px;
+	}
+	#oct  #oct-settings #email-template ul li .panel-heading,
+	#oct  #oct-settings #sms-template ul li .panel-heading,
+	#oct #oct-service-addon-panel .panel,
+	#oct #oct-service-addon-panel .panel-default,			  
+	#oct #oct-services-panel .panel,
+	#oct #oct-services-panel .panel-default{
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-settings .oct-setting-details .oct-email-template-panel.panel-default .oct-email-temp-collapse-div.col-md-12 ,
+	#oct #oct-settings .oct-setting-details .oct-sms-template-panel.panel-default .oct-sms-temp-collapse-div.col-md-12 {
+		padding: 10px 0px;
+	}
+	#oct  #oct-settings #email-template ul li .panel-body,
+	#oct  #oct-settings #sms-template ul li .panel-body{
+		padding: 0px 5px 10px 5px;
+	}
+	#oct  #oct-settings #email-template ul li .panel-body .oct-email-content-tags a.tags,
+	#oct  #oct-settings #sms-template ul li .panel-body .oct-sms-content-tags a.tags{
+		text-decoration: none;
+		cursor: pointer;
+		line-height: 30px;
+	}
+	#oct  #oct-settings #email-template .tab-content ul li,
+	#oct  #oct-settings #sms-template .tab-content ul li{
+		float:left;
+		width:100%;
+		margin-bottom:5px !important;
+	}	
+	#oct  #oct-settings #email-template ul li span.oct-template-name,
+	#oct  #oct-settings #sms-template ul li span.oct-template-name{
+		width: 85%;
+		float: left;
+		overflow: hidden;
+		white-space: nowrap;
+		line-height: 34px;
+		text-overflow: ellipsis;
+		margin-right: 0;
+	}
+	#oct  #oct-settings #email-template .tab-content,
+	#oct  #oct-settings #sms-template .tab-content{
+		padding:0px 15px;
+	}
+	#oct  #oct-settings #email-template .tab-content #client-email-template h4.panel-title span,
+	#oct  #oct-settings #email-template .tab-content #service-provider-email-template h4.panel-title span,
+	#oct  #oct-settings #email-template .tab-content #admin-manager-email-template h4.panel-title span,
+	#oct  #oct-settings #sms-template .tab-content #client-sms-template h4.panel-title span,
+	#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template h4.panel-title span,
+	#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template h4.panel-title span{
+		line-height: 32px;
+		margin-right: 0;
+	}
+	#oct  #oct-settings #email-template .tab-content #client-email-template #accordion,
+	#oct  #oct-settings #email-template .tab-content #service-provider-email-template #accordion,
+	#oct  #oct-settings #email-template .tab-content #admin-manager-email-template #accordion,
+	#oct  #oct-settings #sms-template .tab-content #client-sms-template #accordion,
+	#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template #accordion,
+	#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template #accordion{
+		padding: 0px;
+		margin: 0px;
+		float: left;
+		width: 100%;
+	}
+	#oct  #oct-settings #email-template .tab-content #client-email-template #accordion .oct-email-panel .oct-email-content-tags a,
+	#oct  #oct-settings #email-template .tab-content #service-provider-email-template #accordion .oct-email-panel .oct-email-content-tags a,
+	#oct  #oct-settings #email-template .tab-content #admin-manager-email-template #accordion .oct-email-panel .oct-email-content-tags a,
+	#oct  #oct-settings #sms-template .tab-content #client-sms-template #accordion .oct-email-panel .oct-email-content-tags a,
+	#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template #accordion .oct-email-panel .oct-email-content-tags a,
+	#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template #accordion .oct-email-panel .oct-email-content-tags a{
+		cursor: pointer;
+	}
+	
+	
+	
+	#oct  #oct-settings #email-template .tab-content #client-email-template #accordion .oct-email-panel,
+	#oct  #oct-settings #email-template .tab-content #service-provider-email-template #accordion .oct-email-panel,
+	#oct  #oct-settings #email-template .tab-content #admin-manager-email-template #accordion .oct-email-panel,
+	#oct  #oct-settings #sms-template .tab-content #client-sms-template #accordion .oct-sms-panel,
+	#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template #accordion .oct-sms-panel,
+	#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template #accordion .oct-sms-panel{
+		float: left;
+		width: 100%;
+		margin: 0px 0px 5px 0px !important;
+		border: 1px solid rgba(0,0,0,0.3);
+	}
+	#oct  #oct-settings #email-template .tab-content #client-email-template #accordion .oct-email-panel .panel-heading,
+	#oct  #oct-settings #email-template .tab-content #service-provider-email-template #accordion .oct-email-panel .panel-heading,
+	#oct  #oct-settings #email-template .tab-content #admin-manager-email-template #accordion .oct-email-panel .panel-heading,
+	#oct  #oct-settings #sms-template .tab-content #client-sms-template #accordion .oct-sms-panel .panel-heading,
+	#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template #accordion .oct-sms-panel .panel-heading,
+	#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template #accordion .oct-sms-panel .panel-heading{
+		padding: 5px 10px;
+		display: inline-block;
+		float: left;
+		width: 100%;
+	}
+	
+	#oct #oct-settings  #email-template .panel-collapse table.oct-email-table tr td,
+	#oct #oct-settings  #sms-template .panel-collapse table.oct-email-table tr td{
+		padding:5px;
+	}
+	#oct #oct-settings  #client-email-template input[type="checkbox"],
+	#oct #oct-settings  #admin-provider-email-template input[type="checkbox"],
+	#oct #oct-settings  #client-sms-template input[type="checkbox"],
+	#oct #oct-settings  #admin-provider-sms-template input[type="checkbox"]{
+		display:none;
+	}
+	
+	
+	#oct #oct-settings #email-template .oct-yes-no-email-right,
+	#oct #oct-settings #sms-template .oct-yes-no-sms-right{
+		display: inline-block;
+		position: relative;
+		top: 1px;
+		left: 0px;
+		height: 30px;
+		margin-right: 10px;
+	}	
+	
+	#oct  #oct-settings #client-email-template .oct-email-panel .panel-heading .oct-toggle,
+	#oct  #oct-settings #admin-provider-email-template .oct-email-panel .panel-heading .oct-toggle,
+	#oct  #oct-settings #client-sms-template .oct-sms-panel .panel-heading .oct-toggle,
+	#oct  #oct-settings #admin-provider-sms-template .oct-sms-panel .panel-heading .oct-toggle{
+		margin: 4px 4px 4px 0px;
+		position: relative;
+		bottom: 4px;
+	}
+	
+	
+	/* settings > sms settings */
+	
+	#oct #oct-settings #sms-reminder .oct-enable-disable-right{
+		display: inline-block;
+		position: relative;
+		top: -8px;
+		right: 0px;
+		height: 26px;
+	}
+	
+	#oct #oct-settings #sms-reminder .panel-heading .panel-title a.oct-tooltip-link{
+		top: 11px;
+    margin-left: 10px;
+	}
+	#oct #oct-settings #sms-reminder td#hr{
+		padding: 0px;
+	}
+	#oct #oct-settings #sms-reminder .oct-sms-reminder-input table tbody th{
+		padding: 8px;
+	}
+	
+	
+	/* settings > manage form fields settings */
+	
+	#oct #oct-settings #manage-form-fields table tbody tr td div.form-group {
+		margin: 0px;
+	}
+	#oct #oct-settings #manage-form-fields .oct-min-max{
+		width: 128px;
+	}
+	#oct #oct-settings #manage-form-fields .oct-min-max i.fa{
+		margin: 0px;
+	}
+	#oct #oct-settings #manage-form-fields .oct-min-max .oct-btn-text {
+		width: 42%;
+		cursor: not-allowed;
+		pointer-events: none;
+		margin: 0px;
+		border-color: #cfcfcf;
+		text-align: center;
+		font-size: 18px;
+		height: 34px;
+		padding: 5px 10px;
+	}
+	
+	
+	/* settings > Labels settings */
+	
+	#oct #oct-settings #labels table tbody th {
+		padding: 8px;
+	}
+	
+	/* settings > Promocode settings */
+	
+	#oct #oct-settings  #promocode .btn-xs.oct-edit-coupon{
+		padding:4px;
+		
+	}
+	#oct #oct-settings  #promocode .oct-edit-coupon,
+	#oct #oct-settings  #promocode .delete-promocode {
+		position: relative;
+		top: 6px;
+		cursor: pointer;
+	}
+	
+	
+	#oct #oct-settings  #promocode .tab-content{
+		padding:0px 15px;
+	}
+	#oct #oct-settings  #promocode .panel-collapse table.oct-email-table tr td{
+		padding:5px;
+	}
+	#oct #oct-settings  #promocode #datepicker{
+		width:180px;
+		margin: 0 20px 20px 20px;
+	}
+	#oct #oct-settings  #promocode #datepicker > span:hover{
+		cursor: pointer;
+	}
+	#oct #oct-settings  #promocode .panel-default{
+		min-height: 500px;
+		overflow: auto;
+	}
+	#oct #oct-settings  #promocode table#oct-promocode-list tr td a.btn-info.btn-xs.oct_update_promocode{
+		float: left !important;
+	}
+	
+	/* settings > custom form fields checkbox style */
+	#oct .frmb .checkbox input[type="checkbox"]{
+		position: unset !important;
+		margin: unset !important;
+	}
+	#oct .frmb .hidden{
+		display: block !important;
+	}
+	
+	
+	/****************************/
+/****************************/
+	/*  payments  */
+	#oct #oct-payments .tab-content{
+		padding:15px;
+	}
+	#oct #oct-payments .dataTables_wrapper .dataTables_length ,
+	#oct #oct-payments div.dataTables_wrapper div.dataTables_filter {
+		margin: 5px 0px;
+	}
+	
+	#oct #oct-payments div.dt-buttons{
+		text-align:center;
+		float: none;
+		display: flex;
+		justify-content: center;
+	
+	}
+	#oct #payments-details_paginate.dataTables_paginate{
+		z-index: 5;
+		position: relative;
+	}
+/****************************/
+/****************************/
+	/*  Export  */
+	#oct #oct-export-details .tab-content{
+		padding:15px;
+	}
+	#oct #oct-export-details .dataTables_wrapper .dataTables_length ,
+	#oct #oct-export-details div.dataTables_wrapper div.dataTables_filter {
+		margin: 5px 0px;
+	}
+	
+	#oct #oct-export-details div.dt-buttons{
+		text-align:center;
+		float: none;
+		display: flex;
+		justify-content: center;
+		
+	}
+	#oct #registered-customers-listing div.dataTables_wrapper div.dataTables_filter input,
+	#oct #guest-customers-listing div.dataTables_wrapper div.dataTables_filter input,
+	#oct #oct-payments div.dataTables_wrapper div.dataTables_filter input,
+	#oct #promocode div.dataTables_wrapper div.dataTables_filter input,
+	#oct #oct-export-details div.dataTables_wrapper div.dataTables_filter input{
+		width: auto !important;
+	}
+	
+	
+	/****************************/
+/****************************/
+	/*  Customers listing  */
+	
+	#oct #oct-customers-listing .dataTables_wrapper .dataTables_length ,
+	#oct #oct-customers-listing .dataTables_wrapper .dataTables_length ,
+	#oct #oct-reviews div.dataTables_wrapper div.dataTables_filter {
+		margin: 5px 0px;
+	}
+	
+	#oct #oct-customers-listing div.dt-buttons{
+		text-align:center;
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+	
+	#oct #oct-customers-listing .booking-details-modal .close{
+		float: right;
+		font-size: 50px;
+		position: absolute;
+		right: 12px;
+		top: 5px;
+	}
+	#oct #oct-customers-listing td.oct-bookings-td{
+		position: relative;
+	}
+	
+	#oct #oct-customers-listing td.oct-bookings-td .badge{	
+		padding: 3px 5px !important;
+		border: 1px solid !important;
+		top: initial !important;
+		margin: -11px 0px !important;
+		position: absolute !important;
+		-webkit-border-radius: 10px !important;
+		-moz-border-radius: 10px !important;
+		border-radius: 10px !important;
+	}
+	
+		
+	/* new css added */
+	
+	/* #oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li,
+	#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li{
+		padding-right: 30px; 
+	} */
+	
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service li .oct-delete-category-btn,
+	#oct #oct-services-panel .oct-service-list .oct-left-service li .oct-delete-category-btn{
+		display: block;
+		padding: 1px 4px;
+		position: absolute;
+		top: 7px;
+		right: 4px;
+		z-index: 999;
+	}
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-service li:hover .oct-delete-category-btn,  
+	#oct #oct-services-panel .oct-service-list .oct-left-service li:hover .oct-delete-category-btn{
+		display: block;
+	}
+	
+	#oct #oct-reviews #user-booking-details .modal-md {
+		width: 1020px;
+	}
+	
+	#oct #oct-reviews #update-user-booking-details .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100% !important;
+	}
+	
+	/****** Style Star Rating Widget *****/
+
+	
+	#oct #oct-reviews div.dt-buttons {
+		text-align: center;
+		float: none;
+		display: flex;
+		justify-content: center;
+	}
+	#oct #oct-reviews .tab-content{
+		padding:15px;
+	}
+	#oct #user-booking-details .fa.fa-repeat,
+	#oct #user-booking-details .fa.fa-ban,
+	#oct #user-booking-details .fa.fa-star,
+	#oct #oct-reviews .fa.fa-check,
+	#oct #oct-reviews .fa.fa-trash-o,
+	#oct #oct-reviews .fa.fa-eye{
+		margin-right: 0px;
+	}
+	#oct #oct-reviews .rating { 
+	  border: none;
+	  float: right;
+	  position: relative;
+	 
+	}
+	#oct #oct-user-appointments .rating > input { display: none; } 
+	#oct #oct-reviews .rating > input { display: none; } 
+	#oct #oct-user-appointments .rating > label:before ,
+	#oct #oct-reviews .rating > label:before { 
+	  margin: 0px 2px;
+	  font-size: 15px;
+	  font-family: FontAwesome;
+	  display: inline-block;
+	  content: "\f005";
+	}
+	#oct #oct-user-appointments .rating > label:before{
+		  font-size: 30px;
+	}
+	
+ 
+	#oct #oct-user-appointments .rating > .half:before,
+	#oct #oct-reviews .rating > .half:before { 
+	  content: "\f089";
+	  position: absolute;
+	}
+	#oct #oct-user-appointments .rating > label ,
+	#oct #oct-reviews .rating > label { 
+	  color: #ddd !important; 
+	 float: right; 
+	}
+
+	/***** CSS Magic to Highlight Stars on Hover *****/
+
+	#oct #oct-reviews .rating > input:checked ~ label:before, /* show gold star when clicked */
+	#oct #oct-user-appointments .rating > input:checked ~ label:before, /* show gold star when clicked */
+	#oct #oct-reviews .rating:not(:checked) > label:hover, /* hover current star */
+	#oct #oct-user-appointments .rating:not(:checked) > label:hover, /* hover current star */
+	#oct #oct-reviews .rating:not(:checked) > label:hover ~ label:before { color: #FFD700 !important;  } /* hover previous stars in list */
+	#oct #oct-user-appointments .rating:not(:checked) > label:hover ~ label:before { color: #FFD700 !important;  } /* hover previous stars in list */
+
+	#oct #oct-reviews .rating > input:checked + label:hover:before, /* hover current star when changing rating */
+	#oct #oct-user-appointments .rating > input:checked + label:hover:before, /* hover current star when changing rating */
+	#oct #oct-reviews .rating > input:checked ~ label:hover,
+	#oct #oct-user-appointments .rating > input:checked ~ label:hover,
+	#oct #oct-reviews .rating > label:hover ~ input:checked ~ label:before, /* lighten current selection */
+	#oct #oct-user-appointments .rating > label:hover ~ input:checked ~ label:before, /* lighten current selection */
+	#oct #oct-reviews .rating > input:checked ~ label:hover ~ label { color: #FFED85 !important;  } 
+	#oct #oct-user-appointments .rating > input:checked ~ label:hover ~ label { color: #FFED85 !important;  } 
+	
+	/* user style */
+	/*#oct #oct-customers-listing tr.child td li span.dtr-data .badge,
+	#oct #oct-customers-listing td.oct-bookings-td .badge,
+	#oct #oct-user-profile tr.child td li span.dtr-data .badge,	
+	#oct #oct-user-profile td a.oct-my-booking-user .badge,*/
+	#oct #oct-user-appointments td a.oct-my-booking-user .badge{	
+	
+		padding: 3px 5px !important;
+		border: 1px solid !important;
+		top: initial !important;
+		margin: -11px 0px !important;
+		position: absolute !important;
+	}
+	
+	/****** Style Star Rating Widget *****/
+	
+	#oct #user-booking-details #service-review textarea.review-textarea{
+		width: 100% !important;
+	}
+	
+	#oct #oct-user-appointments .rating { 
+	  border: none;
+	  float: left;
+	  margin-left: 10px;
+	  position: relative;
+	  top: -7px;
+	}
+	#oct #oct-user-appointments #oct_client_orderbookings .popover{
+		max-width:340px;
+		width: 340px;
+	}
+
+	
+	
+	#oct #oct-user-profile .col-md-10 .col-md-6{
+		min-height: 67px;
+	}	
+	
+	/* New page What's New? style Latest */
+	#oct #oct-octabook-welcome .oct-welcome-main{
+		padding: 13px 40px 10px 30px;
+		position: relative;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-main .oct-into-text{
+		margin-bottom: 20px;
+		line-height: 28px;
+		font-size: 17px;
+		margin-right: 360px;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-main .oct-octabook-badge{
+		position: absolute;
+		top: 30px;
+		right: 10px;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-main .oct-octabook-badge img{
+		width: 220px;
+		height: auto;
+		display: block;
+		margin: 0;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner{
+		position: relative;
+		overflow: auto;
+		margin: 16px 0;
+		font-size: 14px;
+		line-height: 24px;
+		padding: 30px 30px 30px 20px;
+		background: #fff;
+		border-color: #ccc;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-articles .panel-heading,
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-help .panel-heading,
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .panel-heading{
+		padding: 15px 15px 5px 15px;
+		position: relative;
+		z-index: 3;
+		font-size: 13px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.5px !important;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-articles ul.oct-articles-ul{
+		margin: 10px 10px 10px 0;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-articles ul.oct-articles-ul li{
+		line-height: 16px;
+		list-style-type: none;
+		padding: 0 0 6px;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-articles ul.oct-articles-ul li a{
+		text-decoration: none;
+		font-size: 16px;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .oct-changelog-menu ul{
+		margin-bottom: 20px;
+		list-style-type: none;
+		list-style-position: inside;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .oct-changelog-menu ul li{
+		float: left;
+		display: block;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		position: relative;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .oct-changelog-menu ul li a{
+		text-align: right;
+		font-size: 13px;
+		display: block;
+		border-width: 1px 1px 0px 1px;
+		border-style: solid;
+		border-color: #eaeaea;
+		margin: 0px;
+		padding: 15px 20px;
+		background: #f8f8f8;
+		font-weight: 400;
+		color: #2c3e50;
+		transition: all 300ms linear 0s;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .oct-changelog-menu ul li.active a{
+		border-color: #21c2f8;
+		color: #21c2f8;
+		
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .oct-changelog-menu ul li.active a{
+		background-color: #fff;
+		border: 1px solid;
+		border-right: none;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul{
+		margin: 10px 10px 10px 0;
+	}
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li:first-child {
+		border: none;
+	}	
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li{
+		line-height: 20px;
+		position: relative;
+		margin-right: 0;
+		border-top: thin dashed rgba(215, 215, 215, 0.75);
+		padding: 8px 0 5px 75px;
+		margin-bottom: 3px;
+	}
+	
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li span.oct-added,
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li span.oct-improved,
+	#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li span.oct-fixed{
+		font-style: normal;
+		display: inline-block;
+		text-transform: uppercase;
+		position: absolute;
+		top: 9px;
+		left: 0;
+		color: #fff;
+		font-weight: 400;
+		text-align: center;
+		min-width: 70px;
+		font-size: 11px;
+		line-height: 18px;
+		height: 18px;
+		padding: 0 4px;
+		margin: 0;
+	}
+	#oct .selectedDate{
+		color: #ffffff;
+		background-color: #ff0000;
+	}
+	
+	/* fix backdrop issue in mobile and ipad  */
+	body.mobile.modal-open #wpwrap {
+		position: relative;
+	}
+	#oct .btn-group-xs > .btn, .btn-xs{
+		padding:3px 10px !important;
+	}
+	#oct #oct-settings #company-details .custom-imageplus-icon{
+		top: 10px;
+		position: absolute;
+		left: -10px;
+	}
+	
+/*----------- custom css ------------*/
+	.mt-15{margin-top:15px;}
+	.mt-20{margin-top:20px;}
+	.p-0{padding:0px !important;}
+	.w-20{width:20%;}
+
+	#oct #oct-top-nav .navbar {background-color: #F8F8F8;}
+	#oct #oct-main-navigation {background: #FFFFFF !important; padding: 10px 3px; height: auto; padding-top: 9px;} 
+	#oct #oct-main-navigation .navbar{margin-bottom:0px !important; min-height: auto!important;}
+	#oct #oct-dashboard .panel-body{background-color: #f8f8f8;}
+	#oct .oct-header #oct-main-navigation .navbar .nav.oct-nav-tab > :hover > a{color: #ffffff !important; border-radius: 4px; box-shadow: 0 2px 6px #00000030 !important; }
+	/*#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a span{display: inline!important;}*/
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a {font-size: 14px!important; padding: 0 8px!important; height: auto!important;border-radius: 5px;}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li{height: auto!important;}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li:before{border:none !important; height: auto!important;}
+	/*#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .icons,*/
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .fa{top: 2px!important;font-size: 20px;}
+	#oct #oct-dashboard .oct-top-menus-stats.nav .bg-radius{background: linear-gradient(to right, #6aa5e3, #5a98e9, #548aec, #5979ed, #6866e9); border: unset;;background-size: 49% !important; background-repeat: no-repeat; background-position: 137% -150%; background-image: url(../assets/images/bg-img.png) !important;border-radius: 10px;}
+	#oct #oct-dashboard .oct-top-menus-stats.nav .col-lg-3{width: 24% !important; border-radius: 13px; padding: 0 !important;
+    border: 1px solid #E7ECF1; background: linear-gradient(to right, #6aa5e3, #5a98e9, #548aec, #5979ed, #6866e9);margin: 0px 5px;}
+	#oct #oct-dashboard .panel-body .oct-top-menus-stats .oct-dash-icon{background-color: transparent !important;}
+	#oct #oct-dashboard .oct-stats-title{font-size: 24px; font-weight: 100; color: #ffffff; float: left;
+    margin: 10px; letter-spacing: 1px !important;}
+	#oct #oct-dashboard .oct-stats-counting{font-size: 24px; font-weight: 100;color: #ffffff;float: left;
+    margin: 10px 0px 0px 15px;}
+	#oct #oct-dashboard h4.oct-dash-header{font-size: 20px;font-weight: 100;margin: 0px 5px;color: #ffffff; letter-spacing: 1px;}
+	#oct #oct-dashboard .oct-stats-total{font-size: 26px;line-height: 22px;font-weight: 300;color: #ffffff;
+	text-align: left;padding: 0 10px;}
+	#oct #oct-dashboard .oct-stats-total span{font-size: 18px;}
+	#oct #oct-dashboard #oct-today-stats .oct-col4{width:50%;}
+	#oct #oct-dashboard #oct-today-stats li.active a{background-image: linear-gradient(to bottom, #6aa5e3, #5a98e9, #548aec, #5979ed, #6866e9); color: #fff; font-size: 18px; font-weight: 200; letter-spacing: 1px !important;margin-right: 0;}
+	#oct #oct-dashboard .oct-left-menu-stats ul li a{color: #3d3d3d; font-size: 18px;font-weight: 200;
+    letter-spacing: 1px !important;}
+	#oct #oct-dashboard .oct-left-menu-stats, #oct #oct-dashboard .b-shadow {background-color: #fff!important; border-radius: 5px}
+	#oct #oct-dashboard .oct-left-menu-stats ul{border:none !important;}
+	#oct #oct-dashboard .oct-left-menu-stats ul>li>a:hover{border:none !important;background-color: #fff!important;}
+	#oct #oct-dashboard .oct-today-bookings .bg-success{background: #ffffff !important;color: #3d3d3d !important;}
+	#oct #oct-dashboard .panel-default .panel-body{background-color: #ffffff;}
+	#oct #oct-dashboard #oct-today-stats .oct-col4{width:40%;}
+	#oct #oct-dashboard .oct-left-menu-stats .dropdown .btn-dropdown{padding: 10px 21px; font-size: 16px; border: unset;}
+	#oct #oct-dashboard .oct-left-menu-stats .dropdown  ul > li > a{padding: 8px 14px !important;text-align: unset;     font-size: 16px;}
+	#oct #oct-dashboard .tab-content .dropdown .dropdown-menu{min-width: 128px !important;}
+	#oct .oct-header #oct-main-navigation .navbar .nav.oct-nav-tab > .active > a{color: #ffffff !important;}
+	
+	#oct #oct-main-navigation .right_menu{min-width: unset!important; background-color: #5a98e9; padding: 1px 10px !important;
+    border-radius: 3px; box-shadow: 0 2px 6px #00000030 !important; margin-left: 10px !important;     margin-right: 5px !important;}
+	#oct .oct-header #oct-main-navigation .navbar .nav.oct-nav-tab .right_menu a{float: left;
+    box-shadow: unset!important;
+    border-radius: unset;
+    padding: 0px 7px !important;
+    margin: 0 2px;
+    background-color: unset !important;
+    font-size: 16px !important;}
+	#oct .oct-header #oct-main-navigation .navbar .nav.oct-nav-tab .right_menu a:hover{background-image: unset !important;} 
+	#oct #oct-dashboard #oct-today-stats .nav-tabs .btn-dropdown{background: unset;color: #626262;}
+	/*#oct .navbar .oct-nav-tab .right_menu {margin: 0 0 0 170px !important;}*/
+	#oct #oct-dashboard .panel-heading{font-size: 18px !important;} 
+	
+	.d-grid{display: grid !important;}
+	.mr-10{margin-right: 10px;}
+	.mr-11{margin-right: 12px;}
+	.mr{margin: 0 4pc;}
+	#oct #oct-dashboard .panel_height{
+    height: 492px;
+    overflow-y: scroll;
+	}
+	#oct #oct-dashboard .main_panel_height{
+		height: 492px;
+	}
+	#oct #oct-dashboard .oct-today-bookings .oct-no-today-booking-message{border-bottom: 1px solid #d8d4d4;
+    width: 90%;
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+	#oct #oct-dashboard .oct-today-bookings .oct-no-today-booking-message span{font-size: 15px;}
+	#oct #oct-dashboard .oct-today-bookings .oct-no-today-booking-message .oct-client_info{margin: 6px 0px;}
+	#oct #oct-dashboard .oct-today-bookings .oct-no-today-booking-message .btn-active{background-image: linear-gradient(to bottom, #6aa5e3, #5a98e9, #548aec, #5979ed, #6866e9) !important; border: unset;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 8px;}
+  #oct #oct-dashboard .oct-today-bookings .oct-no-today-booking-message .oct-time-name{ padding: 4px 0;} 
+	#oct #oct-dashboard #oct-today-stats .nav-tabs li:nth-child(1){box-shadow: 0 2px 1px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .13) !important;}
+	#oct #oct-main-navigation .right_menu{background-color: transparent;
+    box-shadow: none !important;}
+	#oct #oct-main-navigation .right_menu i{color: #fff;}
+	#oct li.location-select{
+		display: flex;
+	}
+	#oct li.location-select a{
+    line-height: 36px !important;
+    cursor: pointer;
+	}
+	/*#oct li.location-select .btn-group{
+		max-width: 80px;
+	}*/
+	#oct li.location-select .bootstrap-select.btn-group .dropdown-toggle .caret{
+		right: -12px;
+	}
+	#oct li.location-select .btn-group .btn{
+		height: 100%;
+	}
+	.icon-location-pin{
+		line-height: 0.8 !important;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li span.oct-map-location{
+    font-size: 14px;
+    padding: 0 10px;
+    height: auto;
+    font-weight: 400;
+    background-image: unset;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    color: #fff;
+    line-height: 32px ;
+    cursor: pointer
+	}
+	

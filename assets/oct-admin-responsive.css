@@ -1,0 +1,2602 @@
+/*
+Book Dice Admin : Responsive 
+
+
+*/
+
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+	
+}
+
+@media only screen  and (min-width : 1600px) {
+	#oct #oct-dashboard .oct-top-menus-stats.nav .bg-radius{
+    background-position: 125% 0%;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width : 1251px)  and (max-width : 1350px) {
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li.right-location button.btn{
+    padding: 0 4px !important;
+    font-size: 13px !important;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li{
+		min-width: 75px;
+	}
+}
+@media only screen  and (max-width : 1345px) {
+	#oct #oct-top-nav .navbar .nav > li > a{
+		padding: 0px 9px 0px;
+	}
+	#oct .oct-calendar-top-bar .col-md-4,
+	#oct .oct-calendar-top-bar .col-md-3,
+	#oct .oct-calendar-top-bar .col-md-8,
+	#oct #oct-payments .col-md-4{
+		padding: 0px 5px 10px;
+	}
+	/* services page */
+	#oct #oct-service-addon-panel #sortable-services li .oct-col3,	
+	#oct #oct-services-panel #sortable-services li .oct-col3 {
+		min-width: 90px;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col1,	
+	#oct #oct-services-panel #sortable-services li .oct-col1 {
+		min-width: 30px !important;
+		position: relative;
+		right: 20px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1025px) and (max-width : 1150px) {
+	#oct .navbar-header {
+        float: none !important;
+    }
+    #oct .navbar-toggle {
+        display: block !important;
+    }
+	#oct .oct-notification-main ul.oct-recent-booking-list{
+		overflow: auto !important;
+	}
+    #oct .navbar-collapse.collapse {
+        display: none!important;
+    }
+	#oct .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    #oct .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+	#oct .oct-notification-main ul.oct-recent-booking-list{
+		overflow: auto !important;
+	}
+	#oct #oct-notification-container .oct-arrow{
+		right: 50%;
+	}
+    #oct .navbar-nav {
+        float: none!important;
+        margin: 7.5px 0px !important;
+    }
+    #oct .navbar-nav>li {
+        float: none !important;
+    }
+    #oct .navbar-nav>li>a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+	#oct #oct-top-nav .navbar-nav{
+		text-align: center;
+	}
+	#oct #oct-top-nav .navbar-right{
+		float: none !important;
+		text-align: center !important;
+	}
+	#oct #oct-top-nav{
+		height: 45px;
+	}
+	#oct #oct-top-nav .navbar .nav > li > a{
+		font-size: 12px;
+		padding: 0px 5px 0px;
+		line-height: 25px;
+	}
+	#oct #oct-top-nav .navbar-collapse{
+		background: rgb(46, 54, 62) none repeat scroll 0% 0%;
+		z-index: 999;
+		overflow-y: auto !important;
+		float: left;
+		width: 450px;
+		right: 0;
+		position: absolute;
+		max-height: 450px !important;
+	}
+	#oct #oct-top-nav .navbar .nav > li > a:hover {
+		background-color: rgb(85, 88, 92) !important;
+		color: #FFF !important;
+		box-shadow: none;
+	}
+}	
+	
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 768px) and (max-width : 1250px) {
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li:first-child:before {
+		border-left-width: 0;
+	}
+	#oct #oct-main-navigation .navbar-header{
+		padding: 0 10px;
+		margin: 0 auto;
+		font-size: 20px;
+		text-align: center;
+		line-height: 50px;
+		height: 50px;
+	}
+	#oct #oct-main-navigation .navbar-toggle{
+		border: 0px none;
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	.navbar-inverse .navbar-toggle:focus,
+	.navbar-inverse .navbar-toggle:hover,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a:hover{
+		background: unset !important;
+		
+	}
+	#oct .navbar-fixed-top .navbar-collapse {
+		max-height: inherit;
+	}
+	#oct #oct-main-navigation{
+		height: 50px;
+	}
+	#oct #oct-main-navigation .navbar {
+		min-height: 50px;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab{
+		width: 100%;
+		height: auto;
+		margin: 15px 0px 0 10px;
+		padding: 0px;
+		border: none;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li:after,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li:before{
+		border-width: 0;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li{
+		float: none;
+		width: 100%;
+		height: auto;
+		margin-bottom: 1em !important;
+		text-align: left;
+		border: none;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a {
+		display: block;
+		padding: 0 5px !important;
+		margin-right: 8px;
+		margin-left: 13px;
+		color: #CCC;
+		font-size: 14px;
+		font-weight: 600;
+		text-align: left;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .fa,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a i.icons{
+		display: inline;
+		margin-right: 5px;
+		margin-bottom: 0;
+		margin-top: 0px;
+		font-size: 14px;
+		top: 0px;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .icons {
+		font-size: 14px;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a span{
+		display: inline;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li.right_menu{
+		display: flex;
+		margin-left: 2% !important;
+		padding: 8px !important;
+		max-width: 150px;
+		justify-content: center;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li.right_menu > a i{
+		font-size: 18px;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li a.oct-map-select{
+		width: 100%;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li span.oct-map-location{
+		width: 100%;
+		padding-left: 0;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li span.oct-map-location .oct_selected_location{
+    width: auto;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a#oct-notifications{
+		margin-left: 14px;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a#oct-notifications .oct-bell-notification{
+		width: fit-content;
+    display: initial;
+    padding-left: 5px;
+	}
+	#oct #oct-notifications #oct-notification-top{
+    left: 10px;
+	}
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1025px) and (max-width : 1250px) {
+	
+	#oct .oct-calendar-top-bar .col-md-4,
+	#oct .oct-calendar-top-bar .col-md-8{
+		padding: 0px 5px;
+	}
+	#oct #oct-calendar-all .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	#oct div#reportrange {
+		width: 320px;
+	}
+	
+	#oct #oct-top-nav .navbar .nav > li > a{
+		padding: 0px 8px 0px;
+	}
+	/* location page */
+	#oct #oct-locations-panel .oct-location-panel .oct-col9{
+		width: 70%;
+	}
+	#oct #oct-locations-panel .oct-location-panel .oct-col3{
+		width: 30%;
+	}
+	#oct #oct-locations-panel .oct-location-panel .oct-col3 .oct-col6{
+		width: 90px;
+	}
+	
+	/* services page */
+	#oct #oct-service-addon-panel .oct-service-container h3,		
+	#oct #oct-services-panel .oct-service-container h3{
+		font-size: 17px;
+	}
+	
+	#oct #oct-service-addon-panel .oct-service-container #oct-add-new-category.btn-info,	   
+	#oct #oct-services-panel .oct-service-container #oct-add-new-category.btn-info{
+		padding: 3px 6px;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col6,	
+	#oct #oct-services-panel #sortable-services li .oct-col6{
+		width: 100%;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col4,	
+	#oct #oct-services-panel #sortable-services li .oct-col4{
+		min-width: 160px;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col2,	
+	#oct #oct-services-panel #sortable-services li .oct-col2{
+		min-width: 130px;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col3,
+	#oct #oct-services-panel #sortable-services li .oct-col3{
+		width: 90px;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col1,	
+	#oct #oct-services-panel #sortable-services li .oct-col1{
+		width: 30px !important;
+		position: relative;
+		right: 20px;
+	}
+	
+	/* staff page */
+	#oct #oct-staff-panel .oct-staff-container h3 {
+		font-size: 17px;
+	}
+	#oct #oct-staff-panel .oct-staff-container #oct-add-new-staff.btn-info {
+		padding: 3px 6px;
+		position: relative;
+		bottom: 4px;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff {
+		padding-left: 10px;
+	}
+	#oct .member-availabilty ul#oct-staff-timing li.active .col-md-3,
+	#oct .member-availabilty ul#oct-staff-timing li.active .col-md-7{
+		padding: 0px 5px;
+	}
+	#oct #oct-staff-panel .member-addbreaks .oct-weeks-breaks-menu{
+		width: 27%;
+	}
+	#oct #oct-staff-panel .member-addbreaks .oct-weeks-breaks-details{
+		width: 73%;
+	}
+	#oct #oct-staff-panel .col-xs-12,
+	#oct #oct-service-addon-panel .col-xs-12,	
+	#oct #oct-services-panel .col-xs-12{
+		padding: 5px !important;
+		
+	}
+	#oct #oct-profile .oct-custom-radio-new {
+		min-height: 680px !important;
+	}
+}	
+	
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	#oct #oct-dashboard .oct-top-menus-stats.nav > li > a h4.oct-dash-header {
+		font-size: 16px;
+	}
+	#oct #oct-dashboard .oct-top-menus-stats.nav > li.active > a h4.oct-dash-header {
+		font-size: 17px;
+	}
+	#oct #oct-dashboard .oct-top-bar-details{
+		position: relative;
+		top: 20px;
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	#oct .oct-notification-main ul.oct-recent-booking-list{
+		overflow: auto !important;
+	}
+	#oct #oct-dashboard .oct-top-bar-details hr#vr{
+		display: none !important;
+	}
+
+	#oct .oct-total-details .oct-value{
+		margin-bottom: 10px;
+	}
+	
+	#oct #oct-dashboard .oct-all-stats{
+		margin-bottom: 20px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .oct-label {
+		padding: 3px 10px;
+	}
+	#oct #oct-notification-container .oct-arrow{
+		right: 50%;
+	}
+	#oct .oct-notifications-inner{
+		right: -400px;
+	}
+	#oct .navbar-header {
+        float: none !important;
+    }
+    #oct .navbar-toggle {
+        display: block !important;
+    }
+  
+    #oct .navbar-collapse.collapse {
+        display: none!important;
+    }
+	#oct .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    #oct .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+  
+    #oct .navbar-nav {
+        float: none!important;
+        margin: 7.5px 0px !important;
+    }
+    #oct .navbar-nav>li {
+        float: none !important;
+    }
+    #oct .navbar-nav>li>a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+	#oct #oct-top-nav .navbar-nav{
+		text-align: center;
+		margin: 0px !important;
+	}
+	#oct #oct-top-nav .navbar-right{
+		float: right !important;
+	}
+	#oct #oct-top-nav{
+		height: 50px;
+	}
+	#oct #oct-top-nav .navbar .nav > li > a{
+		font-size: 12px;
+		padding: 14px 5px 14px !important;
+		line-height: 25px;
+	}
+	#oct #oct-main-navigation .navbar-toggle{
+		padding: 0 10px;
+		margin: 0 auto;
+		font-size: 20px;
+		text-align: center;
+		line-height: 50px;
+		float: right;
+		height: 50px;
+	}
+	
+	#oct #oct-top-nav .navbar-collapse.collapse {
+		display: block !important;
+		height: auto !important;
+		padding-bottom: 0;
+		overflow: visible !important;
+	}
+	#oct #oct-top-nav .navbar-toggle {
+		display: none !important;
+	}
+	#oct #oct-top-nav .navbar-nav > li {
+		float: left !important;
+	}
+	#oct #oct-top-nav .navbar-header {
+        float: left !important;
+    }
+	#oct #oct-top-nav .navbar .nav > li > a:hover {
+		background-color: rgb(85, 88, 92) !important;
+		color: #FFF !important;
+		box-shadow: none;
+	}
+	
+	#oct #oct-settings .oct-setting-details #salon-details .form-inline input#salon_name.form-control{
+		width: auto !important;
+	}
+	#oct .form-inline .form-control{
+		width: 100% !important;
+	}
+	/* for input which have form group with tooltip */
+	#oct #oct-settings .form-inline .form-group.oct-lgf{
+		float: left !important;
+		width: 90% !important;
+		margin-right: 5px;
+	}
+	/* for input which have form group with tooltip position 
+	#oct #oct-settings .fa-info-circle.lgf{
+		position: relative;
+		top: 7px;
+	}
+	*/
+	
+	#oct .oct-notification-main{
+		right: -15px;
+	}
+	#oct #oct-notification-container{
+		left: 0px !important
+	}
+	/* appointment page */
+	#oct .oct-calendar-top-bar .col-sm-4{
+		width: 46%;
+	}
+	#oct .oct-calendar-top-bar .col-sm-8{
+		width: 90%
+	}
+	#oct .oct-calendar-top-bar .oct-search-calander-btn{
+		padding: 20px 5px 10px;
+		float: left !important;
+	}
+	#oct div#reportrange {
+		width: 100%;
+		margin: 0;
+	}
+	.modal-dialog.modal-md {
+		margin: 50px auto;
+	}
+	#oct .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	
+	#oct #oct-calendar-all .modal-footer .popover {
+		max-width: 220px;
+		width: 200px;
+	}
+	/* locations page */
+	#oct #oct-locations-panel .oct-locations-container h3{
+		font-size: 16px;
+	}
+	#oct #oct-locations-panel .oct-locations-container #oct-add-new-city-state.btn-info{
+		padding: 3px 6px;
+	}
+	#oct #oct-locations-panel .panel-body{
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-locations-panel .oct-location-panel .oct-col9{
+		width: 60%;
+	}
+	#oct #oct-locations-panel .oct-location-panel .oct-col3{
+		width: 40%;
+	}
+	#oct #oct-locations-panel .oct-location-panel .oct-col3 .oct-col6{
+		width: 90px;
+	}
+	
+	/* services page */
+	#oct #oct-service-addon-panel .oct-service-container h3,		
+	#oct #oct-services-panel .oct-service-container h3{
+		font-size: 16px;
+	}
+	#oct #oct-service-addon-panel .oct-service-container #oct-add-new-category.btn-info,		   
+	#oct #oct-services-panel .oct-service-container #oct-add-new-category.btn-info{
+		padding: 3px 6px;
+	}
+	#oct #oct-staff-panel  .panel-body,
+	#oct #oct-service-addon-panel .panel-body,
+	#oct #oct-services-panel .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-staff-panel .col-xs-12,
+	#oct #oct-service-addon-panel .col-xs-12,
+	#oct #oct-services-panel .col-xs-12{
+		padding: 0px 5px !important;
+		margin-bottom: 5px !important;
+	}
+	
+	
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks .oct-staff-breaks-schedule{
+		padding: 0 15px !important;
+	}
+	#oct #oct-staff-panel .oct-member-offtime-inner .col-xs-12{
+		padding: 0px 15px !important;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-service-addon-panel .oct-services-right-details .col-sm-12,													 
+	#oct #oct-services-panel .oct-services-right-details .col-sm-12{
+		padding: 0px 7px !important;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list a {
+		padding: 8px 0 8px 2px;
+	}
+	#oct #oct-staff-panel .oct-staff-list ul li.active span.oct-staff-name,
+	#oct #oct-staff-panel .oct-staff-list span.oct-staff-name{
+		width: 65%;
+	}
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.col-sm-2 {
+		width: 80px;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col6,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col6,
+	#oct #oct-services-panel #sortable-services li .oct-col6,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col6{
+		width: 100%;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col4,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col4,														   
+																	
+	#oct #oct-services-panel #sortable-services li .oct-col4,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col4{
+		min-width: 140px;
+	}
+	#oct #oct-services-panel #sortable-services li .oct-col2,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col2{
+		min-width: 100px;
+	}
+	#oct #oct-services-panel #sortable-services li .oct-col3,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col3{
+		width: 90px;
+	}
+	#oct #oct-services-panel #sortable-services li .oct-col1,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col1{
+		width: 30px !important;
+		position: relative;
+		right: 20px;
+	}
+	/*#oct #oct-staff-panel .col-sm-5, #oct #oct-services-panel .col-sm-5,
+	#oct #oct-staff-panel .col-sm-7, #oct #oct-services-panel .col-sm-7{
+		width: 100%;
+	} */
+	#oct #oct-staff-panel .oct-member-offtime-inner .col-sm-7{
+		width: initial;
+	}
+	/* staff page */
+	#oct  #oct-staff-panel .oct-staff-right-menu li a{
+		padding: 5px;
+	}
+	#oct #oct-staff-panel .oct-staff-container h3{
+		padding: 5px 0px 5px;
+		font-size: 15px;
+	}
+	#oct #oct-staff-panel .oct-staff-container #oct-add-new-staff.btn-info{
+		padding: 3px 6px;
+	}
+	
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.oct-day-name{
+		width: 66%;
+		padding: 0px 5px !important;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.col-sm-7{
+		padding: 0px 5px !important;
+		width: 85%;
+	}
+	#oct #oct-staff-panel .member-addbreaks .oct-weeks-breaks-menu{
+		width: 33%;
+	}
+	#oct #oct-staff-panel .member-addbreaks .oct-weeks-breaks-details{
+		width: 66%;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details .member-offdays .offdaystable .oct-col4{
+		width: 48%;
+	}
+	
+	
+	/* settings page */
+	#oct #oct-settings .panel-body {
+		padding: 15px 3px 15px 3px !important;
+	}
+	#oct #oct-settings .oct-setting-details .col-xs-12{
+		padding: 0px 5px !important;
+	} 
+	#oct #oct-settings .oct-setting-details li.oct-tax-vat-input-container input{
+		width: 25% !important;
+		float: left;
+	}
+	#oct #oct-settings .oct-setting-details .oct-partial-input-per input{
+		width: 65% !important;
+		float: left;
+	}
+	
+	/* settings > custom form fields settings*/
+	
+	#oct #oct-settings #custom-form-fields .stage-wrap{
+		width: 63%;
+		float: left;
+	}
+	#oct #oct-settings #custom-form-fields .cb-wrap{
+		width: 34%;
+		float: left;
+		margin-top: 10px;
+	}
+	#oct #oct-settings #custom-form-fields .frmb-control, table.form ul.frmb-control {
+		margin: 0;
+		padding: 0;
+		min-width: 177px;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.label-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.description-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.name-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.access-wrap label {
+		width: 100%;
+		float: left;
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.label-wrap input[type="text"] ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.description-wrap input[type="text"] ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.name-wrap input[type="text"] {
+		width: 100%;
+		float: left;
+		text-align: left;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.available-roles{
+		width: 100%;
+		float: left;
+		text-align: left;
+		margin: 0px;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements input.fld-max-length[type="text"]{
+		width: 30%;
+	}
+	
+
+	/* export */
+	#oct #oct-export-details .tab-content #booking-info-export .col-sm-4{
+		width: 60%;
+	}
+	#oct #oct-export-details .tab-content #booking-info-export .col-sm-8,
+	#oct #oct-export-details .tab-content #staff-info-export .col-sm-8,
+	#oct #oct-export-details .tab-content #services-info-export .col-sm-8{
+		width:100%;
+	}
+	
+	#oct #oct-user-profile #user-booking-details .modal-md {
+		width:740px;
+	}
+	#oct #oct-profile .oct-custom-radio-new{
+		min-height: 580px;
+	}
+	#oct #oct-user-appointments #user-booking-details .modal-md {
+		width: 740px;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		width: 100%;
+	}
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	#oct #oct-profile .oct-custom-radio-new {
+		min-height: 680px !important;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		width: 70%;
+	}
+
+	#oct input[type="text"],
+	#oct input[type="password"],
+	#oct input[type="date"],
+	#oct input[type="datetime"],
+	#oct input[type="email"],
+	#oct input[type="number"],
+	#oct input[type="search"],
+	#oct input[type="tel"],
+	#oct input[type="time"],
+	#oct input[type="url"],
+	#oct textarea {
+		-webkit-appearance: caret;
+		-moz-appearance: caret;
+		-o-appearance: caret;
+		-ms-appearance: caret;
+		appearance: caret;
+	}
+	.auto-fold #wpcontent{
+		padding-left: 0px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	#oct #oct-profile .oct-custom-radio-new {
+		min-height: 680px !important;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		width: 100%;
+	}
+	
+	
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	#oct #oct-profile .oct-custom-radio-new {
+		min-height: 680px !important;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		width: 70%;
+	}
+	
+	
+	#oct input[type="text"],
+	#oct input[type="password"],
+	#oct input[type="date"],
+	#oct input[type="datetime"],
+	#oct input[type="email"],
+	#oct input[type="number"],
+	#oct input[type="search"],
+	#oct input[type="tel"],
+	#oct input[type="time"],
+	#oct input[type="url"],
+	#oct textarea {
+		-webkit-appearance: caret;
+		-moz-appearance: caret;
+		-o-appearance: caret;
+		-ms-appearance: caret;
+		appearance: caret;
+	}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	#oct #oct-profile .oct-custom-radio-new {
+		min-height: 680px !important;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		width: 100%;
+	}
+
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width: 767px) {
+	#oct .vertical-alignment-helper,
+	#oct .vertical-align-center{
+		display: block;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li:first-child:before {
+		border-left-width: 0;
+	}
+	#oct #oct-top-nav .navbar-header,
+	#oct #oct-main-navigation .navbar-header{
+		padding: 0 10px;
+		margin: 0 auto;
+		font-size: 20px;
+		text-align: center;
+		line-height: 50px;
+	}
+	#oct #oct-top-nav .navbar-toggle,
+	#oct #oct-main-navigation .navbar-toggle{
+		border: 0px none;
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table.offdaystable tr td:nth-child(1) {
+		width: 100% !important;
+	}
+	#oct .rnp{
+		padding: 0;
+	}
+	#oct #oct-dashboard .oct-today-list-actions .oct-past-booking-button {
+		position: relative;
+		right: unset;
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	#oct #oct-service-addon-panel .panel-heading .panel-title .oct-delete-popover,
+	#oct #oct-services-panel .panel-heading .panel-title .oct-delete-popover {
+		left: -10px;
+	}
+	
+	.navbar-inverse .navbar-toggle:focus,
+	.navbar-inverse .navbar-toggle:hover,
+	#oct #oct-top-nav .navbar-nav > li > a:hover,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a:hover{
+		background: unset !important;
+		
+	}
+	#oct .navbar-fixed-top .navbar-collapse {
+		max-height: inherit;
+	}
+	#oct #oct-main-navigation{
+		height: 50px;
+	}
+	#oct #oct-main-navigation .navbar {
+		min-height: 50px;
+	}
+	#oct #oct-top-nav .navbar-collapse .navbar-nav.navbar-right{
+		margin: 0 0 0 10px;
+		padding: 15px 0;
+	}
+	
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab{
+		width: 100%;
+		height: auto;
+		margin: 15px 0px 10px 10px;
+		padding-left: 10px;
+		border: none;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li{
+		float: none;
+		width: 100%;
+		height: auto;
+		margin-bottom: 1em;
+		text-align: left;
+		border: none;
+	}
+	#oct #oct-top-nav .navbar .nav li > a,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a{
+		display: block;
+		padding: 10px 5px;
+		margin-right: 8px;
+		color: #CCC;
+		font-size: 15px;
+		font-weight: 600;
+		text-align: left;
+	}
+	#oct #oct-top-nav .navbar .nav li > a .fa,
+	#oct #oct-top-nav .navbar .nav li > a i.icons,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a i.icons,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .fa{
+		display: inline;
+		margin-right: 5px;
+		margin-bottom: 0;
+		margin-top: 0px;
+		font-size: 14px;
+		top: 0px;
+	}
+	
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .icons {
+		font-size: 14px;
+	}
+	#oct #oct-top-nav .navbar .nav li > a span,
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a span{
+		display: inline;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li a.oct-map-select{
+		width: 100%;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li span.oct-map-location{
+		width: 100%;
+    padding-left: 0;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a#oct-notifications{
+		margin-top: 10px;
+	}
+	#oct #oct-notifications #oct-notification-top{
+		left: 10px;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li > a#oct-notifications .oct-bell-notification{
+		width: fit-content;
+    display: initial;
+    padding-left: 5px;
+	}
+	#oct .modal {
+		top: 50px;
+	}
+	#oct .oct-notifications-inner{
+		top: 45px;
+	}
+	
+	
+	
+	#oct .table-fixed{
+		display: block;
+	}
+	#oct .table-cell{
+		float: left;
+	}
+	
+	#oct #oct-dashboard .oct-top-bar-details,
+	#oct #oct-dashboard .oct-total-details{
+		float: left;
+		width: 50%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	#oct #oct-notification-container .oct-arrow{
+		right: 50%;
+	}
+	#oct .oct-notifications-inner{
+		right: -400px;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list{
+		overflow: auto !important;
+	}
+	#oct #oct-dashboard .oct-top-bar-details hr#vr,
+	#oct #oct-dashboard .oct-total-details hr#vr{
+		display: none !important;
+	}
+	#oct .oct-total-details .col-md-12{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#oct .oct-total-details .oct-text{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	#oct .oct-total-details .oct-value{
+		margin-bottom: 10px;
+		display: inline-block;
+		float: none !important;
+		
+	}
+	#oct #oct-dashboard .oct-today-bookings{
+		clear: both;
+	}
+	#oct #oct-dashboard .oct-all-stats canvas.oct-today-canvas,
+	#oct #oct-dashboard .oct-all-stats canvas.oct-week-canvas,
+	#oct #oct-dashboard .oct-all-stats canvas.oct-year-canvas {
+		width: 100%;
+		height: 100%;
+	}
+	#oct #oct-dashboard ul.oct-top-menus-stats{
+		width: 450px;
+		margin: 0px auto;
+		left: 0;
+		right: 0;
+		float: none;
+	}
+	#oct #oct-dashboard .oct-all-stats.h-450 {
+		height: 380px;
+	}
+	#oct #oct-dashboard .oct-all-stats{
+		margin-bottom: 20px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .oct-label {
+		padding: 3px 10px;
+	}
+	#oct #oct-dashboard .oct-statistic-month-main table.oct-statistic-month tr td {
+		padding: 9px 5px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right .col-xs-6,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .col-xs-6 {
+		width: 50%;
+		margin: 0px !important;
+	}
+	
+	#oct #oct-top-nav .oct-uline:after {
+		display: none;
+	}
+/* 	#oct #oct-top-nav .navbar-collapse{
+		background: rgb(46, 54, 62) none repeat scroll 0% 0%;
+		z-index: 999;
+		float: left;
+		width: 450px;
+		position: absolute;
+		right: 0;
+		max-height: 450px !important;
+	} */
+	#oct #oct-top-nav .navbar-nav {
+		text-align: center;
+	}
+	
+	#oct #oct-top-nav .navbar .nav > li > a:hover {
+		background-color: rgb(85, 88, 92) !important;
+		color: #FFF !important;
+		box-shadow: none;
+	}
+	/* #oct .modal-md{
+		top: 55% !important;
+		left: 48% !important;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		z-index: 99999;
+	} */
+	
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right .col-xs-6{
+		width: 100%;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	#oct .oct-calendar-top-bar .col-sm-6 .btn.mt-20{
+		margin-top: 0px !important;
+	}
+	#oct #booking-details #appointment-details .oct-w-50,
+	#oct #booking-details #customer-details .oct-w-50{
+		width: 49%;
+	}
+	#oct #oct-calendar-all .oct-footer-popup-btn .oct-w-32,
+	#oct #booking-details .oct-footer-popup-btn .oct-w-32{
+		width: 32%;
+	}
+	#oct #oct-calendar-all .modal-footer {
+		padding: 0px 15px;
+	}
+	#oct #oct-calendar-all .oct-submit-btn{
+		margin-top: 10px;
+	}
+	/****  location page style ***/	
+	#oct #oct-locations-panel .oct-services-panel .panel-title span.oct-service-title-name {
+		width: 100%;
+	}
+	#oct #oct-locations-panel .sortable-locations li .oct-col6{
+		width: 50% !important;
+	}
+	#oct #oct-locations-panel .sortable-locations li .oct-col2{
+		width: 10% !important;
+	}
+	
+	
+	#oct #oct-locations-panel .sortable-locations li .oct-w-50{
+		width: 49% !important;
+	}
+	#oct #oct-locations-panel #pac-input{
+		width: 90%;
+	}
+	#oct div#reportrange {
+		width: 100%;
+	}
+	
+	#oct .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	
+/****  Services and staff page style ***/	
+	#oct #oct-staff-panel  .panel-body,
+	#oct #oct-services-panel .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-staff-panel .col-xs-12,
+	#oct #oct-services-panel .col-xs-12{
+		padding: 0px !important;
+	}
+	
+	#oct #oct-services-panel #sortable-services li .oct-col4,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col4{
+		max-width: 140px;
+	}
+	#oct #oct-services-panel #sortable-services li .oct-col2,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col2{
+		max-width: 90px;
+	}
+	#oct #oct-services-panel #sortable-services li .oct-col3,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col3{
+		width: 90px;
+	}
+	#oct #oct-services-panel #sortable-services li .oct-col1,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col1{
+		width: 30px !important;
+		position: relative;
+		right: 20px;
+	}
+	#oct #oct-staff-panel .oct-staff-list{
+		min-height: 350px;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff ,
+	#oct #oct-services-panel .oct-service-list .oct-left-service {
+		min-height: 150px;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table tbody tr td.oct-w50{
+		width:50%;
+		float: left;
+	}
+	
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.col-sm-2{
+		width: 69px;
+	}
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.oct-day-name{
+		width: 22%;
+		padding: 0px 5px !important;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.col-sm-7{
+		padding: 0px 10px !important;
+		width: 62%;
+	}
+	/* add break member */
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks span.col-sm-2{
+		width: 20%;
+		padding: 0px 3px !important;
+	}
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks span.oct-day-name{
+		width: 30%;
+		padding: 0px 10px !important;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks .oct-staff-breaks-schedule{
+		padding: 0 15px !important;
+	}
+	#oct #oct-staff-panel.member-addbreaks .oct-staff-breaks-schedule .oct-staff-hours-to {
+		margin: 0px 2px;
+	}
+	#oct .member-addbreaks .oct-staff-breaks-schedule .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100px;
+	}
+	#oct .member-addbreaks ul#oct-staff-breaks li #oct-add-break-ul li button#oct-delete-staff-break.btn{
+		padding: 6px 10px;
+	}
+	
+	/* staff off days */
+	#oct #oct-staff-panel .oct-staff-right-details .member-offdays .offdaystable .monthtable{
+		width: 261px;
+		box-sizing: border-box;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table.offdaystable table.monthtable tr td:nth-child(1),
+	#oct #oct-staff-panel .oct-price-row table.oct-staff-common-table tr td:nth-child(1) {
+		width: 37px !important;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details .member-offdays .offdaystable .monthtable tbody tr td{
+		width: 37px;
+		height: 37px;
+		line-height: 26px;
+		text-align: center;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details .member-offdays .offdaystable tbody tr td {
+		display: inline-block;
+		width: auto;
+		float: left;
+		padding: auto !important;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details .member-offdays .offdaystable {
+		width: 271px;
+		margin: 0px auto;
+		float: none;
+	}
+	
+	
+	/* Settings page responsive style */
+	#oct #oct-settings .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-settings .col-xs-12{
+		padding: 0px !important;
+	}
+	#oct #oct-settings .oct-setting-details li.oct-tax-vat-input-container input{
+		width: 25% !important;
+		float: left;
+	}
+	#oct #oct-settings .oct-setting-details .oct-partial-input-per input{
+		width: 65% !important;
+		float: left;
+	}
+	#oct #oct-settings a.oct-tooltip-link{
+		position: relative;
+		top: 50px;
+		left: 5px;
+	}
+	/* settings > custom form fields settings*/
+	
+	#oct #oct-settings #custom-form-fields .stage-wrap{
+		width: 100%;
+		float: left;
+	}
+	#oct #oct-settings #custom-form-fields .cb-wrap{
+		width: 250px;
+		float: left;
+		margin-top: 10px;
+	}
+	
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.label-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.description-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.name-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.access-wrap label {
+		width: 100%;
+		float: left;
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.label-wrap input[type="text"] ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.description-wrap input[type="text"] ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.name-wrap input[type="text"] {
+		width: 100%;
+		float: left;
+		text-align: left;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.available-roles{
+		width: 100%;
+		float: left;
+		text-align: left;
+		margin: 0px;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements input.fld-max-length[type="text"]{
+		width: 30%;
+	}
+	#oct #oct-settings #promocode #add-new-promocode .form-group{
+		margin: 0px;
+	}
+	#oct #oct-user-profile #user-booking-details .modal-md {
+		width:460px;
+	}
+	#oct #oct-profile .oct-admin-staff-right.col-xs-12{
+		padding: 0px;
+	}
+	#oct #oct-profile .oct-custom-radio-new{
+		min-height: 690px;
+	}
+	/* users appointments css */
+	#oct #oct-user-appointments #user-booking-details .modal-md {
+		width: 480px !important;
+	}
+	#oct #oct-profile .oct-custom-radio-new .oct-price-box.col-xs-12{
+		width: 49.7% !important;
+		margin-right: 1px !important;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		height: 80px;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		width: 100%
+	}
+	#oct #oct-profile .oct-price-switcher .yearly-save-more {
+		float: none;
+		position: relative;
+		top: 0;
+		right:0;
+	} 
+	#oct a.oct-tooltip-link{
+		display: none;
+	}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab > li span.oct-map-location .oct_selected_location{
+    width: auto;
+	}
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+/* 	#oct #oct-top-nav .navbar-collapse{
+		background: rgb(46, 54, 62) none repeat scroll 0% 0%;
+		z-index: 999;
+		float: left;
+		width: 100%;
+		position: absolute;
+		right: 0;
+		max-height: 450px !important;
+	} */
+	
+	#oct #oct-top-nav .navbar-nav {
+		text-align: center;
+	}
+	#oct #oct-dashboard .oct-top-bar-details{
+		float: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#oct #oct-dashboard .oct-total-details{
+		float: left;
+		width: 100%;
+		margin-top: 20px;
+	}
+	#oct #oct-dashboard .oct-total-details .col-md-12{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#oct #oct-dashboard ul.oct-top-menus-stats{
+		text-align:center;
+	}
+	#oct #oct-dashboard .oct-top-menus-stats.nav > li.active > a h4.oct-dash-header span{
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;
+	}
+	#oct #oct-dashboard .oct-top-bar-details hr#vr,
+	#oct #oct-dashboard .oct-total-details hr#vr{
+		display: none !important;
+	}
+	#oct #oct-dashboard .oct-total-details hr#hr{
+		display: block;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list{
+		overflow: auto !important;
+	}
+	#oct .oct-total-details .oct-text,
+	#oct .oct-total-details .oct-value{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	#oct .oct-total-details .oct-value{
+		margin-bottom: 20px;
+	}
+	#oct #oct-dashboard .oct-today-bookings{
+		clear: both;
+	}
+	#oct #oct-dashboard .oct-all-stats canvas.oct-today-canvas,
+	#oct #oct-dashboard .oct-all-stats canvas.oct-week-canvas,
+	#oct #oct-dashboard .oct-all-stats canvas.oct-year-canvas {
+		width: 100%;
+		height: 100%;
+	}
+	#oct #oct-dashboard ul.oct-top-menus-stats,
+	#oct #oct-dashboard .oct-total-details{
+		width: 100%;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	
+	#oct #oct-dashboard .oct-all-stats.h-450 {
+		height: 320px;
+	}
+	#oct #oct-dashboard .oct-all-stats{
+		margin-bottom: 20px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .oct-label {
+		padding: 5px;
+	}
+	
+
+	
+	#oct #oct-login .oct-login-form{
+		width: 300px;;
+	}
+	#oct #oct-login .oct-login-form .oct-custom-checkbox{
+		width: 100%;
+	}
+	#oct #booking-details .nav-tabs > li,
+	#oct #oct-export-details .nav-tabs > li{
+		width: 100%;
+	}
+	#oct #oct-top-nav .oct-uline:after {
+		display: none;
+	}
+	#oct #booking-details #appointment-details tbody tr td ,
+	#oct #booking-details #customer-details tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #booking-details #appointment-details .oct-w-50,
+	#oct #booking-details #customer-details .oct-w-50{
+		width: 49%;
+	}
+	#oct #oct-calendar-all .oct-footer-popup-btn .oct-w-32,
+	#oct #booking-details .oct-footer-popup-btn .oct-w-32{
+		width: 32%;
+	}
+	#oct #oct-calendar-all  .fc-time-grid .fc-slats td {
+		height: 6.5em;
+	}
+	#oct #oct-calendar-all .fc-time-grid-container{
+		height: 350px !important;
+	}
+	#oct #oct-calendar-all  .fc-time-grid-event.fc-event{
+		height: 140px;
+	}
+
+	
+	#oct #oct-top-nav .navbar-brand img {
+		width: 100%;
+		height: 100%;
+	}
+	#oct .navbar-toggle{
+		margin-top: 5px;
+		padding: 7px 8px;
+	}
+	#oct .oct-notifications-inner {
+		right: -100%;
+		width: 97% !important;
+	}
+	#oct #oct-calendar-all .modal-md,
+	#oct .modal-md ,
+	#oct #edit-booking-details-view .modal-md {
+		width: 95% !important;
+	}
+	#oct .fc-toolbar .fc-center h2,
+	#oct .fc-toolbar .fc-center,
+	#oct .fc-toolbar .fc-right,
+	#oct .fc-toolbar .fc-left{
+		width: 100%;
+	}
+	#oct .fc .fc-toolbar > * > *{
+		float: none;
+	}
+	#oct button.fc-today-button{
+		float: left !important;
+	}
+	#oct .oct-header .modal-content .modal-footer .col-xs-2,
+	#oct #booking-details .modal-content .modal-footer .col-xs-2,
+	#oct #booking-details-calendar .modal-content .modal-footer .col-xs-2,
+	#oct #edit-booking-details-view .modal-content .modal-footer .col-xs-2 {
+		width: 33.33333333%;
+	}
+	#oct .oct-header .modal-content .modal-footer .col-xs-6,
+	#oct #booking-details .modal-content .modal-footer .col-xs-6,
+	#oct #booking-details-calendar .modal-content .modal-footer .col-xs-6,
+	#oct #edit-booking-details-view .modal-content .modal-footer .col-xs-6 {
+		width: 100%;
+	}
+	#oct .modal-body .nav-tabs li,
+	#oct .modal-footer table td,
+	#oct .modal-body table td {
+		display: inline-block;
+		width: 100%;
+		float: left;
+	}
+	#oct #registered-details .modal-body table#registered-client-booking-details tbody tr td,
+	#oct #guest-details .modal-body table#guest-client-booking-details tbody tr td,
+	#oct #oct-user-appointments .modal-body table#user-all-bookings-details tbody tr td,	
+	#oct #oct-customers-listing .modal-body table#registered-client-booking-details-new tbody tr td{
+		display: table-cell !important;
+		width: unset !important;
+		float: none !important;
+	}
+	#oct #oct-customers-listing .booking-details-modal .modal-lg {
+		width: 93%;
+	}
+	#oct #oct-service-addon-panel .oct-all-service-category .bootstrap-select,				 
+	#oct #oct-services-panel .oct-all-service-category .bootstrap-select {
+		width: 100%;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li span.span-scroll{
+		width: 165px;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li label {
+		width: 90px;
+	}
+	#oct #booking-details ul.oct-cal-booking-details li .oct-booking-status{
+		width: 130px;
+	}
+	#oct .modal {
+		top: 50px;
+	}
+	#oct .oct-notifications-inner{
+		top: 45px;
+	}
+	#oct .oct-header ul.oct-cal-booking-details li:not(:first-child) span{
+		width: 60%
+	}
+	#oct .edit-appointment-details table td div.oct-col6,
+	#oct .edit-customer-details table td div.oct-col6,
+	#oct #oct-profile #personal-info-tab div.w100 .oct-col6{
+		padding: 0px 2px;
+		width: 49%;
+	}
+	#oct #oct-profile .oct-embed-button ol.oct-embed-code{
+		padding-right: 0px;
+	}
+	#oct #oct-profile .oct-embed-button ol.oct-embed-code li div.oct-embed-code .col-xs-12{
+		padding: 0px;
+	}
+	/* #oct #oct-calendar-all .modal-md,
+	#oct .modal-md {
+		width: 300px;
+		position : fixed;
+		height: 450px;
+		overflow-y: scroll;
+		top: 46% !important;
+		left: 47% !important;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		z-index: 99999;
+	}
+	
+	#oct #oct-calendar-all .modal-body,
+	#oct #booking-details .modal-body{
+		height: 238px;
+		overflow: scroll;
+	} */
+	#oct #oct-calendar-all .oct-submit-btn{
+		margin-top: 10px;
+	}
+	#oct #oct-calendar-all .modal-footer {
+		padding: 0px 15px;
+	}
+	#oct #oct-calendar-all h6.oct-customer-details-hr::after {
+		width: 68%;
+		top: 51%;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right .col-xs-6 ,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .col-xs-6{
+		width: 50%;
+		margin: 0px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right.col-xs-3,
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right.col-xs-6 ,
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-center.col-xs-6,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .col-xs-12{
+		width: 100%;
+	}
+	
+/****  Appointments page style ***/	
+	#oct .oct-calendar-top-bar{
+		height: auto;
+	}
+	#oct .oct-calendar-top-bar #reportrange,
+	#oct #oct-payments #reportrange{
+		font-size: 12px;
+		padding: 6px;
+	}
+	/****  location page style ***/	
+	#oct #oct-locations-panel .oct-services-panel .panel-title span.oct-service-title-name {
+		width: 100%;
+	}
+	#oct #oct-locations-panel .sortable-locations li .oct-col6{
+		width: 50% !important;
+	}
+	#oct #oct-locations-panel .sortable-locations li .oct-col2{
+		width: 20% !important;
+	}
+	
+	#oct #oct-locations-panel .oct-create-location-table tbody tr td {
+		display: inline-block;
+		width: 100%;
+		float: left;
+	}
+	#oct #oct-locations-panel .sortable-locations li .oct-w-50{
+		width: 49% !important;
+	}
+	#oct #oct-locations-panel #pac-input{
+		width: 90%;
+	}
+	#oct #oct-locations-panel .panel-default .panel-body .oct-location-collapse-div.col-xs-12{
+		padding: 0px;
+	}
+
+/****  Services and staff page style ***/	
+	#oct #oct-staff-panel  .panel-body,
+	#oct #oct-service-addon-panel .panel-body,					   
+	#oct #oct-services-panel .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-staff-panel .col-xs-12,
+	#oct #oct-service-addon-panel .col-xs-12,				 
+	#oct #oct-services-panel .col-xs-12{
+		padding: 0px !important;
+		margin: 3px 0px;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col2,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col2,
+	#oct #oct-service-addon-panel #sortable-services li .oct-col3,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col3,
+	#oct #oct-service-addon-panel #sortable-services li .oct-col4,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col4,											  
+	#oct #oct-services-panel #sortable-services li .oct-col2,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col2,
+	#oct #oct-services-panel #sortable-services li .oct-col3,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col3,
+	#oct #oct-services-panel #sortable-services li .oct-col4,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col4{
+		width: 50% !important;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col1,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col1,											  
+	#oct #oct-services-panel #sortable-services li .oct-col1,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col1{
+		width: 20% !important;
+		position: relative;
+		right: 20px;
+	}
+	#oct #oct-service-addon-panel .oct-service-top-header,		
+	#oct #oct-services-panel .oct-service-top-header {
+		font-size: 20px;
+		padding: 10px 0px 10px 0px;
+	}
+	#oct #oct-staff-panel .oct-staff-list{
+		min-height: 350px;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff ,
+	#oct #oct-services-panel .oct-service-list .oct-left-service {
+		min-height: 230px;
+	}	
+	
+	
+	#oct #oct-services-panel .oct-create-service-table tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table.oct-staff-common-table tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table.oct-staff-common-table tbody tr td .col-xs-6{
+		width: 50% !important;
+	}
+	
+	#oct #oct-staff-panel .oct-staff-right-details #offtime-daterange{
+		font-size: 12px;
+		padding: 6px;
+	}
+	
+	#oct #oct-staff-panel .oct-right-header {
+		font-size: 16px;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table tbody tr td.oct-w50{
+		width:50%;
+		float: left;
+	}
+	
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.col-sm-2{
+		width: 40%;
+	}
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.oct-day-name{
+		width: 60%;
+		padding: 0px 10px !important;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.col-sm-7{
+		padding: 0px 10px !important;
+		width: 100%;
+	}
+	/* add break member */
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks span.col-sm-2{
+		width: 40%;
+	}
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks span.oct-day-name{
+		width: 60%;
+		padding: 0px 10px !important;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-staff-panel.member-addbreaks .oct-staff-breaks-schedule .oct-staff-hours-to {
+		margin: 0px 2px;
+	}
+	#oct .member-addbreaks .oct-staff-breaks-schedule .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100px;
+	}
+	#oct .member-addbreaks ul#oct-staff-breaks li #oct-add-break-ul li button#oct-delete-staff-break.btn{
+		padding: 6px 10px;
+	}
+	/* Settings page responsive style */
+	#oct #oct-settings .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-settings .col-xs-12{
+		padding: 0px !important;
+	}
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks .oct-staff-breaks-schedule {
+		width: 275px;
+		float: right;
+	}
+
+	#oct #oct-settings .oct-setting-details #salon-details tbody tr td ,
+	#oct #oct-settings .oct-setting-details #general-setting tbody tr td ,
+	#oct #oct-settings .oct-setting-details #appearance-setting tbody tr td ,
+	#oct #oct-settings .oct-setting-details #payment-setting tbody tr td ,
+	#oct #oct-settings .oct-setting-details #email-setting tbody tr td ,
+	#oct #oct-settings .oct-setting-details #email-template tbody tr td ,
+	#oct #oct-settings .oct-setting-details #sms-reminder tbody tr td ,
+	#oct #oct-settings .oct-setting-details #general-setting tfoot tr td ,
+	#oct #oct-settings .oct-setting-details #appearance-setting tfoot tr td ,
+	#oct #oct-settings .oct-setting-details #payment-setting tfoot tr td 
+	#oct #oct-settings .oct-setting-details #email-setting tfoot tr td 
+	#oct #oct-settings .oct-setting-details #email-template tfoot tr td 
+	#oct #oct-settings .oct-setting-details #sms-reminder tfoot tr td  {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #oct-settings .oct-setting-details table.oct-common-table tr td.blank{
+		display: none;
+	}
+	#oct #oct-settings .oct-setting-details li.oct-tax-vat-input-container input{
+		width: 25% !important;
+		float: left;
+	}
+	#oct #oct-settings .oct-setting-details .oct-partial-input-per input{
+		width: 65% !important;
+		float: left;
+	}
+	#oct #oct-settings a.oct-tooltip-link{
+		position: relative;
+		top: 50px;
+		left: 5px;
+	}
+	
+	/* settings > payments settings */
+	#oct  #oct-settings #client-email-template h3,
+	#oct  #oct-settings #admin-provider-email-template h3{
+		font-size: 18px;
+	}
+	#oct #oct-settings #payment-setting .oct-all-payments-main .panel-heading{
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-settings #payment-setting .oct-enable-disable-right{
+		top: 0px;
+	}
+	#oct #oct-settings #payment-setting .oct-all-payments-main .mycollapse_all-payment-gateways{
+		float: left;
+		width: 100%;
+	}
+	#oct  #oct-settings #client-email-template .oct-email-panel .panel-heading .oct-toggle,
+	#oct  #oct-settings #admin-provider-email-template .oct-email-panel .panel-heading .oct-toggle{
+		bottom: 3px;
+	}
+	
+	/* settings > sms settings*/
+	#oct #oct-settings #sms-reminder .oct-sms-reminder-input table tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #oct-settings #sms-reminder .oct-sms-reminder-input table tbody tr td#hr{
+		display: none;
+	}
+	/* settings > labels settings
+	#oct #oct-settings #labels table tbody tr th,
+	#oct #oct-settings #labels table tbody tr td{
+		width: 50%;
+		float: left;
+	}*/
+	/* settings > custom form fields settings*/
+	
+	#oct #oct-settings #custom-form-fields .stage-wrap{
+		width: 100%;
+		float: left;
+	}
+	#oct #oct-settings #custom-form-fields .cb-wrap{
+		width: 100%;
+		float: left;
+		margin-top: 10px;
+	}
+	
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.label-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.description-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.name-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.access-wrap label {
+		width: 100%;
+		float: left;
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.label-wrap input[type="text"] ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.description-wrap input[type="text"] ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.name-wrap input[type="text"] {
+		width: 100%;
+		float: left;
+		text-align: left;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.available-roles{
+		width: 100%;
+		float: left;
+		text-align: left;
+		margin: 0px;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements input.fld-max-length[type="text"]{
+		width: 30%;
+	}
+	/* Export page */
+	#oct #oct-export-details .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-export-details .col-xs-12{
+		padding: 0px !important;
+	}
+	
+	#oct #oct-export-details #booking-info-export #reportrange{
+		font-size: 12px;
+		padding: 6px;
+	}
+	
+	#oct #oct-settings #promocode #add-new-promocode table tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	
+	#oct #oct-settings #promocode #add-new-promocode a.oct-tooltip-link {
+		position: relative;
+		top: 1px;
+		left: 5px;
+	}
+	#oct #oct-settings #promocode .tab-content {
+		padding: 0px 5px;
+	}
+	/* customers page */
+	#oct #oct-customers-listing ul.nav li{
+		width: 100%;
+		text-align: center;
+	}
+	#oct #oct-customers-listing #guest-client-table_wrapper .delete_customer {
+		margin-top: 5px;
+	}
+	
+	#oct #oct-user-profile #user-booking-details .modal-md {
+		width:300px;
+	}
+	#oct #oct-profile .oct-admin-staff-right.col-xs-12{
+		padding: 0px;
+	}
+	#oct #oct-profile .oct-custom-radio-new{
+		min-height: 1350px;
+	}
+	#oct #oct-profile #stripe-fields .oct-input-70 {
+		width: 100%;
+	}
+	#oct #oct-profile #stripe-fields .oct-input-50 {
+		width: 67%;
+	}
+	#oct #oct-profile #stripe-fields .oct-stripe-cvc {
+		width: 30%;
+	}
+	#oct #oct-profile #stripe-fields .oct-stripe-cvc,
+	#oct #oct-profile #stripe-fields .oct-input-50 {
+		margin: 0px 0px 10px;
+	}
+	#oct #oct-profile #stripe-fields .oct-lock-img{
+		display: none;
+	}
+	/* users appointments css */
+	#oct #oct-user-appointments #user-booking-details .modal-md {
+		width: 320px !important;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		height: 80px;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		width: 100%
+	}
+	#oct #oct-profile .oct-price-switcher .yearly-save-more {
+		float: none;
+		position: relative;
+		top: 0;
+		right:0;
+	} 
+	#oct #oct-profile .oct-custom-radio-new .oct-price-box.col-xs-12{
+		width: 100% !important;
+		margin-right: 0px !important;
+	}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+	#oct #oct-top-nav{
+		height: 50px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	#oct input[type="text"],
+	#oct input[type="password"],
+	#oct input[type="date"],
+	#oct input[type="datetime"],
+	#oct input[type="email"],
+	#oct input[type="number"],
+	#oct input[type="search"],
+	#oct input[type="tel"],
+	#oct input[type="time"],
+	#oct input[type="url"],
+	#oct textarea {
+		-webkit-appearance: caret;
+		-moz-appearance: caret;
+		-o-appearance: caret;
+		-ms-appearance: caret;
+		appearance: caret;
+	}
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	#oct #oct-top-nav{
+		height: 50px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	#oct input[type="text"],
+	#oct input[type="password"],
+	#oct input[type="date"],
+	#oct input[type="datetime"],
+	#oct input[type="email"],
+	#oct input[type="number"],
+	#oct input[type="search"],
+	#oct input[type="tel"],
+	#oct input[type="time"],
+	#oct input[type="url"],
+	#oct textarea {
+		-webkit-appearance: caret;
+		-moz-appearance: caret;
+		-o-appearance: caret;
+		-ms-appearance: caret;
+		appearance: caret;
+	}
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 319px) {
+	#oct #oct-top-nav .navbar-collapse{
+		background: rgb(46, 54, 62) none repeat scroll 0% 0%;
+		z-index: 999;
+		float: left;
+		width: 100%;
+		position: absolute;
+		right: 0;
+		max-height: 450px !important;
+	}
+	#oct #oct-top-nav .navbar-nav {
+		text-align: center;
+	}
+	#oct #oct-dashboard .oct-top-bar-details{
+		float: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#oct #oct-dashboard .oct-total-details{
+		float: left;
+		width: 100%;
+		margin-top: 20px;
+	}
+	#oct #oct-dashboard .oct-total-details .col-md-12{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#oct #oct-dashboard ul.oct-top-menus-stats{
+		text-align:center;
+	}
+	#oct #oct-dashboard .oct-top-menus-stats.nav > li.active > a h4.oct-dash-header span{
+		text-align: center;
+		width: 100%;
+		margin-top: 10px;
+	}
+	#oct #oct-dashboard .oct-top-bar-details hr#vr,
+	#oct #oct-dashboard .oct-total-details hr#vr{
+		display: none !important;
+	}
+	#oct #oct-dashboard .oct-total-details hr#hr{
+		display: block;
+	}
+	#oct .oct-notification-main ul.oct-recent-booking-list{
+		overflow: auto !important;
+	}
+	#oct .oct-total-details .oct-text,
+	#oct .oct-total-details .oct-value{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	#oct .oct-total-details .oct-value{
+		margin-bottom: 20px;
+	}
+	#oct #oct-dashboard .oct-today-bookings{
+		clear: both;
+	}
+	#oct #oct-dashboard .oct-all-stats canvas.oct-today-canvas,
+	#oct #oct-dashboard .oct-all-stats canvas.oct-week-canvas,
+	#oct #oct-dashboard .oct-all-stats canvas.oct-year-canvas {
+		width: 100%;
+		height: 100%;
+	}
+	#oct #oct-dashboard ul.oct-top-menus-stats,
+	#oct #oct-dashboard .oct-total-details{
+		width: 100%;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main, #oct #oct-dashboard .oct-latest-activity{
+		overflow: auto !important;
+	}
+	
+	#oct #oct-dashboard .oct-all-stats.h-450 {
+		height: 320px;
+	}
+	#oct #oct-dashboard .oct-all-stats{
+		margin-bottom: 20px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .oct-label {
+		padding: 5px;
+	}
+	
+
+	
+	#oct #oct-login .oct-login-form{
+		width: 300px;;
+	}
+	#oct #oct-login .oct-login-form .oct-custom-checkbox{
+		width: 100%;
+	}
+	#oct #booking-details .nav-tabs > li,
+	#oct #oct-export-details .nav-tabs > li{
+		width: 100%;
+	}
+	#oct #oct-top-nav .oct-uline:after {
+		display: none;
+	}
+	#oct #booking-details #appointment-details tbody tr td ,
+	#oct #booking-details #customer-details tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #booking-details #appointment-details .oct-w-50,
+	#oct #booking-details #customer-details .oct-w-50{
+		width: 49%;
+	}
+	#oct #oct-calendar-all .oct-footer-popup-btn .oct-w-32,
+	#oct #booking-details .oct-footer-popup-btn .oct-w-32{
+		width: 32%;
+	}
+	#oct #oct-calendar-all  .fc-time-grid .fc-slats td {
+		height: 6.5em;
+	}
+	#oct #oct-calendar-all .fc-time-grid-container{
+		height: 350px !important;
+	}
+	#oct #oct-calendar-all  .fc-time-grid-event.fc-event{
+		height: 140px;
+	}
+	#oct #oct-top-nav{
+		height: 45px;
+	}
+	#oct #oct-top-nav .navbar-brand {
+		width: 90px;
+	}
+	#oct #oct-top-nav .navbar-brand img {
+		width: 100%;
+		height: 100%;
+	}
+	#oct .navbar-toggle{
+		margin-top: 5px;
+		padding: 7px 8px;
+	}
+	#oct .oct-notifications-inner {
+		right: -400px;
+		width: 97% !important;
+	}
+	#oct #oct-calendar-all .modal-md,
+	#oct .modal-md ,
+	#oct #edit-booking-details-view .modal-md {
+		width: 95% !important;
+	}
+	#oct .fc-toolbar .fc-center h2,
+	#oct .fc-toolbar .fc-center,
+	#oct .fc-toolbar .fc-right,
+	#oct .fc-toolbar .fc-left{
+		width: 100%;
+	}
+	#oct .fc .fc-toolbar > * > *{
+		float: none;
+	}
+	#oct button.fc-today-button{
+		float: left !important;
+	}
+	#oct .oct-header .modal-content .modal-footer .col-xs-2,
+	#oct #booking-details .modal-content .modal-footer .col-xs-2,
+	#oct #booking-details-calendar .modal-content .modal-footer .col-xs-2,
+	#oct #edit-booking-details-view .modal-content .modal-footer .col-xs-2 {
+		width: 33.33333333%;
+	}
+	#oct .oct-header .modal-content .modal-footer .col-xs-6,
+	#oct #booking-details .modal-content .modal-footer .col-xs-6,
+	#oct #booking-details-calendar .modal-content .modal-footer .col-xs-6,
+	#oct #edit-booking-details-view .modal-content .modal-footer .col-xs-6 {
+		width: 100%;
+	}
+	#oct .modal-body .nav-tabs li,
+	#oct .modal-footer table td,
+	#oct .modal-body table td {
+		display: inline-block;
+		width: 100%;
+		float: left;
+	}
+	#oct #registered-details .modal-body table#registered-client-booking-details tbody tr td,
+	#oct #guest-details .modal-body table#guest-client-booking-details tbody tr td,
+	#oct #oct-user-appointments .modal-body table#user-all-bookings-details tbody tr td,	
+	#oct #oct-customers-listing .modal-body table#registered-client-booking-details-new tbody tr td{
+		display: table-cell !important;
+		width: unset !important;
+		float: none !important;
+	}
+	#oct #oct-customers-listing .booking-details-modal .modal-lg {
+		width: 93%;
+	}
+	#oct #oct-service-addon-panel .oct-all-service-category .bootstrap-select,							   
+	#oct #oct-services-panel .oct-all-service-category .bootstrap-select {
+		width: 100%;
+	}
+	#oct .oct-header ul.oct-cal-booking-details li:not(:first-child) span{
+		width: 60%
+	}
+	#oct .edit-appointment-details table td div.oct-col6,
+	#oct .edit-customer-details table td div.oct-col6,
+	#oct #oct-profile #personal-info-tab div.w100 .oct-col6{
+		padding: 0px 2px;
+		width: 49%;
+	}
+	#oct #oct-profile .oct-embed-button ol.oct-embed-code{
+		padding-right: 0px;
+	}
+	#oct #oct-profile .oct-embed-button ol.oct-embed-code li div.oct-embed-code .col-xs-12{
+		padding: 0px;
+	}
+	/* #oct #oct-calendar-all .modal-md,
+	#oct .modal-md {
+		width: 300px;
+		position : fixed;
+		height: 450px;
+		overflow-y: scroll;
+		top: 46% !important;
+		left: 47% !important;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		z-index: 99999;
+	}
+	
+	#oct #oct-calendar-all .modal-body,
+	#oct #booking-details .modal-body{
+		height: 238px;
+		overflow: scroll;
+	} */
+	#oct #oct-calendar-all .oct-submit-btn{
+		margin-top: 10px;
+	}
+	#oct #oct-calendar-all .modal-footer {
+		padding: 0px 15px;
+	}
+	#oct #oct-calendar-all h6.oct-customer-details-hr::after {
+		width: 68%;
+		top: 51%;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right .col-xs-6 ,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .col-xs-6{
+		width: 50%;
+		margin: 0px;
+	}
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right.col-xs-3,
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right.col-xs-6 ,
+	#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-center.col-xs-6,
+	#oct #oct-dashboard .oct-latest-activity .oct-activity-list .col-xs-12{
+		width: 100%;
+	}
+	
+/****  Appointments page style ***/	
+	#oct .oct-calendar-top-bar{
+		height: auto;
+	}
+	#oct .oct-calendar-top-bar #reportrange,
+	#oct #oct-payments #reportrange{
+		font-size: 12px;
+		padding: 6px;
+	}
+	/****  location page style ***/	
+	#oct #oct-locations-panel .oct-services-panel .panel-title span.oct-service-title-name {
+		width: 100%;
+	}
+	#oct #oct-locations-panel .sortable-locations li .oct-col6{
+		width: 50% !important;
+	}
+	#oct #oct-locations-panel .sortable-locations li .oct-col2{
+		width: 20% !important;
+	}
+	
+	#oct #oct-locations-panel .oct-create-location-table tbody tr td {
+		display: inline-block;
+		width: 100%;
+		float: left;
+	}
+	#oct #oct-locations-panel .sortable-locations li .oct-w-50{
+		width: 49% !important;
+	}
+	#oct #oct-locations-panel #pac-input{
+		width: 90%;
+	}
+	#oct #oct-locations-panel .panel-default .panel-body .oct-location-collapse-div.col-xs-12{
+		padding: 0px;
+	}
+
+/****  Services and staff page style ***/	
+	#oct #oct-staff-panel  .panel-body,
+	#oct #oct-services-panel .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-staff-panel .col-xs-12,
+	#oct #oct-services-panel .col-xs-12{
+		padding: 0px !important;
+	}
+	#oct #oct-services-panel #sortable-services li .oct-col2,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col2,
+	#oct #oct-services-panel #sortable-services li .oct-col3,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col3,
+	#oct #oct-services-panel #sortable-services li .oct-col4,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col4,
+	#oct #oct-service-addon-panel #sortable-services li .oct-col2,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col2,
+	#oct #oct-service-addon-panel #sortable-services li .oct-col3,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col3,
+	#oct #oct-service-addon-panel #sortable-services li .oct-col4,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col4{					
+		width: 50% !important;
+	}
+	#oct #oct-service-addon-panel #sortable-services li .oct-col1,
+	#oct #oct-service-addon-panel .oct-service-new-service li .oct-col1,										  
+	#oct #oct-services-panel #sortable-services li .oct-col1,
+	#oct #oct-services-panel .oct-service-new-service li .oct-col1{
+		width: 20% !important;
+		position: relative;
+		right: 20px;
+	}
+	#oct #oct-service-addon-panel .oct-service-top-header,	
+	#oct #oct-services-panel .oct-service-top-header {
+		font-size: 20px;
+		padding: 10px 0px 10px 0px;
+	}
+	#oct #oct-staff-panel .oct-staff-list{
+		min-height: 350px;
+	}
+	#oct #oct-staff-panel .oct-staff-list .oct-left-staff ,
+	#oct #oct-service-addon-panel .oct-service-list .oct-left-servic,
+	#oct #oct-services-panel .oct-service-list .oct-left-service {
+		min-height: 230px;
+	}	
+	
+	#oct #oct-service-addon-panel .oct-create-service-table tbody tr td,															
+	#oct #oct-services-panel .oct-create-service-table tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table.oct-staff-common-table tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details #offtime-daterange{
+		font-size: 12px;
+		padding: 6px;
+	}
+	
+	#oct #oct-staff-panel .oct-right-header {
+		font-size: 16px;
+	}
+	#oct #oct-staff-panel .oct-staff-right-details table tbody tr td.oct-w50{
+		width:50%;
+		float: left;
+	}
+	
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.col-sm-2{
+		width: 40%;
+	}
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.oct-day-name{
+		width: 60%;
+		padding: 0px 10px !important;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-staff-panel .member-availabilty #oct-staff-timing span.col-sm-7{
+		padding: 0px 10px !important;
+		width: 100%;
+	}
+	/* add break member */
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks span.col-sm-2{
+		width: 40%;
+	}
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks span.oct-day-name{
+		width: 60%;
+		padding: 0px 10px !important;
+		margin-bottom: 5px !important;
+	}
+	#oct #oct-staff-panel.member-addbreaks .oct-staff-breaks-schedule .oct-staff-hours-to {
+		margin: 0px 2px;
+	}
+	#oct .member-addbreaks .oct-staff-breaks-schedule .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100px;
+	}
+	#oct .member-addbreaks ul#oct-staff-breaks li #oct-add-break-ul li button#oct-delete-staff-break.btn{
+		padding: 6px 10px;
+	}
+	/* Settings page responsive style */
+	#oct #oct-settings .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-settings .col-xs-12{
+		padding: 0px !important;
+	}
+	#oct #oct-staff-panel .member-addbreaks #oct-staff-breaks .oct-staff-breaks-schedule {
+		width: 275px;
+		float: right;
+	}
+
+	#oct #oct-settings .oct-setting-details #salon-details tbody tr td ,
+	#oct #oct-settings .oct-setting-details #general-setting tbody tr td ,
+	#oct #oct-settings .oct-setting-details #appearance-setting tbody tr td ,
+	#oct #oct-settings .oct-setting-details #payment-setting tbody tr td ,
+	#oct #oct-settings .oct-setting-details #email-setting tbody tr td ,
+	#oct #oct-settings .oct-setting-details #email-template tbody tr td ,
+	#oct #oct-settings .oct-setting-details #sms-reminder tbody tr td ,
+	#oct #oct-settings .oct-setting-details #general-setting tfoot tr td ,
+	#oct #oct-settings .oct-setting-details #appearance-setting tfoot tr td ,
+	#oct #oct-settings .oct-setting-details #payment-setting tfoot tr td 
+	#oct #oct-settings .oct-setting-details #email-setting tfoot tr td 
+	#oct #oct-settings .oct-setting-details #email-template tfoot tr td 
+	#oct #oct-settings .oct-setting-details #sms-reminder tfoot tr td  {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #oct-settings .oct-setting-details table.oct-common-table tr td.blank{
+		display: none;
+	}
+	#oct #oct-settings .oct-setting-details li.oct-tax-vat-input-container input{
+		width: 25% !important;
+		float: left;
+	}
+	#oct #oct-settings .oct-setting-details .oct-partial-input-per input{
+		width: 65% !important;
+		float: left;
+	}
+	#oct #oct-settings a.oct-tooltip-link{
+		position: relative;
+		top: 50px;
+		left: 5px;
+	}
+	
+	/* settings > payments settings */
+	#oct  #oct-settings #client-email-template h3,
+	#oct  #oct-settings #admin-provider-email-template h3{
+		font-size: 18px;
+	}
+	#oct #oct-settings #payment-setting .oct-all-payments-main .panel-heading{
+		float: left;
+		width: 100%;
+	}
+	#oct #oct-settings #payment-setting .oct-enable-disable-right{
+		top: 0px;
+	}
+	#oct #oct-settings #payment-setting .oct-all-payments-main .mycollapse_all-payment-gateways{
+		float: left;
+		width: 100%;
+	}
+	#oct  #oct-settings #client-email-template .oct-email-panel .panel-heading .oct-toggle,
+	#oct  #oct-settings #admin-provider-email-template .oct-email-panel .panel-heading .oct-toggle{
+		bottom: 3px;
+	}
+	
+	/* settings > sms settings*/
+	#oct #oct-settings #sms-reminder .oct-sms-reminder-input table tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	#oct #oct-settings #sms-reminder .oct-sms-reminder-input table tbody tr td#hr{
+		display: none;
+	}
+	/* settings > labels settings
+	#oct #oct-settings #labels table tbody tr th,
+	#oct #oct-settings #labels table tbody tr td{
+		width: 50%;
+		float: left;
+	}*/
+	/* settings > custom form fields settings*/
+	
+	#oct #oct-settings #custom-form-fields .stage-wrap{
+		width: 100%;
+		float: left;
+	}
+	#oct #oct-settings #custom-form-fields .cb-wrap{
+		width: 100%;
+		float: left;
+		margin-top: 10px;
+	}
+	
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.label-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.description-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.name-wrap label ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.access-wrap label {
+		width: 100%;
+		float: left;
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.label-wrap input[type="text"] ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.description-wrap input[type="text"] ,
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.name-wrap input[type="text"] {
+		width: 100%;
+		float: left;
+		text-align: left;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements .frm-fld.available-roles{
+		width: 100%;
+		float: left;
+		text-align: left;
+		margin: 0px;
+	}
+	#oct #oct-settings #custom-form-fields .form-elements input.fld-max-length[type="text"]{
+		width: 30%;
+	}
+	/* Export page */
+	#oct #oct-export-details .panel-body {
+		padding:10px 3px 10px 3px;
+	}	
+	#oct #oct-export-details .col-xs-12{
+		padding: 0px !important;
+	}
+	
+	#oct #oct-export-details #booking-info-export #reportrange{
+		font-size: 12px;
+		padding: 6px;
+	}
+	
+	#oct #oct-settings #promocode #add-new-promocode table tbody tr td {
+		display: inline-block;
+		width:100%;
+		float: left;
+	}
+	
+	#oct #oct-settings #promocode #add-new-promocode a.oct-tooltip-link {
+		position: relative;
+		top: 1px;
+		left: 5px;
+	}
+	#oct #oct-settings #promocode .tab-content {
+		padding: 0px 5px;
+	}
+	/* customers page */
+	#oct #oct-customers-listing ul.nav li{
+		width: 100%;
+		text-align: center;
+	}
+	#oct #oct-customers-listing #guest-client-table_wrapper .delete_customer {
+		margin-top: 5px;
+	}
+	
+	#oct #oct-user-profile #user-booking-details .modal-md {
+		width:300px;
+	}
+	#oct #oct-profile .oct-admin-staff-right.col-xs-12{
+		padding: 0px;
+	}
+	#oct #oct-profile .oct-custom-radio-new{
+		min-height: 1350px;
+	}
+	#oct #oct-profile #stripe-fields .oct-input-70 {
+		width: 100%;
+	}
+	#oct #oct-profile #stripe-fields .oct-input-50 {
+		width: 67%;
+	}
+	#oct #oct-profile #stripe-fields .oct-stripe-cvc {
+		width: 30%;
+	}
+	#oct #oct-profile #stripe-fields .oct-stripe-cvc,
+	#oct #oct-profile #stripe-fields .oct-input-50 {
+		margin: 0px 0px 10px;
+	}
+	#oct #oct-profile #stripe-fields .oct-lock-img{
+		display: none;
+	}
+	/* users appointments css */
+	#oct #oct-user-appointments #user-booking-details .modal-md {
+		width: 320px !important;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		height: 80px;
+	}
+	#oct #oct-profile .oct-price-switcher{
+		width: 100%
+	}
+	#oct #oct-profile .oct-price-switcher .yearly-save-more {
+		float: none;
+		position: relative;
+		top: 0;
+		right:0;
+	} 
+	#oct #oct-profile .oct-custom-radio-new .oct-price-box.col-xs-12{
+		width: 100% !important;
+		margin-right: 0px !important;
+	}
+}
+
+
+/*----------- custom responsive css ------------*/
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+	
+	#oct #oct-dashboard .oct-top-menus-stats.nav .col-lg-3 {width: 23% !important;} 
+	#oct #oct-dashboard .oct-top-menus-stats.nav .bg-radius{background-size: 75% !important; background-position: 230% -147%;}
+	#oct #oct-dashboard .oct-stats-title{margin: 10px; font-size: 22px;}
+	#oct #oct-dashboard .oct-left-menu-stats .dropdown .btn-dropdown{padding: 10px 28px;}
+	#oct #oct-dashboard .oct-left-menu-stats .dropdown ul > li > a{padding: 8px 26px !important;}
+	#oct #oct-dashboard .oct-today-bookings{margin-top: 10px;} 
+	#oct #oct-main-navigation .navbar-toggle .icon-bar{background: #504949;}
+	#oct .navbar .oct-nav-tab .right_menu{margin:0px;}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px){
+	.mr {margin: 0 3pc;}
+	#oct #oct-dashboard .oct-today-bookings .oct-no-today-booking-message{margin: 8px 16px;}
+	#oct #oct-dashboard .oct-today-bookings .oct-no-today-booking-message span{font-size: 16px;}
+	#oct #oct-main-navigation .navbar-toggle .icon-bar{background: #504949;}
+}
+
+@media only screen and (max-width: 767px){
+	
+	#oct #oct-main-navigation .navbar-toggle .icon-bar{background: #504949;}
+	#oct #oct-main-navigation .navbar-header{text-align: right;}
+	#oct #oct-dashboard .oct-today-bookings{margin-top: 10px;}
+	#oct #oct-dashboard .oct-top-menus-stats.nav .col-lg-3{width: 100% !important; margin: 5px 0px 0px 0px;}
+	#oct #oct-dashboard .oct-top-menus-stats.nav .bg-radius{background-size: 43% !important; background-position: 124% 8%;}
+	#oct #oct-dashboard .oct-stats-counting{margin: 13px 0px 0px 40px;}
+	#oct #oct-dashboard #oct-today-stats .oct-col4{width: 38%;}
+	#oct #oct-dashboard .oct-left-menu-stats .com-respo-width{width:24%;}
+	#oct #oct-dashboard .oct-left-menu-stats .dropdown .btn-dropdown{padding: 11px 8px; font-size: 14px;}
+	#oct #oct-dashboard .oct-left-menu-stats ul li a,
+	#oct #oct-dashboard #oct-today-stats li.active a{font-size: 16px; padding: 5px 0px;}
+	#oct #oct-dashboard .tab-content .dropdown .dropdown-menu{min-width: 88px !important;}
+	#oct #oct-dashboard .oct-left-menu-stats .dropdown ul > li > a{padding: 2px 7px !important; font-size: 12px; height: 35px;}
+	#oct #oct-dashboard #oct-today-stats .nav-tabs .btn-dropdown {line-height: 30px;height: 42px;padding: 0px 5px;width: auto;    font-size: 12px;}
+	#oct #oct-dashboard .oct-left-menu-stats ul li a, #oct #oct-dashboard #oct-today-stats li.active a{font-size: 12px;}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab li.right_menu{display: flex;margin-left: 2% !important;margin-bottom: 10px !important;max-width: 150px;padding: 5px !important;justify-content: center; margin-top: 5px;}
+	#oct #oct-main-navigation .navbar .nav.oct-nav-tab{margin-left: 0;}
+}

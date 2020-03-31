@@ -1,0 +1,881 @@
+/* Octabook - RTL style Admin */
+#adminmenuback,
+#adminmenuwrap{
+	right: 0;
+}
+#oct .dataTables_wrapper .dataTables_filter {
+	float: left;
+}	
+#oct .dataTables_wrapper .dataTables_length {
+	float: right;
+}	
+
+#oct .popover > .arrow:after{
+	right: unset;
+}
+#oct div.dataTables_wrapper,
+#oct table{
+	direction: rtl !important;
+}
+#oct  #oct-top-nav .navbar-right {
+    float: left !important;
+}	
+#oct #oct-settings .oct-left-menu ul.nav-tab{
+	margin-right: 0 !important;
+}
+#oct #promocode table#oct-promocode-list .pull-right.oct-delete-popover{
+	float: right !important;
+}
+/* Float Left to Right */
+#oct .oct-col1,
+#oct .oct-col1-1,
+#oct .oct-col2,
+#oct .oct-col2-1,
+#oct .oct-col3,
+#oct .oct-col35,
+#oct .oct-col4,
+#oct .oct-col5,
+#oct .oct-col55,
+#oct .oct-col6,
+#oct .oct-col61,
+#oct .oct-col7,
+#oct .oct-col75,
+#oct .oct-col8,
+#oct .oct-col9,
+#oct .oct-col10,
+#oct .oct-col11,
+#oct .oct-col115,
+#oct .oct-col12,
+#oct .oct-one-half,
+#oct .fullwidth,
+#oct .common-inner,
+#oct .mt-5,
+#oct .mb-5,
+#oct .oct-new-input,
+#oct .w70,
+#oct label.error,
+#oct .fl,
+#oct .wf-100,
+#oct .oct-show-hide,
+#oct .oct-custom-new-radio ul.oct-new-radio-list,
+#oct .oct-custom-checkbox ul.oct-checkbox-list,
+#oct .oct-custom-new-radio  ul.oct-new-radio-list li,
+#oct .oct-custom-checkbox  ul.oct-checkbox-list li,
+#oct .oct-custom-radio  ul.oct-radio-list,
+#oct .oct-custom-radio ul.oct-radio-list li,
+#oct #salon-details img.oct-salon-logo,
+#oct .cd-popup-container .cd-buttons li,
+#oct.oct-wrapper,
+#oct .navbar-brand,
+#oct .oct-notification-main ul.oct-recent-booking-list li,
+#oct .oct-notification-main ul.oct-recent-booking-list .list-inner,
+#oct .oct-notification-main ul.oct-recent-booking-list .list-inner span.booking-text,
+#oct #booking-details ul.oct-cal-booking-details li .oct-booking-status,
+#oct #oct-dashboard .oct-title-amount-stats,
+#oct #oct-dashboard .oct-today-list-actions,
+#oct #oct-dashboard .oct-today-bookings-main .oct-today-list,
+#oct #oct-dashboard .oct-latest-activity .oct-activity-list,
+#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-center,
+#oct #oct-dashboard .oct-today-bookings-main .oct-today-center .oct-service-text,
+#oct #oct-dashboard .oct-latest-activity .oct-activity-list .oct-service-text,
+#oct .oct-calendar-top-bar,
+#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-right
+#oct button.fc-today-button,
+#oct button.fc-today-button,
+#oct #oct-calendar-all ul.oct-cal-booking-details li:not(:first-child) span,
+#oct  #oct-staff-panel .oct-staff-top-header,
+#oct #oct-staff-panel .oct-staff-right-details table,
+#oct .member-services .oct-staff-service-panel.panel-default,
+#oct .member-services .oct-staff-service-panel .panel-heading,
+#oct .member-services .oct-staff-price-rules .panel-default ul#oct-staff-price li.active,
+#oct .member-availabilty  ul#oct-staff-timing li.active,
+#oct .member-addbreaks ul#oct-staff-breaks li.active,
+#oct #oct-staff-panel .oct-staff-right-details .member-offtime .oct-member-offtime-inner,
+#oct #oct-locations-panel .panel-heading,
+#oct #oct-locations-panel .panel,
+#oct #oct-locations-panel .panel-default,
+#oct  #oct-locations-panel .oct-location-top-header,
+#oct #oct-locations-panel .panel-heading .panel-title,
+#oct #oct-locations-panel .panel .collapse.in,
+#oct #oct-locations-panel .oct-create-location-table,
+#oct #oct-locations-panel ul#sortable-locations li,
+#oct #oct-locations-panel .oct-location-map,
+#oct #oct-locations-panel .oct-services-asign,
+#oct #oct-service-addon-panel .panel-heading,
+#oct #oct-service-addon-panel .panel,
+#oct #oct-service-addon-panel .panel-default,			  
+#oct #oct-services-panel .panel-heading,
+#oct #oct-services-panel .panel,
+#oct #oct-services-panel .panel-default,
+#oct  #oct-service-addon-panel .oct-service-top-header,
+#oct  #oct-services-panel .oct-service-top-header,
+#oct #oct-service-addon-panel .panel-heading .panel-title,  
+#oct #oct-services-panel .panel-heading .panel-title,
+#oct #oct-service-addon-panel .panel .collapse.in,
+#oct #oct-services-panel .panel .collapse.in,
+#oct #oct-service-addon-panel .oct-create-service-table,
+#oct #oct-services-panel .oct-create-service-table,	
+#oct #oct-service-addon-panel ul#sortable-services li,				   
+#oct #oct-services-panel ul#sortable-services li,
+#oct #oct-settings #company-details img.oct-company-image,	
+#oct  #oct-settings #email-template .panel-collapse.collapse,
+#oct  #oct-settings #sms-template .panel-collapse.collapse,
+#oct  #oct-settings #general-setting  .oct-tax-vat-input-container,
+#oct  #oct-settings #general-setting  .oct-tax-vat-input-container .oct-partial-input-per,
+#oct  #oct-settings #payment-setting .oct-all-payments-main,
+#oct  #oct-settings #payment-setting .oct-all-payments-main .oct-payment-methods,
+#oct  #oct-settings #sms-reminder .oct-all-sms-main .panel.oct-sms-gateway,
+#oct #oct-settings #payment-setting .oct-paypal-setting-warning,
+#oct  #oct-settings #email-template ul li .panel-heading,
+#oct  #oct-settings #sms-template ul li .panel-heading,
+#oct #oct-service-addon-panel .panel,
+#oct #oct-service-addon-panel .panel-default,			  
+#oct #oct-services-panel .panel,
+#oct #oct-services-panel .panel-default,
+#oct  #oct-settings #email-template .tab-content ul li,
+#oct  #oct-settings #sms-template .tab-content ul li,
+#oct  #oct-settings #email-template .tab-content #client-email-template #accordion,
+#oct  #oct-settings #email-template .tab-content #service-provider-email-template #accordion,
+#oct  #oct-settings #email-template .tab-content #admin-manager-email-template #accordion,
+#oct  #oct-settings #sms-template .tab-content #client-sms-template #accordion,
+#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template #accordion,
+#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template #accordion,
+#oct  #oct-settings #email-template .tab-content #client-email-template #accordion .oct-email-panel,
+#oct  #oct-settings #email-template .tab-content #service-provider-email-template #accordion .oct-email-panel,
+#oct  #oct-settings #email-template .tab-content #admin-manager-email-template #accordion .oct-email-panel,
+#oct  #oct-settings #sms-template .tab-content #client-sms-template #accordion .oct-sms-panel,
+#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template #accordion .oct-sms-panel,
+#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template #accordion .oct-sms-panel,	
+#oct  #oct-settings #email-template .tab-content #client-email-template #accordion .oct-email-panel .panel-heading,
+#oct  #oct-settings #email-template .tab-content #service-provider-email-template #accordion .oct-email-panel .panel-heading,
+#oct  #oct-settings #email-template .tab-content #admin-manager-email-template #accordion .oct-email-panel .panel-heading,
+#oct  #oct-settings #sms-template .tab-content #client-sms-template #accordion .oct-sms-panel .panel-heading,
+#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template #accordion .oct-sms-panel .panel-heading,
+#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template #accordion .oct-sms-panel .panel-heading,
+#oct #oct-settings  #promocode table#oct-promocode-list tr td a.btn-info.btn-xs.oct_update_promocode,
+#oct #oct-octabook-welcome .oct-welcome-inner,
+#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .oct-changelog-menu ul li,
+#oct .pull-left,
+#oct .form-group-margin .form-group{
+    float: right !important;
+}	
+#oct .nav-tabs > li,
+#oct .fc-toolbar .fc-left {
+    float: right;
+}
+#oct  #oct-settings #email-template .nav-tabs > li,
+#oct  #oct-settings #sms-template .nav-tabs > li,
+#oct #oct-staff-panel .oct-staff-right-menu.nav-tabs > li{
+	float: unset !important;
+}
+#oct .oct-notification-main ul.oct-recent-booking-list li .list-inner span.booking-time{
+	clear: right;
+}
+
+/* Float right to left */
+#oct .oct-col1.float-right,
+#oct .oct-col1-1.float-right,
+#oct .oct-col2.float-right,
+#oct .oct-col2-1.float-right,
+#oct .oct-col3.float-right,
+#oct .oct-col35.float-right,
+#oct .oct-col4.float-right, 
+#oct .oct-col5.float-right,
+#oct .oct-col55.float-right,
+#oct .oct-col6.float-right,
+#oct .oct-col7.float-right,
+#oct .oct-col75.float-right,
+#oct .oct-col8.float-right,
+#oct .oct-col9.float-right,
+#oct .oct-col10.float-right,
+#oct .oct-col11.float-right,
+#oct .oct-col115.float-right,
+#oct .oct-col12.float-right,
+#oct .oct-view-link.float-right,
+#edit-form,
+#oct .pull-right,
+#oct #oct-user-appointments .rating > label ,
+#oct #oct-reviews .rating > label,
+#oct .fc-toolbar .fc-right,
+#oct .fc .fc-button-group > *,
+#oct #oct-service-addon-panel ul#oct-select-staff-member li span.oct-service-provider-list,
+#oct #oct-services-panel ul#oct-select-staff-member li span.oct-service-provider-list{
+	float: left !important;
+}
+
+
+/* position relative left to right */
+/* images */
+#oct #oct-locations-panel .oct-location-image-uploader img.oct-location-image,
+#oct #oct-service-addon-panel .oct-service-image-uploader img.oct-service-image,									
+#oct #oct-services-panel .oct-service-image-uploader img.oct-service-image,
+#oct #oct-profile .oct-admin-staff-image-uploader img.oct-admin-staff-img,
+#oct #oct-user-profile .oct-customer-image-uploader img.oct-customer-img,
+#oct #oct-staff-panel .oct-member-image-uploader img.oct-staff-image{
+	float: right !important;
+	left: 15px;
+	right: unset !important;
+}
+
+#oct #oct-notifications i.fa-angle-down,
+#oct #oct-user-info i.fa-angle-down{
+	left: unset !important;
+	right: 5px;
+}
+#oct .fc-toolbar .fc-left{
+	left: unset !important;
+	right: 15px;
+}
+#oct #oct-settings #payment-setting .oct-all-payments-main .oct-payment-methods img.oct-img-payments,
+#oct #oct-settings #sms-reminder .oct-all-sms-main .oct-sms-gateway img.oct-sms-gateway-img{
+	left: unset !important;
+	right: 10px;
+}
+
+/* position relative right to left */
+#oct  #oct-main-navigation .navbar .nav.oct-nav-tab li:before,
+#oct #oct-locations-panel .panel-heading .panel-title a#oct-delete-location,
+#oct #oct-settings #payment-setting .oct-all-payments-main .oct-enable-disable-right,
+#oct #oct-settings #sms-reminder .oct-all-sms-main .oct-enable-disable-right,
+#oct #oct-settings #payment-setting .oct-enable-disable-right,
+#oct #oct-settings #sms-reminder .oct-enable-disable-right{
+	right: unset !important;
+	left: 0;
+}
+#oct .fc-toolbar .fc-right {
+	right: unset !important;
+	left: 15px;
+}
+#oct #oct-calendar-all .oct-booking-status span.badge{
+	right: unset !important;
+	left: 4px;
+}
+#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list .oct-staff-image{
+	right: unset !important;
+	left: 3px;
+}
+#oct  #oct-staff-panel .oct-clone-staff{
+	right: unset !important;
+	left: 2px;
+}
+#oct #oct-service-addon-panel #sortable-services li .oct-col1,	
+#oct #oct-services-panel #sortable-services li .oct-col1{
+	right: unset !important;	
+	left: 10px;	
+}
+#oct  #oct-settings #general-setting i.oct-tax-percent,
+#oct  #oct-settings #general-setting .mycollapse_patial-deposit i.fa-percent {
+	right: unset !important;
+	left: -5px;
+}
+
+
+
+/* position absolute left to right */
+#oct .oct-show-hide-label:before{
+	left: unset !important;
+	right: 10px;
+}
+#oct .oct-custom-new-radio  ul.oct-new-radio-list input[type="radio"]:checked + label span:before ,
+#oct .oct-custom-checkbox  ul.oct-checkbox-list input[type="checkbox"]:checked + label span:before {
+	left: unset !important;
+	right: 2px;
+}
+#oct .oct-custom-radio ul.oct-radio-list label span:before,
+#oct .oct-custom-radio ul.oct-radio-list input[type="radio"]:checked + label span:before{
+	left: unset !important;
+	right: 4px;
+}
+#oct #oct-locations-panel .oct-location-image-uploader i.oct-camera-icon-common.fa-camera,
+#oct #oct-service-addon-panel .oct-service-image-uploader i.oct-camera-icon-common.fa-camera,				
+#oct #oct-services-panel .oct-service-image-uploader i.oct-camera-icon-common.fa-camera,
+#oct #oct-profile .oct-admin-staff-image-uploader i.oct-camera-icon-common.fa-camera,
+#oct #oct-user-profile .oct-customer-image-uploader i.oct-camera-icon-common.fa-camera,
+#oct #oct-staff-panel .oct-member-image-uploader i.oct-camera-icon-common.fa-camera{
+	left: unset !important;
+	right: 16px;
+}
+#oct #oct-staff-panel .oct-member-image-uploader i.oct-camera-icon-common.fa-camera{
+	left: unset !important;
+	right: 16px;
+}
+#oct #salon-details .oct-salon-logo-uploader i.oct-camera-icon-common.fa-camera{
+	left: unset !important;
+	right: 85px;
+}
+#oct #edit-booking-details-view .oct-customer-image-uploader i.oct-camera-icon-common.fa-camera,
+#oct #edit-customer-details .oct-customer-image-uploader i.oct-camera-icon-common.fa-camera,
+#oct #booking-details .oct-customer-image-uploader i.oct-camera-icon-common.fa-camera,
+#oct #edit-customer-details .oct-new-customer-image-uploader i.oct-camera-icon-common.fa-camera{
+	left: unset !important;
+	right: 5px;
+}
+#oct #oct-locations-panel .oct-location-image-uploader i.fa-plus-circle,
+#oct #oct-service-addon-panel .oct-service-image-uploader i.fa-plus-circle,
+#oct #oct-services-panel .oct-service-image-uploader i.fa-plus-circle,
+#oct #oct-profile .oct-admin-staff-image-uploader i.fa-plus-circle,
+#oct #oct-user-profile .oct-customer-image-uploader i.fa-plus-circle,
+#oct #oct-staff-panel .oct-member-image-uploader i.fa-plus-circle{
+	left: unset !important;
+	right: -3px;
+}
+#oct #edit-booking-details-view .oct-customer-image-uploader i.fa-plus-circle,
+#oct #edit-customer-details .oct-customer-image-uploader i.fa-plus-circle,
+#oct #booking-details .oct-customer-image-uploader i.fa-plus-circle,
+#oct #edit-customer-details .oct-new-customer-image-uploader i.fa-plus-circle{
+	left: unset !important;
+	right: -10px;
+}
+#oct #oct-profile .oct-admin-staff-image-uploader a.oct-remove-admin-staff-img,
+#oct #oct-staff-panel .oct-member-image-uploader a.oct-remove-staff-img{
+	left: unset !important;
+	right: 10px;
+}
+#oct #salon-details .oct-salon-logo-uploader a.oct-remove-salon-logo{
+	left: unset !important;
+	right: -10px;
+}
+#oct #edit-booking-details-view .oct-customer-image-uploader a.oct-remove-customer-img,
+#oct #edit-customer-details .oct-customer-image-uploaders a.oct-remove-customer-img,
+#oct #booking-details .oct-customer-image-uploader a.oct-remove-customer-img,
+#oct #oct-profile .oct-admin-staff-image-uploader a.oct-remove-admin-staff-img,
+#oct #oct-user-profile .oct-customer-image-uploader a.oct-remove-customer-img,
+#oct #edit-customer-details .oct-new-customer-image-uploader a.oct-remove-new-customer-img{
+	left: unset !important;
+	right: 8px;
+}
+#oct .oct-salon-logo-uploader{
+	float: right;
+	left: unset !important;
+	right: 10px;
+}
+#oct .cd-popup {
+	left: unset !important;
+	right: 0;
+}
+#oct .cd-popup-container .cd-popup-close:before{
+	left: unset !important;
+	right: 8px;
+}
+.pop_up_window{
+	left: unset !important;
+	right: 30%;
+}
+#oct .oct-overlay-notification,
+#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list .oct-staff-clone{
+	left: unset !important;
+	right: 0;
+}
+
+#oct .loader{
+	left: unset !important !important;
+	right: 50% !important;
+}
+#oct .loader .oct-first{
+	left: unset !important;
+	right: 18px !important;
+}	
+#oct .loader .oct-second{
+	left: unset !important;
+	right: 8px !important;
+}
+#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li span.oct-added,
+#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li span.oct-improved,
+#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li span.oct-fixed,
+#oct #oct-locations-panel .oct-locations-list .oct-left-locations li.oct-left-location-menu-li .oct-location-sort-icon,
+#oct #oct-locations-panel .oct-locations-list .oct-left-location li.oct-left-location-menu-li .oct-location-sort-icon,
+#oct #oct-service-addon-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li .oct-service-sort-icon,
+#oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li .oct-service-sort-icon,
+#oct #oct-services-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li .oct-service-sort-icon,
+#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li .oct-service-sort-icon{
+	left: unset !important;
+	right: 0px;
+}
+#oct #oct-settings #company-details .oct-company-image-uploader i.oct-camera-icon-common.fa-camera{
+	left: unset !important;
+	right: 85px;
+}
+#oct #oct-settings #company-details .custom-imageplus-icon{
+	left: unset !important;
+	right: -10px;
+}
+
+
+
+
+/* position absolute right to left */
+#oct #edit-booking-details-view img.oct-customer-img,
+#oct #edit-customer-details img.oct-customer-img,
+#oct #booking-details img.oct-customer-img,
+#oct #edit-customer-details img.oct-new-customer-img{
+	float: right;
+	right: unset !important;	
+	left: 15px;	
+}
+#oct .cd-popup-container .cd-popup-close{
+	right: unset !important;
+	left: 8px;
+}
+#oct .cd-popup-container .cd-popup-close:after{
+	right: unset !important;
+	left: 8px;
+}
+#oct .oct-notifications-inner{
+	right: unset !important;
+	left: -400px;
+}
+#oct .oct-notifications-inner.visible{
+	right: unset !important;
+	left: 0px;
+}
+
+#oct #oct-dashboard .oct-today-list-actions .oct-past-booking-button{
+	right: unset !important;
+	left: 13px;
+}
+#oct .search-container .search-icon{
+	right: unset !important;
+	left: 7px;
+}
+#oct #oct-calendar-all .oct-booking-status{
+	right: unset !important;
+	left: 10px;
+}
+#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list span.oct-manager-star{
+	right: unset !important;
+	left: 25px;
+}
+#oct #oct-staff-panel .oct-staff-list .oct-left-staff li.staff-list span.oct-manager-star input[type="checkbox"]:checked + label span .oct-text:after{
+	right: unset !important;
+	left: -15px;
+}
+#oct #oct-service-addon-panel .oct-service-list .oct-left-service li .oct-delete-category-btn,
+#oct #oct-services-panel .oct-service-list .oct-left-service li .oct-delete-category-btn{
+	right: unset !important;
+	left: 4px;
+}
+#oct #oct-octabook-welcome .oct-welcome-main .oct-octabook-badge{
+	right: unset !important;
+	left: 10px;
+}
+
+
+/* text align Left to Right */
+#oct .text-left,
+#oct .oct-notification-main .oct-recent-booking-container,
+#oct #oct-staff-panel .oct-staff-list,
+#oct  #oct-staff-panel .oct-staff-list span.oct-staff-name,
+#oct  #oct-staff-panel .oct-staff-list ul li.active span.oct-staff-name,
+#oct #oct-locations-panel .oct-locations-list .nav li a,
+#oct  #oct-locations-panel .oct-locations-list ul li.active span.oct-location-name,
+#oct #oct-service-addon-panel .oct-service-list,
+#oct #oct-services-panel .oct-service-list,
+#oct  #oct-service-addon-panel .oct-service-list span.oct-service-name,							   
+#oct  #oct-services-panel .oct-service-list span.oct-service-name,
+#oct #booking-details li h6.oct-customer-details-hr{
+	text-align: right !important;
+}
+
+/* text align right to left */
+#oct .ta-r,
+#oct #oct-dashboard .oct-stats-total,
+#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .oct-changelog-menu ul li a{
+	text-align: left !important;
+}
+
+/* padding Left to Right */
+#wpcontent{
+	padding-right: 0px !important; /* to remove padding from left of bookddice admin */
+}
+#oct .pl-20{
+	padding-right: 20px;
+	padding-left: unset !important;
+}
+#oct .pl-10{
+	padding-right: 10px;
+	padding-left: unset !important;
+}
+#oct .pl-15{
+	padding-right: 15px;
+	padding-left: unset !important;
+}
+#oct .npl{
+	padding-right: 0px;
+	padding-left: 15px !important;
+}
+#oct #oct-top-nav .navbar-right .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+   right: 5px;
+   padding-right: 10px;
+   padding-left: unset !important;
+}
+#oct #oct-locations-panel .oct-locations-list .oct-left-locations li.oct-left-location-menu-li,
+#oct #oct-locations-panel .oct-locations-list .oct-left-location li.oct-left-location-menu-li,
+#oct #oct-service-addon-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li,
+#oct #oct-service-addon-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li,	
+#oct #oct-services-panel .oct-service-list .oct-left-services li.oct-left-service-menu-li,
+#oct #oct-services-panel .oct-service-list .oct-left-service li.oct-left-service-menu-li{
+	padding-right: 24px !important;
+	padding-left: unset !important;
+}
+#oct .intl-tel-input input#octabook_company_country_code,
+#oct .intl-tel-input input,
+#oct .intl-tel-input input[type="text"],
+#oct .intl-tel-input input[type="tel"]{
+	padding-left: 12px !important;
+	padding-right: 45px !important;
+}
+#oct .icon-space,
+#oct .fa-plus.custom-icon-space,
+#oct .fa-user-plus.custom-icon-space{
+    padding-right: unset !important;
+    padding-left: 4px !important;
+}
+/* padding right to left */
+#oct .pr-5{
+	padding-left: 5px !important;
+	padding-right: unset !important;
+}
+#oct .pr-10{
+	padding-left: 10px !important;
+	padding-right: unset !important;
+}
+#oct .npr{
+	padding-left: 0px;
+	padding-right: unset !important;
+}
+#oct .modal-header li.oct_booking_datetime i.fa{
+	padding-left: 5px;
+	padding-right: unset !important;
+}
+
+
+
+
+/* margin Left to Right */
+#oct .ml-10{
+	margin-right: 10px;
+	margin-left: unset !important;
+}
+#oct .ml-15{
+	margin-right: 15px;
+	margin-left: unset !important;
+}
+#oct .ml-30{
+	margin-right: 30px;
+	margin-left: unset !important;
+}
+#oct a.oct-tooltip-link{
+	margin-right: -16px;
+	margin-left: unset !important;
+}
+#oct .form-group a.oct-tooltip-link{
+	margin-right: 4px;
+	margin-left: unset !important;
+}	
+#oct #booking-details ul.oct-cal-booking-details li .oct-booking-status em{
+	margin-right: 5px;	
+	margin-left: unset !important;
+}	
+#oct #oct-dashboard .oct-today-bookings-main [class*=" icon-"]:before,
+#oct #oct-dashboard .oct-bookings-activity [class*=" icon-"]:before,
+#oct #oct-dashboard .oct-today-bookings-main [class^="icon-"]:before,
+#oct #oct-dashboard .oct-bookings-activity [class^="icon-"]:before{
+	margin-right: 0px;
+	margin-left: unset !important;
+}
+#oct #oct-customers-listing .oct-custom-checkbox ul.oct-checkbox-list label span,
+#oct #oct-payments .oct-custom-checkbox ul.oct-checkbox-list label span{
+	margin-right: 10px !important;
+	margin-left: unset !important;
+}
+#oct #oct-locations-panel #pac-input{
+	margin-right: 12px;
+	margin-left: unset !important;
+}
+
+/* margin right to left */
+#oct .mr-5{
+	margin-left: 5px;
+	margin-right: unset !important;
+}
+#oct .mr-10{
+	margin-left: 10px;
+	margin-right: unset !important;
+}
+#oct .mr-15{
+	margin-left: 15px;
+	margin-right: unset !important;
+}
+#oct .mr-20{
+	margin-left: 20px;
+	margin-right: unset !important;
+}
+#oct table.form-inline .form-group{
+	margin-left: 20px !important;
+	margin-right: unset !important;
+}
+#oct #oct-top-nav .navbar-right ,
+#oct  #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .fa,
+#oct  #oct-main-navigation .navbar .nav.oct-nav-tab > li > a .icons{
+	margin-left: 0px;
+	margin-right: unset !important;	
+}
+
+#oct #oct-top-nav .navbar .nav > li > a#oct-notifications{
+	margin-left: 10px;
+	margin-right: unset !important;
+}
+#oct  #oct-locations-panel .oct-locations-list span.oct-location-name i.fa-th,
+#oct  #oct-locations-panel .oct-locations-list span.oct-location-name i.fa{
+	margin-left:5px;
+	margin-right: unset !important;
+}
+#oct  #oct-locations-panel .oct-locations-details i.fa-th-list{
+	margin-left:8px;
+	margin-right: unset !important;
+	float: right !important;
+}	
+#oct  #oct-service-addon-panel .oct-service-list span.oct-service-name i.fa-th,
+#oct  #oct-services-panel .oct-service-list span.oct-service-name i.fa-th,
+#oct  #oct-service-addon-panel .oct-staff-right-details i.fa-th-list,							   
+#oct  #oct-services-panel .oct-staff-right-details i.fa-th-list{
+	margin-left:5px;
+	margin-right: unset !important;
+}
+#oct h4.panel-title span{
+	margin-right: unset !important;
+	margin-left: 20px;
+}
+#oct span,
+#oct span span,
+#oct h4.panel-title span.toggle-handle{
+	margin-right: unset !important;
+	margin-left: 0px !important;
+}
+#oct #user-booking-details .fa.fa-repeat,
+#oct #user-booking-details .fa.fa-ban,
+#oct #user-booking-details .fa.fa-star,
+#oct #oct-reviews .fa.fa-check,
+#oct #oct-reviews .fa.fa-trash-o,
+#oct #oct-reviews .fa.fa-eye,
+#oct  #oct-settings #email-template .tab-content #client-email-template h4.panel-title span,
+#oct  #oct-settings #email-template .tab-content #service-provider-email-template h4.panel-title span,
+#oct  #oct-settings #email-template .tab-content #admin-manager-email-template h4.panel-title span,
+#oct  #oct-settings #sms-template .tab-content #client-sms-template h4.panel-title span,
+#oct  #oct-settings #sms-template .tab-content #service-provider-sms-template h4.panel-title span,
+#oct  #oct-settings #sms-template .tab-content #admin-manager-sms-template h4.panel-title span,
+#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog ul.oct-changelog-ul li{
+	margin-right: unset !important;
+	margin-left: 0;
+}
+
+
+
+
+/* Extra */
+#oct #booking-details ul.oct-cal-booking-details li label{
+	float: right !important;
+	text-align: right !important;
+	margin-left: 17px;
+	margin-right: unset !important;
+}
+#oct #oct-dashboard .oct-dash-icon{
+	float: right !important;
+	margin-left: 15px;
+	margin-right: unset !important;
+}
+#oct #oct-dashboard .oct-today-bookings-main .oct-today-list .oct-today-left{
+	padding-left: 10px;
+	float: right;
+}
+#oct #booking-details-calendar .close ,
+#oct #booking-details .close ,
+#oct #edit-booking-details-view .close {
+	float: left;
+	right: unset !important;
+	left: 12px;
+}
+#oct .fc-state-default.fc-corner-right {
+	border-top-right-radius: unset !important;
+	border-top-left-radius: 2px;
+	border-bottom-right-radius: unset !important;
+	border-bottom-left-radius: 2px;
+}
+#oct .fc-icon-right-single-arrow:after,
+#oct .fc-icon-left-single-arrow:after {
+	left: unset !important;
+	right: 0;
+}
+#oct .fc-icon-right-single-arrow:after{
+	content: "\f100" !important;
+}
+#oct .fc-icon-left-single-arrow:after {
+	content: "\f101" !important;
+}
+
+
+#oct #oct-calendar-all ul.oct-cal-booking-details li label{
+	float: right;
+	text-align: right;
+	margin-left: 17px;	
+}
+
+#oct #oct-calendar-all .oct-booking-status{
+	padding-right: 7px;
+	float: right;
+}
+#oct .member-services .oct-service-time-member,
+#oct .member-services .oct-service-price-member{
+	float: right !important; 
+	text-align: left !important;
+}
+#oct .member-addbreaks .oct-weeks-breaks-menu{
+	border-right: unset !important;
+	border-left:1px solid #BDBDBD;
+}
+#oct #oct-locations-panel .oct-location-panel .panel-heading .panel-title span.oct-location-title-name{
+	float: right !important;
+	margin-left: 0 !important;
+}
+#oct  #oct-service-addon-panel .oct-services-panel i.fa-th-list,	
+#oct  #oct-services-panel .oct-services-panel i.fa-th-list{
+	margin-left:8px;
+	float: right;
+}
+#oct  #oct-service-addon-panel .oct-service-list ul li.active span.oct-service-name,
+#oct  #oct-services-panel .oct-service-list ul li.active span.oct-service-name{
+	text-align: right;
+	margin-left: 0;
+}
+#oct #oct-service-addon-panel .oct-services-panel .panel-title span.oct-service-title-name,
+#oct #oct-services-panel .oct-services-panel .panel-title span.oct-service-title-name{
+	padding-left: unset !important;
+	padding-right: 5px;
+	margin-right: unset !important;
+	margin-left: 0px;
+}
+#oct #oct-service-addon-panel ul#oct-select-staff-member li span.oct-service-provider-list,
+#oct #oct-services-panel ul#oct-select-staff-member li span.oct-service-provider-list{
+	float: left;
+	margin-right: unset !important;
+	margin-left: 0;
+}
+#oct  #oct-settings #company-details .form-group,
+#oct  #oct-settings #general-setting .form-group,
+#oct  #oct-settings #appearance-setting .form-group,
+#oct  #oct-settings #payment-setting .oct-payment-methods .form-group,
+#oct  #oct-settings #sms-reminder .oct-sms-reminder-input .form-group,
+#oct #oct-settings #labels .oct-labels-all .form-group,
+#oct .form-group-margin .form-group{
+	float: right !important;
+	margin-right: unset !important;
+	margin-left: 20px;
+}
+#oct  #oct-settings #email-template ul li span.oct-template-name,
+#oct  #oct-settings #sms-template ul li span.oct-template-name{
+	float: right;
+	margin-right: unset !important;
+	margin-left: 0;
+}
+#oct #oct-settings #email-template .oct-yes-no-email-right,
+#oct #oct-settings #sms-template .oct-yes-no-sms-right{
+	left: unset !important;
+	right: 0px;
+	margin-right: unset !important;
+	margin-left: 10px;
+}
+#oct #oct-customers-listing .booking-details-modal .close{
+	float: left;
+	right: unset !important;	
+	left: 12px;	
+}
+#oct #oct-user-appointments .rating { 
+	float: right;
+	margin-left: unset !important;
+	margin-right: 10px;
+}
+#oct #oct-octabook-welcome .oct-welcome-inner .oct-cleato-changelog .oct-changelog-menu ul li.active a{
+	border-right: inherit;
+	border-left: none;
+}
+#oct .minicolors-theme-bootstrap .minicolors-swatch{
+	left: unset !important;
+	right: 3px;
+}
+#oct .minicolors-theme-bootstrap .minicolors-input{
+	padding-right: 44px;
+}
+#oct .input-group-addon:first-child {
+	border-left: 0 !important;
+    border-right: 1px solid #ccc !important;
+}
+#oct .ml5r0 {
+    margin-left: unset !important;
+    margin-right: 5px !important;
+}
+#oct table.table-bordered.dataTable th,
+#oct table.table-bordered.dataTable td {
+    border-left-width: 1px;
+}
+#oct .intl-tel-input .selected-flag{
+	padding: 0 8px 0 0px !important;
+}
+#oct .intl-tel-input .selected-flag .iti-arrow{
+	right: unset !important;
+	left: 4px;
+}
+#oct .oct-custom-radio ul.oct-radio-list label span{
+	margin-right: 0px !important;
+	margin-left: 10px !important;
+}
+#oct .dataTables_wrapper .dataTables_paginate {
+    float: left;
+}	
+#oct .dataTables_wrapper .dataTables_info{
+	float: right;
+}
+#oct #oct-settings #promocode table#oct-promocode-list tr td a.btn-info.btn-xs.oct_update_promocode {
+	float: right !important;
+}
+.datepicker.datepicker-dropdown.dropdown-menu {
+    right: unset;
+}	
+#oct .close {
+    float: left !important;
+}
+#oct #oct-customers-listing td.oct-bookings-td a .icon-calendar.icons.icon-space,
+#oct #oct-customers-listing td a .icon-calendar.icons.icon-space{
+	float: right;
+	position: relative;
+	top: 3px;
+}
+.bootstrap-select .dropdown-menu{
+	right: 0 !important;
+	left: unset !important;
+	float: right !important;
+	text-align: right !important;
+}
+.daterangepicker.dropdown-menu.opensright.show-calendar{
+	z-index: 99999 !important;
+}
+#oct input[type="url"], #oct input[type="email"] {
+    direction: rtl !important;
+}
+.bootstrap-select > .dropdown-toggle {
+	padding-right: 12px !important;
+	padding-left: 25px !important;
+}	
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	text-align: right !important;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+    right: unset !important;
+    left: 12px !important;
+}	
+#oct #oct-staff-panel .oct-staff-right-details table.monthtable th {
+    text-align: right;
+}
+#oct .oct-notification-main ul.oct-recent-booking-list .list-inner a.oct-mark-read {
+    right: unset !important;
+    left: 0 !important;
+}
